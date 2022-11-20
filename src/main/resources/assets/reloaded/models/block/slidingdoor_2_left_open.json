@@ -1,0 +1,12 @@
+{
+  "parent": "reloaded:custom/sliding_door_2_left_open",
+  "textures": {
+    "all": "reloaded:blocks/sliding_door_2",
+    "particle": "reloaded:blocks/sliding_door_2",
+    "0": "reloaded:blocks/sliding_door_2",
+    "1": "reloaded:blocks/sliding_door_2_overlay",
+    "2": "reloaded:blocks/sliding_door_side",
+    "3": "reloaded:blocks/casing"
+  },
+  "render_type": "translucent"
+}

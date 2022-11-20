@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "activation_indicator_off"
+      },
+      "name": "default"
+    }
+  }
+}

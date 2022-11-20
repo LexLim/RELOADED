@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/long_white_panel",
+  "textures": {
+    "all": "reloaded:blocks/long_white_panel",
+    "particle": "reloaded:blocks/long_white_panel",
+    "0": "reloaded:blocks/long_white_panel",
+    "1": "reloaded:blocks/white_panel"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/activation_emitter_off",
+  "textures": {
+    "all": "reloaded:blocks/activation_emitter_off",
+    "particle": "reloaded:blocks/activation_emitter_off",
+    "0": "reloaded:blocks/activation_emitter_off"
+  },
+  "render_type": "solid"
+}

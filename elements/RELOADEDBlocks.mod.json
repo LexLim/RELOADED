@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "RELOADED - Blocks",
+    "icon": {
+      "value": "CUSTOM:BlackPanel"
+    },
+    "showSearch": false
+  }
+}

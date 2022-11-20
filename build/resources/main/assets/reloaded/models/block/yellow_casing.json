@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/yellow_casing",
+  "textures": {
+    "all": "reloaded:blocks/casing",
+    "particle": "reloaded:blocks/casing",
+    "0": "reloaded:blocks/casing"
+  },
+  "render_type": "translucent"
+}

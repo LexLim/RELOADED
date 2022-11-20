@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "activation_emitter_on"
+      },
+      "name": "default"
+    }
+  }
+}

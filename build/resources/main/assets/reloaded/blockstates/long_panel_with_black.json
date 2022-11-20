@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/long_panel_with_black"
+    },
+    "facing=east": {
+      "model": "reloaded:block/long_panel_with_black",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/long_panel_with_black",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/long_panel_with_black",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "reloaded:block/long_panel_with_black",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "reloaded:block/long_panel_with_black",
+      "x": 90
+    }
+  }
+}

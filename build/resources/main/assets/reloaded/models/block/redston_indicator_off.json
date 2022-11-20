@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/activation_indicator_off",
+  "textures": {
+    "all": "reloaded:blocks/activation_indicator_off",
+    "particle": "reloaded:blocks/activation_indicator_off",
+    "0": "reloaded:blocks/activation_indicator_off"
+  },
+  "render_type": "solid"
+}

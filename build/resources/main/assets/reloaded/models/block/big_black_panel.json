@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/big_black_panel",
+  "textures": {
+    "all": "reloaded:blocks/big_black_panel",
+    "particle": "reloaded:blocks/big_black_panel",
+    "0": "reloaded:blocks/big_black_panel"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/indicator_line_on_straight",
+  "textures": {
+    "all": "reloaded:blocks/indicator_line_on",
+    "particle": "reloaded:blocks/indicator_line_on",
+    "0": "reloaded:blocks/indicator_line_on"
+  },
+  "render_type": "translucent"
+}

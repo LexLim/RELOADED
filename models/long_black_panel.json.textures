@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "long_black_panel",
+        "1": "black_panel"
+      },
+      "name": "default"
+    }
+  }
+}

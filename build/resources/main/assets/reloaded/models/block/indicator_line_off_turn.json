@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/indicator_line_off_turn",
+  "textures": {
+    "all": "reloaded:blocks/indicator_line_off_middle",
+    "particle": "reloaded:blocks/indicator_line_off_middle",
+    "0": "reloaded:blocks/indicator_line_off",
+    "1": "reloaded:blocks/indicator_line_off_middle"
+  },
+  "render_type": "translucent"
+}

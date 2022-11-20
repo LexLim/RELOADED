@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/long_black_panel",
+    "up": "reloaded:blocks/long_black_panel",
+    "north": "reloaded:blocks/long_black_panel",
+    "east": "reloaded:blocks/long_black_panel",
+    "south": "reloaded:blocks/long_black_panel",
+    "west": "reloaded:blocks/long_black_panel",
+    "particle": "reloaded:blocks/long_black_panel"
+  },
+  "render_type": "solid"
+}

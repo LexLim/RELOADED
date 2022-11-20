@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/indicator_line_off_wall",
+  "textures": {
+    "all": "reloaded:blocks/indicator_line_off",
+    "particle": "reloaded:blocks/indicator_line_off",
+    "0": "reloaded:blocks/indicator_line_off"
+  },
+  "render_type": "translucent"
+}

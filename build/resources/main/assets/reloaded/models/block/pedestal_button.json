@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/pedestal_button",
+  "textures": {
+    "all": "reloaded:blocks/pedestal_button",
+    "particle": "reloaded:blocks/pedestal_button",
+    "0": "reloaded:blocks/pedestal_button"
+  },
+  "render_type": "translucent"
+}

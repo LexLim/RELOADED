@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/indicator_line_off_turn"
+    },
+    "facing=east": {
+      "model": "reloaded:block/indicator_line_off_turn",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/indicator_line_off_turn",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/indicator_line_off_turn",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/panel_with_white",
+  "textures": {
+    "all": "reloaded:blocks/panel",
+    "particle": "reloaded:blocks/panel",
+    "0": "reloaded:blocks/panel"
+  },
+  "render_type": "translucent"
+}

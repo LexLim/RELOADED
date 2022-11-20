@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "indicator_line_on",
+        "1": "indicator_line_on_middle"
+      },
+      "name": "default"
+    }
+  }
+}

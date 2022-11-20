@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/button",
+  "textures": {
+    "all": "reloaded:blocks/button",
+    "particle": "reloaded:blocks/button",
+    "0": "reloaded:blocks/button"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sliding_door_2",
+        "1": "sliding_door_2_overlay",
+        "2": "sliding_door_side",
+        "3": "support_block"
+      },
+      "name": "default"
+    }
+  }
+}
