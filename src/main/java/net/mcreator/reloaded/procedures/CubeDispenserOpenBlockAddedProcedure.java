@@ -35,17 +35,20 @@ public class CubeDispenserOpenBlockAddedProcedure {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
 					}.compareDistOf(x, y, z)).findFirst().orElse(null)).discard();
-		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = new WeightedStorageCube1Entity(ReloadedModEntities.WEIGHTED_STORAGE_CUBE_1.get(), _level);
-			entityToSpawn.moveTo(x, y, z, 0, 0);
-			entityToSpawn.setYBodyRot(0);
-			entityToSpawn.setYHeadRot(0);
-			entityToSpawn.setDeltaMovement(0, 0, 0);
-			if (entityToSpawn instanceof Mob _mobToSpawn)
-				_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-			world.addFreshEntity(entityToSpawn);
-		}
-		ReloadedMod.queueServerWork(60, () -> {
+		ReloadedMod.queueServerWork(5, () -> {
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new WeightedStorageCube1Entity(ReloadedModEntities.WEIGHTED_STORAGE_CUBE_1.get(), _level);
+				entityToSpawn.moveTo(x, y, z, 0, 0);
+				entityToSpawn.setYBodyRot(0);
+				entityToSpawn.setYHeadRot(0);
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
+							null);
+				world.addFreshEntity(entityToSpawn);
+			}
+		});
+		ReloadedMod.queueServerWork(40, () -> {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = ReloadedModBlocks.CUBE_DISPENSER.get().defaultBlockState();
