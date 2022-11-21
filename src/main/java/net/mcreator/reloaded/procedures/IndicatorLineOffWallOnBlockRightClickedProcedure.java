@@ -13,7 +13,7 @@ public class IndicatorLineOffWallOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = new BlockPos(x, y, z);
-			BlockState _bs = ReloadedModBlocks.INDICATOR_LINE_OFF_STRAIGHT.get().defaultBlockState();
+			BlockState _bs = ReloadedModBlocks.INDICATOR_LINE_OFF_UP_CEILLING.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

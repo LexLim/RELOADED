@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.reloaded.item.WeightedStorageCube1ItemItem;
+import net.mcreator.reloaded.item.WeightedCompagnonCube1ItemItem;
 import net.mcreator.reloaded.item.IndicatorLinkControllerItem;
 import net.mcreator.reloaded.ReloadedMod;
 
@@ -68,6 +70,16 @@ public class ReloadedModItems {
 	public static final RegistryObject<Item> PEDESTAL_BUTTON = block(ReloadedModBlocks.PEDESTAL_BUTTON, ReloadedModTabs.TAB_RELOADED_REDSTONE);
 	public static final RegistryObject<Item> PEDESTAL_BUTTON_ACTIVATED = block(ReloadedModBlocks.PEDESTAL_BUTTON_ACTIVATED, null);
 	public static final RegistryObject<Item> PANEL_PLACEHOLDER = block(ReloadedModBlocks.PANEL_PLACEHOLDER, null);
+	public static final RegistryObject<Item> WEIGHTED_STORAGE_CUBE_1_ITEM = REGISTRY.register("weighted_storage_cube_1_item",
+			() -> new WeightedStorageCube1ItemItem());
+	public static final RegistryObject<Item> WEIGHTED_COMPAGNON_CUBE_1_ITEM = REGISTRY.register("weighted_compagnon_cube_1_item",
+			() -> new WeightedCompagnonCube1ItemItem());
+	public static final RegistryObject<Item> CUBE_DISPENSER = block(ReloadedModBlocks.CUBE_DISPENSER, ReloadedModTabs.TAB_RELOADED_REDSTONE);
+	public static final RegistryObject<Item> CUBE_DISPENSER_OPEN = block(ReloadedModBlocks.CUBE_DISPENSER_OPEN, null);
+	public static final RegistryObject<Item> INDICATOR_LINE_OFF_UP_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_OFF_UP_CEILLING, null);
+	public static final RegistryObject<Item> INDICATOR_LINE_OFF_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_OFF_CEILLING, null);
+	public static final RegistryObject<Item> INDICATOR_LINE_ON_UP_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_ON_UP_CEILLING, null);
+	public static final RegistryObject<Item> INDICATOR_LINE_ON_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_ON_CEILLING, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

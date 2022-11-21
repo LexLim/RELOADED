@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.reloaded.init.ReloadedModTabs;
 import net.mcreator.reloaded.init.ReloadedModItems;
+import net.mcreator.reloaded.init.ReloadedModEntities;
 import net.mcreator.reloaded.init.ReloadedModBlocks;
 import net.mcreator.reloaded.init.ReloadedModBlockEntities;
 
@@ -53,7 +54,7 @@ public class ReloadedMod {
 
 		ReloadedModBlocks.REGISTRY.register(bus);
 		ReloadedModItems.REGISTRY.register(bus);
-
+		ReloadedModEntities.REGISTRY.register(bus);
 		ReloadedModBlockEntities.REGISTRY.register(bus);
 
 	}

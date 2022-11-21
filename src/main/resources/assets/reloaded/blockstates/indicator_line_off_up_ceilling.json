@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/indicator_line_off_up_ceilling"
+    },
+    "facing=east": {
+      "model": "reloaded:block/indicator_line_off_up_ceilling",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/indicator_line_off_up_ceilling",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/indicator_line_off_up_ceilling",
+      "y": 270
+    }
+  }
+}

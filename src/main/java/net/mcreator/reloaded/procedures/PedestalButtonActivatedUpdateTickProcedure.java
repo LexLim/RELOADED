@@ -45,7 +45,7 @@ public class PedestalButtonActivatedUpdateTickProcedure {
 				}
 			}
 		}
-		ReloadedMod.queueServerWork(40, () -> {
+		ReloadedMod.queueServerWork(15, () -> {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = ReloadedModBlocks.PEDESTAL_BUTTON.get().defaultBlockState();

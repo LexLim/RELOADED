@@ -37,15 +37,21 @@ import net.mcreator.reloaded.block.LongPanelWithBlackBlock;
 import net.mcreator.reloaded.block.LongPanelBlock;
 import net.mcreator.reloaded.block.LongBlackPanelBlock;
 import net.mcreator.reloaded.block.IndicatorLineOnWallBlock;
+import net.mcreator.reloaded.block.IndicatorLineOnUpCeillingBlock;
 import net.mcreator.reloaded.block.IndicatorLineOnUpBlock;
 import net.mcreator.reloaded.block.IndicatorLineOnTurnBlock;
 import net.mcreator.reloaded.block.IndicatorLineOnStraightBlock;
+import net.mcreator.reloaded.block.IndicatorLineOnCeillingBlock;
 import net.mcreator.reloaded.block.IndicatorLineOffWallBlock;
+import net.mcreator.reloaded.block.IndicatorLineOffUpCeillingBlock;
 import net.mcreator.reloaded.block.IndicatorLineOffUpBlock;
 import net.mcreator.reloaded.block.IndicatorLineOffTurnBlock;
 import net.mcreator.reloaded.block.IndicatorLineOffStraightBlock;
+import net.mcreator.reloaded.block.IndicatorLineOffCeillingBlock;
 import net.mcreator.reloaded.block.GrayPlaneCasingBlock;
 import net.mcreator.reloaded.block.GrayCasingBlock;
+import net.mcreator.reloaded.block.CubeDispenserOpenBlock;
+import net.mcreator.reloaded.block.CubeDispenserBlock;
 import net.mcreator.reloaded.block.ButtonBlock;
 import net.mcreator.reloaded.block.ButtonActivatedBlock;
 import net.mcreator.reloaded.block.BlackPanelTilesBlock;
@@ -107,4 +113,14 @@ public class ReloadedModBlocks {
 	public static final RegistryObject<Block> PEDESTAL_BUTTON_ACTIVATED = REGISTRY.register("pedestal_button_activated",
 			() -> new PedestalButtonActivatedBlock());
 	public static final RegistryObject<Block> PANEL_PLACEHOLDER = REGISTRY.register("panel_placeholder", () -> new PanelPlaceholderBlock());
+	public static final RegistryObject<Block> CUBE_DISPENSER = REGISTRY.register("cube_dispenser", () -> new CubeDispenserBlock());
+	public static final RegistryObject<Block> CUBE_DISPENSER_OPEN = REGISTRY.register("cube_dispenser_open", () -> new CubeDispenserOpenBlock());
+	public static final RegistryObject<Block> INDICATOR_LINE_OFF_UP_CEILLING = REGISTRY.register("indicator_line_off_up_ceilling",
+			() -> new IndicatorLineOffUpCeillingBlock());
+	public static final RegistryObject<Block> INDICATOR_LINE_OFF_CEILLING = REGISTRY.register("indicator_line_off_ceilling",
+			() -> new IndicatorLineOffCeillingBlock());
+	public static final RegistryObject<Block> INDICATOR_LINE_ON_UP_CEILLING = REGISTRY.register("indicator_line_on_up_ceilling",
+			() -> new IndicatorLineOnUpCeillingBlock());
+	public static final RegistryObject<Block> INDICATOR_LINE_ON_CEILLING = REGISTRY.register("indicator_line_on_ceilling",
+			() -> new IndicatorLineOnCeillingBlock());
 }

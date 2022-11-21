@@ -1,211 +1,232 @@
-[20Nov2022 12:12:07.971] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\user\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[20Nov2022 12:12:07.980] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 7 arch amd64 version 6.1
-[20Nov2022 12:12:08.235] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/user/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[20Nov2022 12:12:08.742] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[20Nov2022 12:12:08.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[20Nov2022 12:12:08.749] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[20Nov2022 12:12:08.766] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
-[20Nov2022 12:12:08.900] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[20Nov2022 12:12:10.825] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\user\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[20Nov2022 12:12:19.786] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[20Nov2022 12:12:23.702] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/user/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_official_1.19.2/forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[20Nov2022 12:12:23.702] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/user/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_official_1.19.2/forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[20Nov2022 12:12:23.725] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20Nov2022 12:12:23.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[20Nov2022 12:12:23.924] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[20Nov2022 12:12:24.615] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
-[20Nov2022 12:12:24.618] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
-[20Nov2022 12:12:27.321] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[20Nov2022 12:12:27.629] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[20Nov2022 12:12:27.747] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[20Nov2022 12:12:33.011] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'reloaded:block/slidingdoor_2right_open' referenced from: reloaded:slidingdoor_2right_open#facing=north: java.io.FileNotFoundException: reloaded:models/block/slidingdoor_2right_open.json
-[20Nov2022 12:12:34.774] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in reloaded:item/slidingdoor_2right_open
-[20Nov2022 12:12:36.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20Nov2022 12:12:36.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.1.52
-[20Nov2022 12:12:39.872] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[20Nov2022 12:12:39.873] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[20Nov2022 12:12:40.029] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Périphérique High Definition Audio)
-[20Nov2022 12:12:40.031] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[20Nov2022 12:12:40.466] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[20Nov2022 12:12:40.502] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[20Nov2022 12:12:40.513] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[20Nov2022 12:12:40.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[20Nov2022 12:12:40.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[20Nov2022 12:12:40.532] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[20Nov2022 12:12:40.562] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20Nov2022 12:12:42.269] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[20Nov2022 12:12:42.510] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[20Nov2022 12:12:42.520] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20Nov2022 12:12:42.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20Nov2022 12:12:43.138] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[20Nov2022 12:12:50.681] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[20Nov2022 12:12:51.650] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[20Nov2022 12:12:52.311] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[20Nov2022 12:12:52.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20Nov2022 12:12:52.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20Nov2022 12:12:55.936] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.936] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.936] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:55.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:56.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:57.128] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Nov2022 12:12:57.644] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[20Nov2022 12:12:58.039] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[20Nov2022 12:12:58.141] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20Nov2022 12:12:58.284] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[20Nov2022 12:12:58.290] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[20Nov2022 12:12:58.695] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[20Nov2022 12:12:59.629] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[20Nov2022 12:12:59.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[20Nov2022 12:12:59.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[20Nov2022 12:12:59.631] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6963 ms
-[20Nov2022 12:13:00.002] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[20Nov2022 12:13:00.255] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4737ecb1
-[20Nov2022 12:13:00.343] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:fb15cb07] logged in with entity id 1 at (-7.582412287152916, 61.23409430577728, 16.011876825799895)
-[20Nov2022 12:13:00.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[20Nov2022 12:13:01.416] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
-[20Nov2022 12:15:42.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:15:42.309] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:15:43.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:15:43.439] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:15:48.949] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:15:48.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:15:48.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:15:48.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:15:55.999] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:15:56.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:15:56.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:15:56.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:17:29.053] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:17:29.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:17:29.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:17:29.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:17:35.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:17:35.943] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:17:36.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:17:36.770] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:17:38.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:17:38.779] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:18:08.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:18:08.900] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:19:09.620] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:19:09.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:19:10.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:19:10.899] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:20:01.760] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:20:01.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:20:01.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:20:01.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:21:10.063] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:21:10.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:21:10.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:21:10.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:21:11.913] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:21:11.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:21:11.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:21:11.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:24:42.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:24:42.567] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:24:44.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:24:44.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:24:57.672] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:24:57.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:24:57.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:24:57.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:25:11.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[20Nov2022 12:25:11.618] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[20Nov2022 12:25:12.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[20Nov2022 12:25:12.846] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[20Nov2022 12:25:16.973] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:25:16.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:25:16.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:25:16.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:25:18.623] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:25:18.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:25:18.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:25:18.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:26:52.128] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Nov2022 12:26:52.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:26:52.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:26:52.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:33:14.012] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[20Nov2022 12:33:14.044] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[20Nov2022 12:33:14.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[20Nov2022 12:33:14.053] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[20Nov2022 12:33:14.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20Nov2022 12:33:14.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20Nov2022 12:33:14.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20Nov2022 12:33:15.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Nov2022 12:33:15.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Nov2022 12:33:15.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Nov2022 12:33:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[20Nov2022 12:33:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20Nov2022 12:33:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20Nov2022 12:33:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.597] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.598] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.599] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.600] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.601] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[20Nov2022 12:33:16.602] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:38:43.623] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\user\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[20Nov2022 21:38:43.628] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 7 arch amd64 version 6.1
+[20Nov2022 21:38:43.865] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/user/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[20Nov2022 21:38:44.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Nov2022 21:38:44.332] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Nov2022 21:38:44.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Nov2022 21:38:44.340] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
+[20Nov2022 21:38:44.431] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20Nov2022 21:38:45.988] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\user\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[20Nov2022 21:38:53.439] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[20Nov2022 21:38:56.788] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/user/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_official_1.19.2/forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[20Nov2022 21:38:56.789] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/user/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_official_1.19.2/forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[20Nov2022 21:38:56.804] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Nov2022 21:38:56.808] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20Nov2022 21:38:57.027] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[20Nov2022 21:38:57.630] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
+[20Nov2022 21:38:57.635] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
+[20Nov2022 21:38:59.110] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[20Nov2022 21:38:59.444] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[20Nov2022 21:38:59.481] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[20Nov2022 21:39:00.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Nov2022 21:39:01.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.1.52
+[20Nov2022 21:39:11.209] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20Nov2022 21:39:11.218] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20Nov2022 21:39:11.271] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Périphérique High Definition Audio)
+[20Nov2022 21:39:11.272] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20Nov2022 21:39:11.465] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[20Nov2022 21:39:11.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[20Nov2022 21:39:11.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[20Nov2022 21:39:11.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[20Nov2022 21:39:11.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[20Nov2022 21:39:11.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[20Nov2022 21:39:11.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20Nov2022 21:39:12.382] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20Nov2022 21:39:12.582] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20Nov2022 21:39:12.585] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20Nov2022 21:39:12.586] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20Nov2022 21:39:13.157] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[20Nov2022 21:39:26.993] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Nov2022 21:39:27.774] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[20Nov2022 21:39:28.426] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[20Nov2022 21:39:28.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Nov2022 21:39:28.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Nov2022 21:39:32.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.670] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.670] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.670] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.726] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.726] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:32.726] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:33.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:33.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2022 21:39:34.026] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Nov2022 21:39:34.033] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[20Nov2022 21:39:34.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5032 ms
+[20Nov2022 21:39:34.153] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[20Nov2022 21:39:34.157] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20Nov2022 21:39:34.472] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[20Nov2022 21:39:35.387] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[20Nov2022 21:39:35.545] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@56e92fe7
+[20Nov2022 21:39:35.842] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:823f4f93] logged in with entity id 1 at (-6.707244279315674, 61.871986741892094, 15.773025985628413)
+[20Nov2022 21:39:35.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20Nov2022 21:39:37.088] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[20Nov2022 21:39:38.680] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Nov2022 21:39:38.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Nov2022 21:39:38.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Nov2022 21:39:38.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Nov2022 21:39:43.652] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@40a7e698, suppressing error
+java.lang.NullPointerException: Cannot read field "level" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.reloaded.procedures.CubeDispenserOpenBlockAddedProcedure.execute(CubeDispenserOpenBlockAddedProcedure.java:31) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.CubeDispenserOpenBlock.onPlace(CubeDispenserOpenBlock.java:72) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.onPlace(BlockBehaviour.java:686) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.setBlockState(LevelChunk.java:249) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:211) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:188) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.mcreator.reloaded.procedures.CubeDispenserNeighbourBlockChangesProcedure.execute(CubeDispenserNeighbourBlockChangesProcedure.java:42) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.CubeDispenserBlock.neighborChanged(CubeDispenserBlock.java:66) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.neighborChanged(BlockBehaviour.java:659) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:116) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:75) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:59) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:41) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:966) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:1431) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:248) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:224) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:188) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.mcreator.reloaded.procedures.PedestalButtonOnBlockRightClickedProcedure.execute(PedestalButtonOnBlockRightClickedProcedure.java:34) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.PedestalButtonBlock.use(PedestalButtonBlock.java:143) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:714) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:340) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1060) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:32) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:8) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:22) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:17) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:763) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:157) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:746) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:740) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:725) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:658) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20Nov2022 21:39:54.044] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@61ad83fe, suppressing error
+java.lang.NullPointerException: Cannot read field "level" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.reloaded.procedures.CubeDispenserOpenBlockAddedProcedure.execute(CubeDispenserOpenBlockAddedProcedure.java:31) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.CubeDispenserOpenBlock.onPlace(CubeDispenserOpenBlock.java:72) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.onPlace(BlockBehaviour.java:686) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.setBlockState(LevelChunk.java:249) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:211) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:188) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.mcreator.reloaded.procedures.CubeDispenserNeighbourBlockChangesProcedure.execute(CubeDispenserNeighbourBlockChangesProcedure.java:42) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.CubeDispenserBlock.neighborChanged(CubeDispenserBlock.java:66) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.neighborChanged(BlockBehaviour.java:659) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:116) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:75) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:59) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:41) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:966) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:1431) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:248) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:224) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.world.level.Level.setBlock(Level.java:188) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.mcreator.reloaded.procedures.PedestalButtonOnBlockRightClickedProcedure.execute(PedestalButtonOnBlockRightClickedProcedure.java:34) ~[%23188!/:?]
+	at net.mcreator.reloaded.block.PedestalButtonBlock.use(PedestalButtonBlock.java:143) ~[%23188!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:714) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:340) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1060) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:32) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:8) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:22) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:17) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:763) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:157) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:746) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:740) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:726) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:658) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20Nov2022 21:39:56.328] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Nov2022 21:39:56.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Nov2022 21:39:56.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Nov2022 21:39:56.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Nov2022 21:39:57.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20Nov2022 21:39:57.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20Nov2022 21:39:57.751] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20Nov2022 21:39:57.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Nov2022 21:39:57.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Nov2022 21:39:57.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Nov2022 21:39:58.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Nov2022 21:39:59.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Nov2022 21:39:59.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Nov2022 21:39:59.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[20Nov2022 21:39:59.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Nov2022 21:39:59.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Nov2022 21:39:59.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Nov2022 21:40:00.422] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[20Nov2022 21:40:00.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.491] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.491] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.491] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[20Nov2022 21:40:00.491] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'

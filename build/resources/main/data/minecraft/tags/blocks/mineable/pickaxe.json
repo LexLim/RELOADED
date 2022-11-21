@@ -25,6 +25,8 @@
     "reloaded:button_activated",
     "reloaded:pedestal_button",
     "reloaded:pedestal_button_activated",
-    "reloaded:panel_placeholder"
+    "reloaded:panel_placeholder",
+    "reloaded:cube_dispenser",
+    "reloaded:cube_dispenser_open"
   ]
 }

@@ -6,7 +6,7 @@
     "0": "reloaded:blocks/sliding_door_2",
     "1": "reloaded:blocks/sliding_door_2_overlay",
     "2": "reloaded:blocks/sliding_door_side",
-    "3": "reloaded:blocks/casing"
+    "3": "reloaded:blocks/support_block"
   },
   "render_type": "translucent"
 }
