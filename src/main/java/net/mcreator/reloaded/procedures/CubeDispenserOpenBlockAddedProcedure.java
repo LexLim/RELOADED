@@ -1,7 +1,5 @@
 package net.mcreator.reloaded.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -15,39 +13,23 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.reloaded.init.ReloadedModEntities;
 import net.mcreator.reloaded.init.ReloadedModBlocks;
-import net.mcreator.reloaded.entity.WeightedStorageCube1Entity;
+import net.mcreator.reloaded.entity.WeightedStorageCube2Entity;
 import net.mcreator.reloaded.ReloadedMod;
 
 import java.util.Map;
-import java.util.Comparator;
 
 public class CubeDispenserOpenBlockAddedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (!((Entity) world.getEntitiesOfClass(WeightedStorageCube1Entity.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
-				.sorted(new Object() {
-					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
-						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
-					}
-				}.compareDistOf(x, y, z)).findFirst().orElse(null)).level.isClientSide())
-			((Entity) world.getEntitiesOfClass(WeightedStorageCube1Entity.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
-					.sorted(new Object() {
-						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
-							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
-						}
-					}.compareDistOf(x, y, z)).findFirst().orElse(null)).discard();
-		ReloadedMod.queueServerWork(5, () -> {
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = new WeightedStorageCube1Entity(ReloadedModEntities.WEIGHTED_STORAGE_CUBE_1.get(), _level);
-				entityToSpawn.moveTo(x, y, z, 0, 0);
-				entityToSpawn.setYBodyRot(0);
-				entityToSpawn.setYHeadRot(0);
-				entityToSpawn.setDeltaMovement(0, 0, 0);
-				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
-							null);
-				world.addFreshEntity(entityToSpawn);
-			}
-		});
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = new WeightedStorageCube2Entity(ReloadedModEntities.WEIGHTED_STORAGE_CUBE_2.get(), _level);
+			entityToSpawn.moveTo(x, y, z, 0, 0);
+			entityToSpawn.setYBodyRot(0);
+			entityToSpawn.setYHeadRot(0);
+			entityToSpawn.setDeltaMovement(0, 0, 0);
+			if (entityToSpawn instanceof Mob _mobToSpawn)
+				_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+			world.addFreshEntity(entityToSpawn);
+		}
 		ReloadedMod.queueServerWork(40, () -> {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);

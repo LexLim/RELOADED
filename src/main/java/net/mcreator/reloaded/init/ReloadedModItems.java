@@ -13,9 +13,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.reloaded.item.WeightedStorageCube2ItemItem;
 import net.mcreator.reloaded.item.WeightedStorageCube1ItemItem;
+import net.mcreator.reloaded.item.WeightedCompagnonCube2ItemItem;
 import net.mcreator.reloaded.item.WeightedCompagnonCube1ItemItem;
+import net.mcreator.reloaded.item.OldStorageCubeItemItem;
 import net.mcreator.reloaded.item.IndicatorLinkControllerItem;
+import net.mcreator.reloaded.item.DiscouragementRedirectionCubeItemItem;
 import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModItems {
@@ -80,6 +84,13 @@ public class ReloadedModItems {
 	public static final RegistryObject<Item> INDICATOR_LINE_OFF_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_OFF_CEILLING, null);
 	public static final RegistryObject<Item> INDICATOR_LINE_ON_UP_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_ON_UP_CEILLING, null);
 	public static final RegistryObject<Item> INDICATOR_LINE_ON_CEILLING = block(ReloadedModBlocks.INDICATOR_LINE_ON_CEILLING, null);
+	public static final RegistryObject<Item> WEIGHTED_STORAGE_CUBE_2_ITEM = REGISTRY.register("weighted_storage_cube_2_item",
+			() -> new WeightedStorageCube2ItemItem());
+	public static final RegistryObject<Item> WEIGHTED_COMPAGNON_CUBE_2_ITEM = REGISTRY.register("weighted_compagnon_cube_2_item",
+			() -> new WeightedCompagnonCube2ItemItem());
+	public static final RegistryObject<Item> OLD_STORAGE_CUBE_ITEM = REGISTRY.register("old_storage_cube_item", () -> new OldStorageCubeItemItem());
+	public static final RegistryObject<Item> DISCOURAGEMENT_REDIRECTION_CUBE_ITEM = REGISTRY.register("discouragement_redirection_cube_item",
+			() -> new DiscouragementRedirectionCubeItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

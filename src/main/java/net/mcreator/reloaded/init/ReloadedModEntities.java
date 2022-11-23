@@ -16,8 +16,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.reloaded.entity.WeightedStorageCube2Entity;
 import net.mcreator.reloaded.entity.WeightedStorageCube1Entity;
+import net.mcreator.reloaded.entity.WeightedCompagnonCube2Entity;
 import net.mcreator.reloaded.entity.WeightedCompagnonCube1Entity;
+import net.mcreator.reloaded.entity.OldStorageCubeEntity;
+import net.mcreator.reloaded.entity.DiscouragementRedirectionCubeEntity;
 import net.mcreator.reloaded.ReloadedMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -35,6 +39,30 @@ public class ReloadedModEntities {
 					.setCustomClientFactory(WeightedCompagnonCube1Entity::new)
 
 					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<WeightedStorageCube2Entity>> WEIGHTED_STORAGE_CUBE_2 = register("weighted_storage_cube_2",
+			EntityType.Builder.<WeightedStorageCube2Entity>of(WeightedStorageCube2Entity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3)
+					.setCustomClientFactory(WeightedStorageCube2Entity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<WeightedCompagnonCube2Entity>> WEIGHTED_COMPAGNON_CUBE_2 = register("weighted_compagnon_cube_2",
+			EntityType.Builder.<WeightedCompagnonCube2Entity>of(WeightedCompagnonCube2Entity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3)
+					.setCustomClientFactory(WeightedCompagnonCube2Entity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<OldStorageCubeEntity>> OLD_STORAGE_CUBE = register("old_storage_cube",
+			EntityType.Builder.<OldStorageCubeEntity>of(OldStorageCubeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(OldStorageCubeEntity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<DiscouragementRedirectionCubeEntity>> DISCOURAGEMENT_REDIRECTION_CUBE = register(
+			"discouragement_redirection_cube",
+			EntityType.Builder.<DiscouragementRedirectionCubeEntity>of(DiscouragementRedirectionCubeEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3)
+					.setCustomClientFactory(DiscouragementRedirectionCubeEntity::new)
+
+					.sized(1f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -45,6 +73,10 @@ public class ReloadedModEntities {
 		event.enqueueWork(() -> {
 			WeightedStorageCube1Entity.init();
 			WeightedCompagnonCube1Entity.init();
+			WeightedStorageCube2Entity.init();
+			WeightedCompagnonCube2Entity.init();
+			OldStorageCubeEntity.init();
+			DiscouragementRedirectionCubeEntity.init();
 		});
 	}
 
@@ -52,5 +84,9 @@ public class ReloadedModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(WEIGHTED_STORAGE_CUBE_1.get(), WeightedStorageCube1Entity.createAttributes().build());
 		event.put(WEIGHTED_COMPAGNON_CUBE_1.get(), WeightedCompagnonCube1Entity.createAttributes().build());
+		event.put(WEIGHTED_STORAGE_CUBE_2.get(), WeightedStorageCube2Entity.createAttributes().build());
+		event.put(WEIGHTED_COMPAGNON_CUBE_2.get(), WeightedCompagnonCube2Entity.createAttributes().build());
+		event.put(OLD_STORAGE_CUBE.get(), OldStorageCubeEntity.createAttributes().build());
+		event.put(DISCOURAGEMENT_REDIRECTION_CUBE.get(), DiscouragementRedirectionCubeEntity.createAttributes().build());
 	}
 }
