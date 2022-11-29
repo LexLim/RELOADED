@@ -50,6 +50,11 @@ import net.mcreator.reloaded.block.IndicatorLineOffStraightBlock;
 import net.mcreator.reloaded.block.IndicatorLineOffCeillingBlock;
 import net.mcreator.reloaded.block.GrayPlaneCasingBlock;
 import net.mcreator.reloaded.block.GrayCasingBlock;
+import net.mcreator.reloaded.block.EmancipationGridRightOnBlock;
+import net.mcreator.reloaded.block.EmancipationGridRightOffBlock;
+import net.mcreator.reloaded.block.EmancipationGridLeftOnBlock;
+import net.mcreator.reloaded.block.EmancipationGridLeftOffBlock;
+import net.mcreator.reloaded.block.EmancipationGridBlock;
 import net.mcreator.reloaded.block.CubeDispenserOpenBlock;
 import net.mcreator.reloaded.block.CubeDispenserBlock;
 import net.mcreator.reloaded.block.ButtonBlock;
@@ -123,4 +128,13 @@ public class ReloadedModBlocks {
 			() -> new IndicatorLineOnUpCeillingBlock());
 	public static final RegistryObject<Block> INDICATOR_LINE_ON_CEILLING = REGISTRY.register("indicator_line_on_ceilling",
 			() -> new IndicatorLineOnCeillingBlock());
+	public static final RegistryObject<Block> EMANCIPATION_GRID_LEFT_OFF = REGISTRY.register("emancipation_grid_left_off",
+			() -> new EmancipationGridLeftOffBlock());
+	public static final RegistryObject<Block> EMANCIPATION_GRID_LEFT_ON = REGISTRY.register("emancipation_grid_left_on",
+			() -> new EmancipationGridLeftOnBlock());
+	public static final RegistryObject<Block> EMANCIPATION_GRID_RIGHT_OFF = REGISTRY.register("emancipation_grid_right_off",
+			() -> new EmancipationGridRightOffBlock());
+	public static final RegistryObject<Block> EMANCIPATION_GRID_RIGHT_ON = REGISTRY.register("emancipation_grid_right_on",
+			() -> new EmancipationGridRightOnBlock());
+	public static final RegistryObject<Block> EMANCIPATION_GRID = REGISTRY.register("emancipation_grid", () -> new EmancipationGridBlock());
 }

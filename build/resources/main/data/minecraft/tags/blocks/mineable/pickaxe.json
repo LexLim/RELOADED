@@ -27,6 +27,11 @@
     "reloaded:pedestal_button_activated",
     "reloaded:panel_placeholder",
     "reloaded:cube_dispenser",
-    "reloaded:cube_dispenser_open"
+    "reloaded:cube_dispenser_open",
+    "reloaded:emancipation_grid_left_off",
+    "reloaded:emancipation_grid_left_on",
+    "reloaded:emancipation_grid_right_off",
+    "reloaded:emancipation_grid_right_on",
+    "reloaded:emancipation_grid"
   ]
 }

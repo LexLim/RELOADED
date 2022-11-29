@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/emancipation_grid"
+    },
+    "facing=east": {
+      "model": "reloaded:block/emancipation_grid",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/emancipation_grid",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/emancipation_grid",
+      "y": 270
+    }
+  }
+}

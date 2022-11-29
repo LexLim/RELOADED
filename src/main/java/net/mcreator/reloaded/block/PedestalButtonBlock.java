@@ -60,24 +60,24 @@ public class PedestalButtonBlock extends Block {
 
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(7, 0, 7, 10, 20, 10);
-				case WALL -> box(7, 6, 0, 10, 9, 20);
-				case CEILING -> box(6, -4, 7, 9, 16, 10);
+				case FLOOR -> box(7, 0, 7, 11, 20, 11);
+				case WALL -> box(7, 5, 0, 11, 9, 20);
+				case CEILING -> box(5, -4, 7, 9, 16, 11);
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(6, 0, 6, 9, 20, 9);
-				case WALL -> box(6, 6, -4, 9, 9, 16);
-				case CEILING -> box(7, -4, 6, 10, 16, 9);
+				case FLOOR -> box(5, 0, 5, 9, 20, 9);
+				case WALL -> box(5, 5, -4, 9, 9, 16);
+				case CEILING -> box(7, -4, 5, 11, 16, 9);
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(7, 0, 6, 10, 20, 9);
-				case WALL -> box(0, 6, 6, 20, 9, 9);
-				case CEILING -> box(7, -4, 7, 10, 16, 10);
+				case FLOOR -> box(7, 0, 5, 11, 20, 9);
+				case WALL -> box(0, 5, 5, 20, 9, 9);
+				case CEILING -> box(7, -4, 7, 11, 16, 11);
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(6, 0, 7, 9, 20, 10);
-				case WALL -> box(-4, 6, 7, 16, 9, 10);
-				case CEILING -> box(6, -4, 6, 9, 16, 9);
+				case FLOOR -> box(5, 0, 7, 9, 20, 11);
+				case WALL -> box(-4, 5, 7, 16, 9, 11);
+				case CEILING -> box(5, -4, 5, 9, 16, 9);
 			};
 		};
 	}

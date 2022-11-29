@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "pedestal_button",
+    "texture": "pedestal_button_on",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,9 +24,9 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 6.0,
+        "mx": 5.0,
         "my": 0.0,
-        "mz": 6.0,
+        "mz": 5.0,
         "Mx": 9.0,
         "My": 20.0,
         "Mz": 9.0,

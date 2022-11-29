@@ -91,6 +91,13 @@ public class ReloadedModItems {
 	public static final RegistryObject<Item> OLD_STORAGE_CUBE_ITEM = REGISTRY.register("old_storage_cube_item", () -> new OldStorageCubeItemItem());
 	public static final RegistryObject<Item> DISCOURAGEMENT_REDIRECTION_CUBE_ITEM = REGISTRY.register("discouragement_redirection_cube_item",
 			() -> new DiscouragementRedirectionCubeItemItem());
+	public static final RegistryObject<Item> EMANCIPATION_GRID_LEFT_OFF = block(ReloadedModBlocks.EMANCIPATION_GRID_LEFT_OFF,
+			ReloadedModTabs.TAB_RELOADED_REDSTONE);
+	public static final RegistryObject<Item> EMANCIPATION_GRID_LEFT_ON = block(ReloadedModBlocks.EMANCIPATION_GRID_LEFT_ON, null);
+	public static final RegistryObject<Item> EMANCIPATION_GRID_RIGHT_OFF = block(ReloadedModBlocks.EMANCIPATION_GRID_RIGHT_OFF,
+			ReloadedModTabs.TAB_RELOADED_REDSTONE);
+	public static final RegistryObject<Item> EMANCIPATION_GRID_RIGHT_ON = block(ReloadedModBlocks.EMANCIPATION_GRID_RIGHT_ON, null);
+	public static final RegistryObject<Item> EMANCIPATION_GRID = block(ReloadedModBlocks.EMANCIPATION_GRID, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

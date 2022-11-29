@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "pedestal_button"
+        "0": "pedestal_button_on"
       },
       "name": "default"
     }

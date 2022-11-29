@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "emancipation_grid_back"
+      },
+      "name": "default"
+    }
+  }
+}

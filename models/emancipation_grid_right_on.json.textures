@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "emancipation_grid",
+        "1": "emancipation_grid_front",
+        "2": "emancipation_grid_side",
+        "3": "emancipation_grid_top",
+        "4": "emancipation_grid_back"
+      },
+      "name": "default"
+    }
+  }
+}

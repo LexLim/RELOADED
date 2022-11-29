@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "button"
+        "0": "button_on"
       },
       "name": "default"
     }
