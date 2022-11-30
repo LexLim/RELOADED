@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "reloaded:blocks/long_black_panel",
-    "up": "reloaded:blocks/long_black_panel",
-    "north": "reloaded:blocks/long_black_panel",
-    "east": "reloaded:blocks/long_black_panel",
-    "south": "reloaded:blocks/long_black_panel",
-    "west": "reloaded:blocks/long_black_panel",
-    "particle": "reloaded:blocks/long_black_panel"
+    "down": "reloaded:blocks/black_panel",
+    "up": "reloaded:blocks/black_panel",
+    "north": "reloaded:blocks/black_panel",
+    "east": "reloaded:blocks/black_panel",
+    "south": "reloaded:blocks/black_panel",
+    "west": "reloaded:blocks/black_panel",
+    "particle": "reloaded:blocks/black_panel"
   },
   "render_type": "solid"
 }
