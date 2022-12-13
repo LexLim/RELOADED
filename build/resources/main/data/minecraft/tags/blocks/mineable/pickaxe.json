@@ -13,7 +13,6 @@
     "reloaded:black_panel",
     "reloaded:black_panel_tiles",
     "reloaded:long_black_panel",
-    "reloaded:big_black_panel",
     "reloaded:white_panel",
     "reloaded:white_panel_tiles",
     "reloaded:long_white_panel",
@@ -32,6 +31,18 @@
     "reloaded:emancipation_grid_left_on",
     "reloaded:emancipation_grid_right_off",
     "reloaded:emancipation_grid_right_on",
-    "reloaded:emancipation_grid"
+    "reloaded:emancipation_grid",
+    "reloaded:dirty_black_panel",
+    "reloaded:dirty_long_black_panel",
+    "reloaded:dirty_black_panel_tiles",
+    "reloaded:dirty_white_panel",
+    "reloaded:dirty_long_white_panel",
+    "reloaded:dirty_white_panel_tiles",
+    "reloaded:broken_black_panel_1",
+    "reloaded:broken_black_panel_2",
+    "reloaded:broken_black_panel_3",
+    "reloaded:broken_black_panel_tiles",
+    "reloaded:catwalk",
+    "reloaded:catwalk_turn"
   ]
 }

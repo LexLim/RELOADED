@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dirty_long_white_panel",
+        "1": "dirty_white_panel_tiles"
+      },
+      "name": "default"
+    }
+  }
+}

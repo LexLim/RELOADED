@@ -27,6 +27,7 @@ import net.mcreator.reloaded.block.PedestalButtonActivatedBlock;
 import net.mcreator.reloaded.block.PanelWithWhiteBlock;
 import net.mcreator.reloaded.block.PanelWithBlackBlock;
 import net.mcreator.reloaded.block.PanelPlaceholderBlock;
+import net.mcreator.reloaded.block.PanelCasingBlock;
 import net.mcreator.reloaded.block.PanelBlock;
 import net.mcreator.reloaded.block.OpenPanelWithWhiteBlock;
 import net.mcreator.reloaded.block.OpenPanelWithBlackBlock;
@@ -55,13 +56,24 @@ import net.mcreator.reloaded.block.EmancipationGridRightOffBlock;
 import net.mcreator.reloaded.block.EmancipationGridLeftOnBlock;
 import net.mcreator.reloaded.block.EmancipationGridLeftOffBlock;
 import net.mcreator.reloaded.block.EmancipationGridBlock;
+import net.mcreator.reloaded.block.DirtyWhitePanelTilesBlock;
+import net.mcreator.reloaded.block.DirtyWhitePanelBlock;
+import net.mcreator.reloaded.block.DirtyLongWhitePanelBlock;
+import net.mcreator.reloaded.block.DirtyLongBlackPanelBlock;
+import net.mcreator.reloaded.block.DirtyBlackPanelTilesBlock;
+import net.mcreator.reloaded.block.DirtyBlackPanelBlock;
 import net.mcreator.reloaded.block.CubeDispenserOpenBlock;
 import net.mcreator.reloaded.block.CubeDispenserBlock;
+import net.mcreator.reloaded.block.CatwalkTurnBlock;
+import net.mcreator.reloaded.block.CatwalkBlock;
 import net.mcreator.reloaded.block.ButtonBlock;
 import net.mcreator.reloaded.block.ButtonActivatedBlock;
+import net.mcreator.reloaded.block.BrokenBlackPanelTilesBlock;
+import net.mcreator.reloaded.block.BrokenBlackPanel3Block;
+import net.mcreator.reloaded.block.BrokenBlackPanel2Block;
+import net.mcreator.reloaded.block.BrokenBlackPanel1Block;
 import net.mcreator.reloaded.block.BlackPanelTilesBlock;
 import net.mcreator.reloaded.block.BlackPanelBlock;
-import net.mcreator.reloaded.block.BigBlackPanelBlock;
 import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModBlocks {
@@ -78,7 +90,6 @@ public class ReloadedModBlocks {
 	public static final RegistryObject<Block> BLACK_PANEL = REGISTRY.register("black_panel", () -> new BlackPanelBlock());
 	public static final RegistryObject<Block> BLACK_PANEL_TILES = REGISTRY.register("black_panel_tiles", () -> new BlackPanelTilesBlock());
 	public static final RegistryObject<Block> LONG_BLACK_PANEL = REGISTRY.register("long_black_panel", () -> new LongBlackPanelBlock());
-	public static final RegistryObject<Block> BIG_BLACK_PANEL = REGISTRY.register("big_black_panel", () -> new BigBlackPanelBlock());
 	public static final RegistryObject<Block> WHITE_PANEL = REGISTRY.register("white_panel", () -> new WhitePanelBlock());
 	public static final RegistryObject<Block> WHITE_PANEL_TILES = REGISTRY.register("white_panel_tiles", () -> new WhitePanelTilesBlock());
 	public static final RegistryObject<Block> LONG_WHITE_PANEL = REGISTRY.register("long_white_panel", () -> new LongWhitePanelBlock());
@@ -137,4 +148,22 @@ public class ReloadedModBlocks {
 	public static final RegistryObject<Block> EMANCIPATION_GRID_RIGHT_ON = REGISTRY.register("emancipation_grid_right_on",
 			() -> new EmancipationGridRightOnBlock());
 	public static final RegistryObject<Block> EMANCIPATION_GRID = REGISTRY.register("emancipation_grid", () -> new EmancipationGridBlock());
+	public static final RegistryObject<Block> DIRTY_BLACK_PANEL = REGISTRY.register("dirty_black_panel", () -> new DirtyBlackPanelBlock());
+	public static final RegistryObject<Block> DIRTY_LONG_BLACK_PANEL = REGISTRY.register("dirty_long_black_panel",
+			() -> new DirtyLongBlackPanelBlock());
+	public static final RegistryObject<Block> DIRTY_BLACK_PANEL_TILES = REGISTRY.register("dirty_black_panel_tiles",
+			() -> new DirtyBlackPanelTilesBlock());
+	public static final RegistryObject<Block> DIRTY_WHITE_PANEL = REGISTRY.register("dirty_white_panel", () -> new DirtyWhitePanelBlock());
+	public static final RegistryObject<Block> DIRTY_LONG_WHITE_PANEL = REGISTRY.register("dirty_long_white_panel",
+			() -> new DirtyLongWhitePanelBlock());
+	public static final RegistryObject<Block> DIRTY_WHITE_PANEL_TILES = REGISTRY.register("dirty_white_panel_tiles",
+			() -> new DirtyWhitePanelTilesBlock());
+	public static final RegistryObject<Block> BROKEN_BLACK_PANEL_1 = REGISTRY.register("broken_black_panel_1", () -> new BrokenBlackPanel1Block());
+	public static final RegistryObject<Block> BROKEN_BLACK_PANEL_2 = REGISTRY.register("broken_black_panel_2", () -> new BrokenBlackPanel2Block());
+	public static final RegistryObject<Block> BROKEN_BLACK_PANEL_3 = REGISTRY.register("broken_black_panel_3", () -> new BrokenBlackPanel3Block());
+	public static final RegistryObject<Block> BROKEN_BLACK_PANEL_TILES = REGISTRY.register("broken_black_panel_tiles",
+			() -> new BrokenBlackPanelTilesBlock());
+	public static final RegistryObject<Block> PANEL_CASING = REGISTRY.register("panel_casing", () -> new PanelCasingBlock());
+	public static final RegistryObject<Block> CATWALK = REGISTRY.register("catwalk", () -> new CatwalkBlock());
+	public static final RegistryObject<Block> CATWALK_TURN = REGISTRY.register("catwalk_turn", () -> new CatwalkTurnBlock());
 }

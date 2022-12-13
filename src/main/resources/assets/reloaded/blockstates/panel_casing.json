@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/panel_casing"
+    },
+    "facing=east": {
+      "model": "reloaded:block/panel_casing",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/panel_casing",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/panel_casing",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "reloaded:block/panel_casing",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "reloaded:block/panel_casing",
+      "x": 90
+    }
+  }
+}

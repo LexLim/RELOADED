@@ -20,6 +20,8 @@ import net.mcreator.reloaded.item.WeightedCompagnonCube1ItemItem;
 import net.mcreator.reloaded.item.OldStorageCubeItemItem;
 import net.mcreator.reloaded.item.IndicatorLinkControllerItem;
 import net.mcreator.reloaded.item.DiscouragementRedirectionCubeItemItem;
+import net.mcreator.reloaded.item.DefaultPortalGunOItem;
+import net.mcreator.reloaded.item.DefaultPortalGunLBItem;
 import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModItems {
@@ -40,7 +42,6 @@ public class ReloadedModItems {
 	public static final RegistryObject<Item> BLACK_PANEL = block(ReloadedModBlocks.BLACK_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
 	public static final RegistryObject<Item> BLACK_PANEL_TILES = block(ReloadedModBlocks.BLACK_PANEL_TILES, ReloadedModTabs.TAB_RELOADED_BLOCKS);
 	public static final RegistryObject<Item> LONG_BLACK_PANEL = block(ReloadedModBlocks.LONG_BLACK_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
-	public static final RegistryObject<Item> BIG_BLACK_PANEL = block(ReloadedModBlocks.BIG_BLACK_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
 	public static final RegistryObject<Item> WHITE_PANEL = block(ReloadedModBlocks.WHITE_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
 	public static final RegistryObject<Item> WHITE_PANEL_TILES = block(ReloadedModBlocks.WHITE_PANEL_TILES, ReloadedModTabs.TAB_RELOADED_BLOCKS);
 	public static final RegistryObject<Item> LONG_WHITE_PANEL = block(ReloadedModBlocks.LONG_WHITE_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
@@ -98,6 +99,29 @@ public class ReloadedModItems {
 			ReloadedModTabs.TAB_RELOADED_REDSTONE);
 	public static final RegistryObject<Item> EMANCIPATION_GRID_RIGHT_ON = block(ReloadedModBlocks.EMANCIPATION_GRID_RIGHT_ON, null);
 	public static final RegistryObject<Item> EMANCIPATION_GRID = block(ReloadedModBlocks.EMANCIPATION_GRID, null);
+	public static final RegistryObject<Item> DIRTY_BLACK_PANEL = block(ReloadedModBlocks.DIRTY_BLACK_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DIRTY_LONG_BLACK_PANEL = block(ReloadedModBlocks.DIRTY_LONG_BLACK_PANEL,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DIRTY_BLACK_PANEL_TILES = block(ReloadedModBlocks.DIRTY_BLACK_PANEL_TILES,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DIRTY_WHITE_PANEL = block(ReloadedModBlocks.DIRTY_WHITE_PANEL, ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DIRTY_LONG_WHITE_PANEL = block(ReloadedModBlocks.DIRTY_LONG_WHITE_PANEL,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DIRTY_WHITE_PANEL_TILES = block(ReloadedModBlocks.DIRTY_WHITE_PANEL_TILES,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> DEFAULT_PORTAL_GUN_LB = REGISTRY.register("default_portal_gun_lb", () -> new DefaultPortalGunLBItem());
+	public static final RegistryObject<Item> DEFAULT_PORTAL_GUN_O = REGISTRY.register("default_portal_gun_o", () -> new DefaultPortalGunOItem());
+	public static final RegistryObject<Item> BROKEN_BLACK_PANEL_1 = block(ReloadedModBlocks.BROKEN_BLACK_PANEL_1,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> BROKEN_BLACK_PANEL_2 = block(ReloadedModBlocks.BROKEN_BLACK_PANEL_2,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> BROKEN_BLACK_PANEL_3 = block(ReloadedModBlocks.BROKEN_BLACK_PANEL_3,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> BROKEN_BLACK_PANEL_TILES = block(ReloadedModBlocks.BROKEN_BLACK_PANEL_TILES,
+			ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> PANEL_CASING = block(ReloadedModBlocks.PANEL_CASING, ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> CATWALK = block(ReloadedModBlocks.CATWALK, ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> CATWALK_TURN = block(ReloadedModBlocks.CATWALK_TURN, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,12 @@
+{
+  "parent": "reloaded:custom/catwalk_turn",
+  "textures": {
+    "all": "reloaded:blocks/catwalk_turn",
+    "particle": "reloaded:blocks/catwalk_turn",
+    "2": "reloaded:blocks/catwalk_bars",
+    "3": "reloaded:blocks/catwalk_turn",
+    "4": "reloaded:blocks/catwalk_side",
+    "5": "reloaded:blocks/catwalk"
+  },
+  "render_type": "cutout"
+}

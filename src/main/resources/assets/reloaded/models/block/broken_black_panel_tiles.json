@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/broken_black_panel_tiles",
+  "textures": {
+    "all": "reloaded:blocks/black_panel_tiles",
+    "particle": "reloaded:blocks/black_panel_tiles",
+    "0": "reloaded:blocks/black_panel_tiles",
+    "1": "reloaded:blocks/casing"
+  },
+  "render_type": "solid"
+}

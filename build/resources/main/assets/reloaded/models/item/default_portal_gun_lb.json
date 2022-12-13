@@ -1,0 +1,7 @@
+{
+  "parent": "reloaded:custom/lb_portal_gun",
+  "textures": {
+    "0": "reloaded:blocks/portal_gun",
+    "particle": "reloaded:items/portal_gun"
+  }
+}

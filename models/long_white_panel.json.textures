@@ -3,7 +3,7 @@
     "default": {
       "map": {
         "0": "long_white_panel",
-        "1": "white_panel"
+        "1": "white_panel_tiles"
       },
       "name": "default"
     }

@@ -3,7 +3,7 @@
 	"texture_size": [16, 32],
 	"textures": {
 		"0": "RELOADED:blocks/panel/black_panel/long_black_panel",
-		"1": "RELOADED:blocks/panel/black_panel/black_panel",
+		"1": "RELOADED:blocks/panel/black_panel/black_panel_tiles",
 		"particle": "RELOADED:blocks/panel/black_panel/long_black_panel"
 	},
 	"elements": [

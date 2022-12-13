@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dirty_black_panel_tiles",
+        "1": "casing"
+      },
+      "name": "default"
+    }
+  }
+}

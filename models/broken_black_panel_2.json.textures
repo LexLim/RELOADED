@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "casing",
+        "3": "broken_black_panel_2",
+        "4": "black_panel",
+        "5": "black_panel_tiles"
+      },
+      "name": "default"
+    }
+  }
+}
