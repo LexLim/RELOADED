@@ -3,10 +3,10 @@
   "textures": {
     "down": "reloaded:blocks/black_panel_tiles",
     "up": "reloaded:blocks/black_panel_tiles",
-    "north": "reloaded:blocks/black_panel_tiles",
-    "east": "reloaded:blocks/black_panel_tiles",
-    "south": "reloaded:blocks/black_panel_tiles",
-    "west": "reloaded:blocks/black_panel_tiles",
+    "north": "reloaded:blocks/black_panel_tiles_side",
+    "east": "reloaded:blocks/black_panel_tiles_side",
+    "south": "reloaded:blocks/black_panel_tiles_side",
+    "west": "reloaded:blocks/black_panel_tiles_side",
     "particle": "reloaded:blocks/black_panel_tiles"
   },
   "render_type": "solid"

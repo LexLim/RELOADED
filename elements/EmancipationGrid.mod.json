@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "emancipation_grid",
+    "texture": "fizzler",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,10 +24,10 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 3.0,
+        "mx": 0.0,
         "my": 0.0,
         "mz": 7.0,
-        "Mx": 13.0,
+        "Mx": 16.0,
         "My": 16.0,
         "Mz": 9.0,
         "subtract": false
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 12,
     "unbreakable": true,
     "breakHarvestLevel": 0,
     "spawnParticles": false,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "EmancipationGridLeftOnEntityCollidesInTheBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

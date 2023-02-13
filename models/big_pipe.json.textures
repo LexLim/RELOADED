@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pipe",
+        "1": "support_block"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/wall_cable"
+    },
+    "facing=east": {
+      "model": "reloaded:block/wall_cable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/wall_cable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/wall_cable",
+      "y": 270
+    }
+  }
+}

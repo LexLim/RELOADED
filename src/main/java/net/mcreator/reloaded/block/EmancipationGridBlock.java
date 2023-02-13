@@ -1,6 +1,8 @@
 
 package net.mcreator.reloaded.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.HitResult;
@@ -15,14 +17,17 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.reloaded.procedures.EmancipationGridLeftOnEntityCollidesInTheBlockProcedure;
 import net.mcreator.reloaded.init.ReloadedModBlocks;
 
 import java.util.List;
@@ -32,8 +37,8 @@ public class EmancipationGridBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public EmancipationGridBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(-1, 3600000).requiresCorrectToolForDrops()
-				.noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(-1, 3600000).lightLevel(s -> 12)
+				.requiresCorrectToolForDrops().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -51,10 +56,10 @@ public class EmancipationGridBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(3, 0, 7, 13, 16, 9);
-			case NORTH -> box(3, 0, 7, 13, 16, 9);
-			case EAST -> box(7, 0, 3, 9, 16, 13);
-			case WEST -> box(7, 0, 3, 9, 16, 13);
+			default -> box(0, 0, 7, 16, 16, 9);
+			case NORTH -> box(0, 0, 7, 16, 16, 9);
+			case EAST -> box(7, 0, 0, 9, 16, 16);
+			case WEST -> box(7, 0, 0, 9, 16, 16);
 		};
 	}
 
@@ -94,5 +99,11 @@ public class EmancipationGridBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(ReloadedModBlocks.EMANCIPATION_GRID_LEFT_OFF.get()));
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
+		EmancipationGridLeftOnEntityCollidesInTheBlockProcedure.execute(entity);
 	}
 }

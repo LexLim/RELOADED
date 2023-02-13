@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/asbestos_block",
+    "up": "reloaded:blocks/asbestos_block",
+    "north": "reloaded:blocks/asbestos_block",
+    "east": "reloaded:blocks/asbestos_block",
+    "south": "reloaded:blocks/asbestos_block",
+    "west": "reloaded:blocks/asbestos_block",
+    "particle": "reloaded:blocks/asbestos_block"
+  },
+  "render_type": "solid"
+}

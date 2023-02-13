@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bridge_light",
+        "2": "hard_light_bridge"
+      },
+      "name": "default"
+    }
+  }
+}

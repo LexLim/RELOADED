@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/floor_cable_wires",
+  "textures": {
+    "all": "reloaded:blocks/cable",
+    "particle": "reloaded:blocks/cable",
+    "0": "reloaded:blocks/cable"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "broken_dirty_long_black_panel",
+        "1": "dirty_black_panel_tiles"
+      },
+      "name": "default"
+    }
+  }
+}

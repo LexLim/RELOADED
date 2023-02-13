@@ -2,8 +2,8 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "white_panel",
-    "textureTop": "white_panel",
+    "texture": "white_panel_tiles",
+    "textureTop": "white_panel_tiles",
     "textureLeft": "white_panel",
     "textureFront": "white_panel",
     "textureRight": "white_panel",

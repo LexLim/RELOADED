@@ -4,7 +4,7 @@
   "definition": {
     "name": "RELOADED - Redstone",
     "icon": {
-      "value": "CUSTOM:Panel"
+      "value": "CUSTOM:RedstonIndicatorOff"
     },
     "showSearch": false
   }

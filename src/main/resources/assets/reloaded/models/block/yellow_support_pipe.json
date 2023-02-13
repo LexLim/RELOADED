@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/yellow_support_pipe",
+  "textures": {
+    "all": "reloaded:blocks/support_block",
+    "particle": "reloaded:blocks/support_block",
+    "0": "reloaded:blocks/support_block"
+  },
+  "render_type": "solid"
+}

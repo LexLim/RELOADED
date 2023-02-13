@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/laser_receiver_on",
+  "textures": {
+    "all": "reloaded:blocks/laser_receiver",
+    "particle": "reloaded:blocks/laser_receiver",
+    "0": "reloaded:blocks/laser_receiver"
+  },
+  "render_type": "translucent"
+}

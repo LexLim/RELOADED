@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/support_beam",
+  "textures": {
+    "all": "reloaded:blocks/support_beam",
+    "particle": "reloaded:blocks/support_beam",
+    "0": "reloaded:blocks/support_beam",
+    "1": "reloaded:blocks/support_beam_center"
+  },
+  "render_type": "cutout"
+}

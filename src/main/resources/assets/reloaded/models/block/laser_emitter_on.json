@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/laser_emitter",
+  "textures": {
+    "all": "reloaded:blocks/laser_emitter",
+    "particle": "reloaded:blocks/laser_emitter",
+    "0": "reloaded:blocks/laser_emitter"
+  },
+  "render_type": "translucent"
+}

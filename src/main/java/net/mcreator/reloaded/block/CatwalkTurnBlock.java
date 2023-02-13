@@ -57,10 +57,14 @@ public class CatwalkTurnBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(8, -3, 8, 26, 0, 26), box(9, 0, 10, 9.01, 16, 26), box(10, 0, 9, 26, 16, 9.01));
-			case NORTH -> Shapes.or(box(-10, -3, -10, 8, 0, 8), box(6.99, 0, -10, 7, 16, 6), box(-10, 0, 6.99, 6, 16, 7));
-			case EAST -> Shapes.or(box(8, -3, -10, 26, 0, 8), box(10, 0, 6.99, 26, 16, 7), box(9, 0, -10, 9.01, 16, 6));
-			case WEST -> Shapes.or(box(-10, -3, 8, 8, 0, 26), box(-10, 0, 9, 6, 16, 9.01), box(6.99, 0, 10, 7, 16, 26));
+			default -> Shapes.or(box(6, -3, 10, 26, 0, 16), box(0, -3, -9, 6, 0, 10), box(6, -3, -10, 26, 0, 10), box(24, 0, -9, 25, 16, 16),
+					box(0, 0, -9, 25, 16, -8));
+			case NORTH -> Shapes.or(box(-10, -3, 0, 10, 0, 6), box(10, -3, 6, 16, 0, 25), box(-10, -3, 6, 10, 0, 26), box(-9, 0, 0, -8, 16, 25),
+					box(-9, 0, 24, 16, 16, 25));
+			case EAST -> Shapes.or(box(10, -3, -10, 16, 0, 10), box(-9, -3, 10, 10, 0, 16), box(-10, -3, -10, 10, 0, 10), box(-9, 0, -9, 16, 16, -8),
+					box(-9, 0, -9, -8, 16, 16));
+			case WEST -> Shapes.or(box(0, -3, 6, 6, 0, 26), box(6, -3, 0, 25, 0, 6), box(6, -3, 6, 26, 0, 26), box(0, 0, 24, 25, 16, 25),
+					box(24, 0, 0, 25, 16, 25));
 		};
 	}
 

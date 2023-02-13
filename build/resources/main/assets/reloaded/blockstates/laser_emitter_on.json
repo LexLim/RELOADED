@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/laser_emitter_on"
+    },
+    "facing=east": {
+      "model": "reloaded:block/laser_emitter_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/laser_emitter_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/laser_emitter_on",
+      "y": 270
+    }
+  }
+}

@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--clean, C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatched.jar, --apply, C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatches.lzma'
+Arguments: '--clean, C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatched.jar, --apply, C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatches.lzma'
 Classpath:
  - C:\Users\user\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: C:\Users\user\MCreatorWorkspaces\reloaded\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
-  Output:    C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatched.jar
+  Output:    C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatches.lzma
+Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 19e6c00e Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -423,10 +423,6 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: 8bf7e5d9 Exists: true
   Reading patch net.minecraft.client.multiplayer.chat.ChatListener.binpatch
     Checksum: d33dc0b6 Exists: true
-  Reading patch net.minecraft.client.multiplayer.resolver.AddressCheck$1.binpatch
-    Checksum: 3d874985 Exists: true
-  Reading patch net.minecraft.client.multiplayer.resolver.AddressCheck.binpatch
-    Checksum: ada1f91d Exists: true
   Reading patch net.minecraft.client.particle.BreakingItemParticle$Provider.binpatch
     Checksum: 9a35261b Exists: true
   Reading patch net.minecraft.client.particle.BreakingItemParticle$SlimeProvider.binpatch
@@ -569,8 +565,6 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: 43d60b48 Exists: true
   Reading patch net.minecraft.client.renderer.block.ModelBlockRenderer.binpatch
     Checksum: f2dcf0fd Exists: true
-  Reading patch net.minecraft.client.renderer.block.model.BakedQuad.binpatch
-    Checksum: dd465b3e Exists: true
   Reading patch net.minecraft.client.renderer.block.model.BlockElementFace$Deserializer.binpatch
     Checksum: 280efdae Exists: true
   Reading patch net.minecraft.client.renderer.block.model.BlockElementFace.binpatch
@@ -1261,6 +1255,16 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: 41104ca5 Exists: true
   Reading patch net.minecraft.server.packs.repository.PackRepository.binpatch
     Checksum: 3b81bd99 Exists: true
+  Reading patch net.minecraft.server.packs.resources.FallbackResourceManager$EntryStack.binpatch
+    Checksum: 201680ea Exists: true
+  Reading patch net.minecraft.server.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream.binpatch
+    Checksum: f5d6946c Exists: true
+  Reading patch net.minecraft.server.packs.resources.FallbackResourceManager$PackEntry.binpatch
+    Checksum: fa441b05 Exists: true
+  Reading patch net.minecraft.server.packs.resources.FallbackResourceManager$SinglePackResourceThunkSupplier.binpatch
+    Checksum: e5d205ff Exists: true
+  Reading patch net.minecraft.server.packs.resources.FallbackResourceManager.binpatch
+    Checksum: a105374a Exists: true
   Reading patch net.minecraft.server.packs.resources.MultiPackResourceManager.binpatch
     Checksum: c0fe238c Exists: true
   Reading patch net.minecraft.server.packs.resources.ReloadableResourceManager.binpatch
@@ -1373,8 +1377,6 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: 86094135 Exists: true
   Reading patch net.minecraft.world.entity.ai.behavior.HarvestFarmland.binpatch
     Checksum: 15da6032 Exists: true
-  Reading patch net.minecraft.world.entity.ai.behavior.StartAttacking.binpatch
-    Checksum: 59d749cb Exists: true
   Reading patch net.minecraft.world.entity.ai.behavior.Swim.binpatch
     Checksum: f20dbeec Exists: true
   Reading patch net.minecraft.world.entity.ai.control.MoveControl$Operation.binpatch
@@ -2231,8 +2233,6 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: b4f3cee8 Exists: true
   Reading patch net.minecraft.world.level.block.FlowerPotBlock.binpatch
     Checksum: dfc13dcd Exists: true
-  Reading patch net.minecraft.world.level.block.FungusBlock.binpatch
-    Checksum: 3c9e2d7d Exists: true
   Reading patch net.minecraft.world.level.block.GrowingPlantHeadBlock.binpatch
     Checksum: 251d2503 Exists: true
   Reading patch net.minecraft.world.level.block.LeavesBlock.binpatch
@@ -2357,10 +2357,6 @@ Loading patches file: C:\Users\user\.mcreator\gradle\caches\forge_gradle\minecra
     Checksum: ac855f18 Exists: true
   Reading patch net.minecraft.world.level.block.entity.SpawnerBlockEntity.binpatch
     Checksum: 5be252a3 Exists: true
-  Reading patch net.minecraft.world.level.block.grower.AbstractMegaTreeGrower.binpatch
-    Checksum: 7dfe63a6 Exists: true
-  Reading patch net.minecraft.world.level.block.grower.AbstractTreeGrower.binpatch
-    Checksum: e8e06a01 Exists: true
   Reading patch net.minecraft.world.level.block.piston.PistonBaseBlock$1.binpatch
     Checksum: dda74cbd Exists: true
   Reading patch net.minecraft.world.level.block.piston.PistonBaseBlock.binpatch
@@ -2809,8 +2805,6 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/client/multiplayer/chat/ChatListener$2 1/1
   Patching net/minecraft/client/multiplayer/chat/ChatListener$Message 1/1
   Patching net/minecraft/client/multiplayer/chat/ChatListener 1/1
-  Patching net/minecraft/client/multiplayer/resolver/AddressCheck$1 1/1
-  Patching net/minecraft/client/multiplayer/resolver/AddressCheck 1/1
   Patching net/minecraft/client/particle/BreakingItemParticle$Provider 1/1
   Patching net/minecraft/client/particle/BreakingItemParticle$SlimeProvider 1/1
   Patching net/minecraft/client/particle/BreakingItemParticle$SnowballProvider 1/1
@@ -2882,7 +2876,6 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/client/renderer/block/ModelBlockRenderer$Cache 1/1
   Patching net/minecraft/client/renderer/block/ModelBlockRenderer$SizeInfo 1/1
   Patching net/minecraft/client/renderer/block/ModelBlockRenderer 1/1
-  Patching net/minecraft/client/renderer/block/model/BakedQuad 1/1
   Patching net/minecraft/client/renderer/block/model/BlockElementFace$Deserializer 1/1
   Patching net/minecraft/client/renderer/block/model/BlockElementFace 1/1
   Patching net/minecraft/client/renderer/block/model/BlockModel$Deserializer 1/1
@@ -3228,6 +3221,11 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/server/packs/repository/Pack 1/1
   Patching net/minecraft/server/packs/repository/PackCompatibility 1/1
   Patching net/minecraft/server/packs/repository/PackRepository 1/1
+  Patching net/minecraft/server/packs/resources/FallbackResourceManager$EntryStack 1/1
+  Patching net/minecraft/server/packs/resources/FallbackResourceManager$LeakedResourceWarningInputStream 1/1
+  Patching net/minecraft/server/packs/resources/FallbackResourceManager$PackEntry 1/1
+  Patching net/minecraft/server/packs/resources/FallbackResourceManager$SinglePackResourceThunkSupplier 1/1
+  Patching net/minecraft/server/packs/resources/FallbackResourceManager 1/1
   Patching net/minecraft/server/packs/resources/MultiPackResourceManager 1/1
   Patching net/minecraft/server/packs/resources/ReloadableResourceManager 1/1
   Patching net/minecraft/server/packs/resources/SimpleJsonResourceReloadListener 1/1
@@ -3284,7 +3282,6 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/world/entity/ai/behavior/CrossbowAttack$CrossbowState 1/1
   Patching net/minecraft/world/entity/ai/behavior/CrossbowAttack 1/1
   Patching net/minecraft/world/entity/ai/behavior/HarvestFarmland 1/1
-  Patching net/minecraft/world/entity/ai/behavior/StartAttacking 1/1
   Patching net/minecraft/world/entity/ai/behavior/Swim 1/1
   Patching net/minecraft/world/entity/ai/control/MoveControl$Operation 1/1
   Patching net/minecraft/world/entity/ai/control/MoveControl 1/1
@@ -3710,7 +3707,6 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/world/level/block/FarmBlock 1/1
   Patching net/minecraft/world/level/block/FireBlock 1/1
   Patching net/minecraft/world/level/block/FlowerPotBlock 1/1
-  Patching net/minecraft/world/level/block/FungusBlock 1/1
   Patching net/minecraft/world/level/block/GrowingPlantHeadBlock 1/1
   Patching net/minecraft/world/level/block/LeavesBlock 1/1
   Patching net/minecraft/world/level/block/LiquidBlock 1/1
@@ -3773,8 +3769,6 @@ Processing: C:\Users\user\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\mine
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/SpawnerBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/SpawnerBlockEntity 1/1
-  Patching net/minecraft/world/level/block/grower/AbstractMegaTreeGrower 1/1
-  Patching net/minecraft/world/level/block/grower/AbstractTreeGrower 1/1
   Patching net/minecraft/world/level/block/piston/PistonBaseBlock$1 1/1
   Patching net/minecraft/world/level/block/piston/PistonBaseBlock 1/1
   Patching net/minecraft/world/level/block/piston/PistonMovingBlockEntity$1 1/1

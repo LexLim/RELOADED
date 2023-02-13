@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "reloaded:block/big_pipe",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "reloaded:block/big_pipe"
+    },
+    "axis=z": {
+      "model": "reloaded:block/big_pipe",
+      "x": 90
+    }
+  }
+}

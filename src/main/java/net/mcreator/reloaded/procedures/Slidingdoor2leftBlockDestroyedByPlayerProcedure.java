@@ -23,8 +23,7 @@ public class Slidingdoor2leftBlockDestroyedByPlayerProcedure {
 			}
 		}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.NORTH) {
 			world.setBlock(new BlockPos(x - 1, y, z), Blocks.AIR.defaultBlockState(), 3);
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)
@@ -36,8 +35,7 @@ public class Slidingdoor2leftBlockDestroyedByPlayerProcedure {
 			}
 		}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.SOUTH) {
 			world.setBlock(new BlockPos(x + 1, y, z), Blocks.AIR.defaultBlockState(), 3);
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)
@@ -49,8 +47,7 @@ public class Slidingdoor2leftBlockDestroyedByPlayerProcedure {
 			}
 		}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.EAST) {
 			world.setBlock(new BlockPos(x, y, z - 1), Blocks.AIR.defaultBlockState(), 3);
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)

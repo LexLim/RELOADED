@@ -15,7 +15,7 @@ public class ReloadedModTabs {
 		TAB_RELOADED_BLOCKS = new CreativeModeTab("tabreloaded_blocks") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ReloadedModBlocks.BLACK_PANEL.get());
+				return new ItemStack(ReloadedModBlocks.REPULSION_GEL_BLOCK.get());
 			}
 
 			@Override
@@ -26,7 +26,7 @@ public class ReloadedModTabs {
 		TAB_RELOADED_REDSTONE = new CreativeModeTab("tabreloaded_redstone") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ReloadedModBlocks.PANEL.get());
+				return new ItemStack(ReloadedModBlocks.REDSTON_INDICATOR_OFF.get());
 			}
 
 			@Override

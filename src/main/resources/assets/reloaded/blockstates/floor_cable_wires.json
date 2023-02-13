@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/floor_cable_wires"
+    },
+    "facing=east": {
+      "model": "reloaded:block/floor_cable_wires",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/floor_cable_wires",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/floor_cable_wires",
+      "y": 270
+    }
+  }
+}

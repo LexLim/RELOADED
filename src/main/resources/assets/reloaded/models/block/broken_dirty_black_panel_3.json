@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/dirty_black_panel_tiles",
+    "up": "reloaded:blocks/dirty_black_panel_tiles",
+    "north": "reloaded:blocks/broken_dirty_black_panel_3",
+    "east": "reloaded:blocks/broken_dirty_black_panel_3",
+    "south": "reloaded:blocks/broken_dirty_black_panel_3",
+    "west": "reloaded:blocks/broken_dirty_black_panel_3",
+    "particle": "reloaded:blocks/dirty_black_panel_tiles"
+  },
+  "render_type": "solid"
+}

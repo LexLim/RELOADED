@@ -2,8 +2,8 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "dirty_black_panel",
-    "textureTop": "dirty_black_panel",
+    "texture": "dirty_black_panel_tiles",
+    "textureTop": "dirty_black_panel_tiles",
     "textureLeft": "dirty_black_panel",
     "textureFront": "dirty_black_panel",
     "textureRight": "dirty_black_panel",

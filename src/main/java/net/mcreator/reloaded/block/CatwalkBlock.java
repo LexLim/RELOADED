@@ -55,10 +55,10 @@ public class CatwalkBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(6, -3, 0, 26, 0, 16), box(24, 0, 0, 24.99, 16, 16), box(7.01, 0, 0, 8, 16, 16));
-			case NORTH -> Shapes.or(box(-10, -3, 0, 10, 0, 16), box(-8.99, 0, 0, -8, 16, 16), box(8, 0, 0, 8.99, 16, 16));
-			case EAST -> Shapes.or(box(0, -3, -10, 16, 0, 10), box(0, 0, -8.99, 16, 16, -8), box(0, 0, 8, 16, 16, 8.99));
-			case WEST -> Shapes.or(box(0, -3, 6, 16, 0, 26), box(0, 0, 24, 16, 16, 24.99), box(0, 0, 7.01, 16, 16, 8));
+			default -> Shapes.or(box(6, -3, 0, 26, 0, 16), box(24, 0, 0, 25, 16, 16), box(7, 0, 0, 8, 16, 16));
+			case NORTH -> Shapes.or(box(-10, -3, 0, 10, 0, 16), box(-9, 0, 0, -8, 16, 16), box(8, 0, 0, 9, 16, 16));
+			case EAST -> Shapes.or(box(0, -3, -10, 16, 0, 10), box(0, 0, -9, 16, 16, -8), box(0, 0, 8, 16, 16, 9));
+			case WEST -> Shapes.or(box(0, -3, 6, 16, 0, 26), box(0, 0, 24, 16, 16, 25), box(0, 0, 7, 16, 16, 8));
 		};
 	}
 

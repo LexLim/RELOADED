@@ -3,10 +3,10 @@
   "textures": {
     "down": "reloaded:blocks/white_panel_tiles",
     "up": "reloaded:blocks/white_panel_tiles",
-    "north": "reloaded:blocks/white_panel_tiles",
-    "east": "reloaded:blocks/white_panel_tiles",
-    "south": "reloaded:blocks/white_panel_tiles",
-    "west": "reloaded:blocks/white_panel_tiles",
+    "north": "reloaded:blocks/white_panel_tiles_side",
+    "east": "reloaded:blocks/white_panel_tiles_side",
+    "south": "reloaded:blocks/white_panel_tiles_side",
+    "west": "reloaded:blocks/white_panel_tiles_side",
     "particle": "reloaded:blocks/white_panel_tiles"
   },
   "render_type": "solid"

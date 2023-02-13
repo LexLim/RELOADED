@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/wall_cable",
+  "textures": {
+    "all": "reloaded:blocks/cable",
+    "particle": "reloaded:blocks/cable",
+    "0": "reloaded:blocks/cable"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/broken_dirty_big_black_panel_right",
+  "textures": {
+    "all": "reloaded:blocks/broken_dirty_long_black_panel",
+    "particle": "reloaded:blocks/broken_dirty_long_black_panel",
+    "0": "reloaded:blocks/broken_dirty_long_black_panel",
+    "1": "reloaded:blocks/dirty_black_panel_tiles"
+  },
+  "render_type": "solid"
+}

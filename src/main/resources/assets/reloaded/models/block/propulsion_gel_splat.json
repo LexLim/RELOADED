@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/propulsion_gel_splat",
+  "textures": {
+    "all": "reloaded:blocks/propulsion_gel_splat",
+    "particle": "reloaded:blocks/propulsion_gel_splat",
+    "0": "reloaded:blocks/propulsion_gel_splat"
+  },
+  "render_type": "cutout"
+}

@@ -4,7 +4,7 @@
   "definition": {
     "name": "RELOADED - Blocks",
     "icon": {
-      "value": "CUSTOM:BlackPanel"
+      "value": "CUSTOM:RepulsionGelBlock"
     },
     "showSearch": false
   }

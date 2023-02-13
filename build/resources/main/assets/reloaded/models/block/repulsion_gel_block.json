@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/repulsion_gel",
+    "up": "reloaded:blocks/repulsion_gel",
+    "north": "reloaded:blocks/repulsion_gel",
+    "east": "reloaded:blocks/repulsion_gel",
+    "south": "reloaded:blocks/repulsion_gel",
+    "west": "reloaded:blocks/repulsion_gel",
+    "particle": "reloaded:blocks/repulsion_gel"
+  },
+  "render_type": "solid"
+}

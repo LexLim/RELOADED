@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/small_pipe",
+  "textures": {
+    "all": "reloaded:blocks/pipe",
+    "particle": "reloaded:blocks/pipe",
+    "0": "reloaded:blocks/pipe",
+    "1": "reloaded:blocks/support_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "support_beam",
+        "1": "support_beam_center"
+      },
+      "name": "default"
+    }
+  }
+}

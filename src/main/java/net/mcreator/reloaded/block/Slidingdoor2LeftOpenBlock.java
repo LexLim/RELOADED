@@ -51,10 +51,10 @@ public class Slidingdoor2LeftOpenBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 6.5, 16, 32, 9.5);
-			case NORTH -> box(0, 0, 6.5, 16, 32, 9.5);
-			case EAST -> box(6.5, 0, 0, 9.5, 32, 16);
-			case WEST -> box(6.5, 0, 0, 9.5, 32, 16);
+			default -> box(11, 0, 11.5, 16, 32, 14.5);
+			case NORTH -> box(0, 0, 1.5, 5, 32, 4.5);
+			case EAST -> box(11.5, 0, 0, 14.5, 32, 5);
+			case WEST -> box(1.5, 0, 11, 4.5, 32, 16);
 		};
 	}
 

@@ -1,9 +1,9 @@
 {
   "parent": "reloaded:custom/emancipation",
   "textures": {
-    "all": "reloaded:blocks/emancipation_grid",
-    "particle": "reloaded:blocks/emancipation_grid",
-    "0": "reloaded:blocks/emancipation_grid"
+    "all": "reloaded:blocks/fizzler",
+    "particle": "reloaded:blocks/fizzler",
+    "0": "reloaded:blocks/fizzler"
   },
   "render_type": "translucent"
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/dirty_slidingdoor_2left"
+    },
+    "facing=east": {
+      "model": "reloaded:block/dirty_slidingdoor_2left",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/dirty_slidingdoor_2left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/dirty_slidingdoor_2left",
+      "y": 270
+    }
+  }
+}

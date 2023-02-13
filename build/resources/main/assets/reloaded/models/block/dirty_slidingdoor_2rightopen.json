@@ -1,0 +1,12 @@
+{
+  "parent": "reloaded:custom/dirty_sliding_door_2_right_open",
+  "textures": {
+    "all": "reloaded:blocks/dirty_sliding_door_2",
+    "particle": "reloaded:blocks/dirty_sliding_door_2",
+    "0": "reloaded:blocks/dirty_sliding_door_2",
+    "1": "reloaded:blocks/dirty_sliding_door_2_overlay",
+    "2": "reloaded:blocks/support_block",
+    "3": "reloaded:blocks/sliding_door_side"
+  },
+  "render_type": "translucent"
+}

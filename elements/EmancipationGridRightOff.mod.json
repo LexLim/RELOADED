@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "emancipation_grid",
+    "texture": "fizzler_emitter",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Emancipation Grid",
+    "name": "Emancipation Grid (right)",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

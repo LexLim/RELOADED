@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "emancipation_grid"
+        "0": "fizzler"
       },
       "name": "default"
     }

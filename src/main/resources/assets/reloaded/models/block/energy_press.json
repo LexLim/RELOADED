@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/compresser",
+  "textures": {
+    "all": "reloaded:blocks/compresser",
+    "particle": "reloaded:blocks/compresser",
+    "0": "reloaded:blocks/compresser"
+  },
+  "render_type": "cutout"
+}

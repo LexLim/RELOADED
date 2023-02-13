@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/hard_light_bridge_emitter_on",
+  "textures": {
+    "all": "reloaded:blocks/hard_light_bridge",
+    "particle": "reloaded:blocks/hard_light_bridge",
+    "1": "reloaded:blocks/bridge_light",
+    "2": "reloaded:blocks/hard_light_bridge"
+  },
+  "render_type": "translucent"
+}

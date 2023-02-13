@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/void_block",
+    "up": "reloaded:blocks/void_block",
+    "north": "reloaded:blocks/void_block",
+    "east": "reloaded:blocks/void_block",
+    "south": "reloaded:blocks/void_block",
+    "west": "reloaded:blocks/void_block",
+    "particle": "reloaded:blocks/void_block"
+  },
+  "render_type": "solid"
+}

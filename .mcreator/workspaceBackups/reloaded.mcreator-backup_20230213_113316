@@ -1,0 +1,3500 @@
+{
+  "mod_elements": [
+    {
+      "name": "Panel",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "PanelWithBlack",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_with_black",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "PanelWithWhite",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_with_white",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "BlackPanel",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_panel",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "RELOADEDBlocks",
+      "type": "tab",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloaded_blocks"
+    },
+    {
+      "name": "RELOADEDRedstone",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloaded_redstone"
+    },
+    {
+      "name": "WhitePanel",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "LongWhitePanel",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "OpenPanel",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "OpenPanelWithBlack",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel_with_black",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "OpenPanelWithWhite",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel_with_white",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanel",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanelWithBlack",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel_with_black",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanelWithWhite",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel_with_white",
+      "path": "~/panels/default"
+    },
+    {
+      "name": "WhitePanelTiles",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel_tiles",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "BlackPanelTiles",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_panel_tiles",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "YellowCasing",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_casing",
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "GrayCasing",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_casing",
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "YellowPlaneCasing",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_plane_casing",
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "GrayPlaneCasing",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_plane_casing",
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "Slidingdoor2left",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2left",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "Slidingdoor2right",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2right",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "RedstonIndicatorOff",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redston_indicator_off",
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneIndicatorOn",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_indicator_on",
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLinkControllerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_link_controller_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLinkController",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_link_controller",
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOff",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off",
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOffRedstoneOff",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "Slidingdoor2LeftOpen",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2_left_open",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "Slidingdoor2rightOpen",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2right_open",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "RedstoneEmitterOn",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_on",
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstonIndicatorOffUpdateTick",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redston_indicator_off_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneIndicatorOnUpdateTick",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_indicator_on_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLineOffStraight",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurn",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffStraightOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUp",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWall",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWallOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnStraight",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_straight",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnTurn",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_turn",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUp",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnWall",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_wall",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffStraightRedstoneOn",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurnRedstoneOn",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpRedstoneOn",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWallRedstoneOn",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "Button",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button",
+      "path": "~/buttons"
+    },
+    {
+      "name": "ButtonActivated",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_activated",
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButton",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button",
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonActivated",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_activated",
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonActivatedUpdateTick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_activated_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "Slidingdoor2leftBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2left_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "Slidingdoor2leftBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidingdoor_2left_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "IndicatorLineOnStraightNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_straight_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnTurnNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_turn_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnWallNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_wall_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "PanelPlaceholder",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_placeholder",
+      "path": "~/panels"
+    },
+    {
+      "name": "LongWhitePanelBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "LongWhitePanelBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "PedestalButtonBlockAdded",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "WeightedStorageCube1",
+      "type": "livingentity",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_1",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube1",
+      "type": "livingentity",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_1",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube1ItemRightclicked",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_1_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube1Item",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_1_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube1Item",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_1_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube1ItemRightclicked",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_1_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "CubeDispenser",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser",
+      "path": "~/cubes"
+    },
+    {
+      "name": "CubeDispenserOpen",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser_open",
+      "path": "~/cubes"
+    },
+    {
+      "name": "CubeDispenserOpenBlockAdded",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser_open_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "IndicatorLineOffUpCeilling",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpCeillingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeilling",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeillingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpCeilling",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_ceilling",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnCeilling",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_ceilling",
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_ceilling_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_ceilling_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "CubeDispenserNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube2",
+      "type": "livingentity",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2",
+      "type": "livingentity",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube2Item",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube2ItemRightclicked",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2Item",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2ItemRightclicked",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCube",
+      "type": "livingentity",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube",
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCubeItem",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCubeItemRightclicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCubeItem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube_item",
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCube",
+      "type": "livingentity",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube",
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCubeItemRightclicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "EmancipationGridLeftOff",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_left_off",
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "EmancipationGridLeftOn",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_left_on",
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "EmancipationGridRightOff",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_right_off",
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "EmancipationGridRightOn",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_right_on",
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "EmancipationGrid",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid",
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "DirtyBlackPanel",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_black_panel",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBlackPanelTiles",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_black_panel_tiles",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyWhitePanel",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_white_panel",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DirtyLongWhitePanel",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_long_white_panel",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DirtyWhitePanelTiles",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_white_panel_tiles",
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DefaultPortalGunLB",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_portal_gun_lb",
+      "path": "~/portal_gun"
+    },
+    {
+      "name": "DefaultPortalGunO",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_portal_gun_o",
+      "path": "~/portal_gun"
+    },
+    {
+      "name": "BrokenBlackPanel1",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_1",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel2",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_2",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel3",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_3",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanelTiles",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_tiles",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "PanelCasing",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_casing",
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "Catwalk",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk",
+      "path": "~/facility"
+    },
+    {
+      "name": "CatwalkTurn",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk_turn",
+      "path": "~/facility"
+    },
+    {
+      "name": "CatwalkTurnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk_turn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility"
+    },
+    {
+      "name": "CatwalkOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility"
+    },
+    {
+      "name": "AsbestosBlock",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block",
+      "path": "~/facility/asbestos"
+    },
+    {
+      "name": "AsbestosTiles",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_tiles",
+      "path": "~/facility/asbestos"
+    },
+    {
+      "name": "BigPipe",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_pipe",
+      "path": "~/facility/pipe"
+    },
+    {
+      "name": "SmallPipe",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_pipe",
+      "path": "~/facility/pipe"
+    },
+    {
+      "name": "SupportBeam",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "support_beam",
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "SupportBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "support_block",
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "BlueSupportPipe",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_support_pipe",
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "YellowSupportPipe",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_support_pipe",
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "TransportationTube",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube",
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportaltionTubeEntrance",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportaltion_tube_entrance",
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpen",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open",
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpenRedstoneOff",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportaltionTubeEntranceRedstoneOn",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportaltion_tube_entrance_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubePlaceholder",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_placeholder",
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpenBlockAdded",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "LaserEmitterOff",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_emitter_off",
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserEmitterOn",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_emitter_on",
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOff",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_off",
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOn",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_on",
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOnBlockAdded",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_on_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_off_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_on_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "EmancipationGridLeftOnEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_left_on_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "ButtonEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "HardLightBridgeEmitterOff",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_off",
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOn",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on",
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridge",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge",
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_off_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOnBlockAdded",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeUpdateTick",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "BigBlackPanelLeftBlockAdded",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelLeftBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelLeft",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelRight",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_right",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBigBlackPanelLeft",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_big_black_panel_left",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBigBlackPanelRight",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_big_black_panel_right",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBigBlackPanelLeft",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_big_black_panel_left",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBigBlackPanelRight",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_big_black_panel_right",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel1",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_1",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel2",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_2",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel3",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_3",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel1BlockAdded",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_1_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel1BlockAdded",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_1_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "RepulsionGelBlock",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_block",
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelSplat",
+      "type": "block",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_splat",
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelBlock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_block",
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelSplat",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_splat",
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelInABucketRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_in_a_bucket_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelInABucket",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_in_a_bucket",
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelInABucket",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_in_a_bucket",
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelInABucketRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_in_a_bucket_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "GelPickup",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "DirtySlidingdoor2left",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_slidingdoor_2left",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "DirtySlidingdoor2leftBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_slidingdoor_2left_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "DirtySlidingdoor2right",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_slidingdoor_2right",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "DirtySlidingdoor2LeftOpen",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_slidingdoor_2_left_open",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "DirtySlidingdoor2rightopen",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_slidingdoor_2rightopen",
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "LampLeft",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_left",
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampRight",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_right",
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampLeftOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_left_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampRightOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_right_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "EmancipationGridLeftOffUpdateTick",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emancipation_grid_left_off_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles1",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_1",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles2",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_2",
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles1BlockAdded",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_1_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "MiniatureBlackHole",
+      "type": "particle",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole",
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "VoidBlock",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_block",
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "RawSteel",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_steel",
+      "path": "~/steel"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "path": "~/steel"
+    },
+    {
+      "name": "ReinforeinforcedSteelIngot",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforeinforced_steel_ingot",
+      "path": "~/steel"
+    },
+    {
+      "name": "EnergyPress",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_press",
+      "path": "~/steel"
+    },
+    {
+      "name": "MiniatureBlackHoleBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "MiniatureBlackHoleBlock",
+      "type": "block",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole_block",
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "HangingCable",
+      "type": "block",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_cable",
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "WallCable",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_cable",
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCable",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable",
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableWires",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_wires",
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableWiresOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_wires_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "EnergyPressGUI",
+      "type": "gui",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_press_gui",
+      "path": "~/steel"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.reloaded.indicator_line_on_up": "Indicator Line",
+      "block.reloaded.big_black_panel_right": "Big Black Panel (right)",
+      "entity.reloaded.weighted_compagnon_cube_1": "Weighted Compagnon Cube (Portal 1)",
+      "entity.reloaded.weighted_compagnon_cube_2": "Weighted Compagnon Cube (Portal 2)",
+      "itemGroup.tabreloaded_redstone": "RELOADED - Redstone",
+      "block.reloaded.asbestos_tiles": "Asbestos Tiles",
+      "block.reloaded.open_panel": "Open Panel",
+      "block.reloaded.asbestos_block": "Asbestos Block",
+      "block.reloaded.lamp_right": "Lamp",
+      "block.reloaded.panel_with_white": "Panel With White",
+      "block.reloaded.panel_casing": "Panel Casing",
+      "block.reloaded.dirty_big_black_panel_left": "Dirty Big Black Panel (left)",
+      "block.reloaded.miniature_black_hole_block": "Miniature Black Hole",
+      "block.reloaded.yellow_casing": "Yellow Casing",
+      "block.reloaded.indicator_line_off_straight": "Indicator Line",
+      "item.reloaded.discouragement_redirection_cube_item": "Discouragement Redirection Cube",
+      "block.reloaded.button_activated": "Button",
+      "block.reloaded.big_pipe": "Big Pipe",
+      "block.reloaded.laser_receiver_on": "Laser Receiver",
+      "item.reloaded.discouragement_redirection_cube_spawn_egg": "Discouragement Redirection Cube Spawn Egg",
+      "block.reloaded.long_panel_with_white": "Long Panel With White",
+      "block.reloaded.emancipation_grid_right_on": "Emancipation Grid",
+      "block.reloaded.yellow_support_pipe": "Yellow Support Pipe",
+      "block.reloaded.dirty_white_panel": "Dirty White Panel",
+      "block.reloaded.indicator_line_on_wall": "Indicator Line",
+      "block.reloaded.transportation_tube": "Transportation Tube",
+      "block.reloaded.indicator_line_on_turn": "Indicator Line",
+      "block.reloaded.big_black_panel_left": "Big Black Panel (left)",
+      "block.reloaded.propulsion_gel_splat": "Propulsion Gel Block",
+      "block.reloaded.dirty_slidingdoor_2_left_open": "Dirty Sliding Door",
+      "block.reloaded.indicator_line_off_ceilling": "Indicator Line",
+      "entity.reloaded.weighted_storage_cube_1": "Weighted Storage Cube (Portal 1)",
+      "item.reloaded.weighted_compagnon_cube_2_spawn_egg": "Weighted Compagnon Cube (Portal 2) Spawn Egg",
+      "block.reloaded.hard_light_bridge_emitter_on": "Hard Light Bridge Emitter",
+      "entity.reloaded.weighted_storage_cube_2": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.broken_dirty_black_panel_tiles_1": "Broken Dirty Black Panel Tiles",
+      "block.reloaded.broken_dirty_black_panel_tiles_2": "Broken Dirty Black Panel Tiles",
+      "block.reloaded.slidingdoor_2left": "Sliding Door",
+      "block.reloaded.long_white_panel": "Long White Panel",
+      "item.reloaded.weighted_storage_cube_1_item": "Weighted Storage Cube (Portal 1)",
+      "block.reloaded.dirty_slidingdoor_2rightopen": "Dirty Sliding Door",
+      "block.reloaded.broken_black_panel_tiles": "Broken Black Panel Tiles",
+      "block.reloaded.slidingdoor_2_left_open": "Sliding Door",
+      "block.reloaded.indicator_line_off_up": "Indicator Line",
+      "block.reloaded.blue_support_pipe": "Blue Support Pipe",
+      "block.reloaded.small_pipe": "Small Pipe",
+      "block.reloaded.dirty_big_black_panel_right": "Dirty Big Black Panel (right)",
+      "block.reloaded.broken_dirty_big_black_panel_left": "Broken Dirty Big Black Panel (left)",
+      "item.reloaded.weighted_compagnon_cube_2_item": "Weighted Compagnon Cube (Portal 2)",
+      "block.reloaded.repulsion_gel_splat": "Repulsion Gel Block",
+      "block.reloaded.slidingdoor_2right": "Sliding Door",
+      "block.reloaded.redstone_emitter_on": "Redston Emitter",
+      "entity.reloaded.discouragement_redirection_cube": "Discouragement Redirection Cube",
+      "block.reloaded.dirty_slidingdoor_2right": "Dirty Sliding Door",
+      "block.reloaded.white_panel": "White Panel",
+      "item.reloaded.weighted_compagnon_cube_1_spawn_egg": "Weighted Compagnon Cube (Portal 1) Spawn Egg",
+      "block.reloaded.hard_light_bridge_emitter_off": "Hard Light Bridge Emitter",
+      "block.reloaded.white_panel_tiles": "White Panel Tiles",
+      "block.reloaded.laser_emitter_off": "Laser Emitter",
+      "block.reloaded.black_panel_tiles": "Black Panel Tiles",
+      "item.reloaded.weighted_compagnon_cube_1_item": "Weighted Compagnon Cube (Portal 1)",
+      "item.reloaded.reinforeinforced_steel_ingot": "Reinforced Steel Ingot ",
+      "block.reloaded.transportaltion_tube_entrance": "Transportation Tube Door",
+      "item.reloaded.weighted_storage_cube_2_spawn_egg": "Weighted Storage Cube (Portal 2) Spawn Egg",
+      "block.reloaded.gray_plane_casing": "Gray Plane Casing",
+      "block.reloaded.indicator_line_off_turn": "Indicator Line",
+      "block.reloaded.redstone_emitter_off": "Redston Emitter",
+      "block.reloaded.dirty_white_panel_tiles": "Dirty White Panel Tiles",
+      "block.reloaded.broken_dirty_big_black_panel_right": "Broken Dirty Big Black Panel (right)",
+      "block.reloaded.hanging_cable": "Hanging Cable",
+      "block.reloaded.long_panel_with_black": "Long Panel With Black",
+      "block.reloaded.long_panel": "Long Panel",
+      "item.reloaded.old_storage_cube_spawn_egg": "Old Storage Cube Spawn Egg",
+      "item.reloaded.steel_ingot": "Steel Ingot ",
+      "block.reloaded.dirty_black_panel": "Dirty Black Panel",
+      "item.reloaded.default_portal_gun_o": "Portal Gun",
+      "block.reloaded.pedestal_button": "Pedestal Button",
+      "block.reloaded.indicator_line_off_up_ceilling": "Indicator Line",
+      "block.reloaded.transportation_tube_placeholder": "Transportation Tube Placeholder",
+      "block.reloaded.energy_press": "Energy Press",
+      "block.reloaded.propulsion_gel_block": "Propulsion Gel Block",
+      "block.reloaded.laser_emitter_on": "Laser Emitter",
+      "item.reloaded.propulsion_gel_in_a_bucket": "Propulsion Gel In A Bucket",
+      "block.reloaded.indicator_line_on_straight": "Indicator Line",
+      "block.reloaded.catwalk_turn": "Catwalk",
+      "block.reloaded.black_panel": "Black Panel",
+      "block.reloaded.emancipation_grid_right_off": "Emancipation Grid (right)",
+      "block.reloaded.support_block": "Support Block",
+      "block.reloaded.floor_cable": "Floor Cable",
+      "block.reloaded.indicator_line_off_wall": "Indicator Line",
+      "block.reloaded.indicator_line_on_ceilling": "Indicator Line",
+      "block.reloaded.support_beam": "Support Beam",
+      "item.reloaded.repulsion_gel_in_a_bucket": "Repulsion Gel In A Bucket",
+      "block.reloaded.cube_dispenser_open": "Cube Dispenser",
+      "block.reloaded.open_panel_with_white": "Open Panel With White",
+      "block.reloaded.pedestal_button_activated": "Pedestal Button",
+      "block.reloaded.redston_indicator_off": "Redston Indicator",
+      "block.reloaded.transportation_tube_entrance_open": "Transportation Tube Door",
+      "block.reloaded.lamp_left": "Lamp",
+      "item.reloaded.indicator_link_controller": "Indicator Link Controller",
+      "block.reloaded.broken_black_panel_2": "Broken Black Panel",
+      "block.reloaded.broken_black_panel_3": "Broken Black Panel",
+      "block.reloaded.broken_black_panel_1": "Broken Black Panel",
+      "block.reloaded.floor_cable_wires": "Floor Cable",
+      "item.reloaded.weighted_storage_cube_1_spawn_egg": "Weighted Storage Cube (Portal 1) Spawn Egg",
+      "block.reloaded.catwalk": "Catwalk",
+      "block.reloaded.emancipation_grid_left_on": "Emancipation Grid",
+      "block.reloaded.emancipation_grid": "Emancipation Grid",
+      "block.reloaded.void_block": "Void Block",
+      "block.reloaded.wall_cable": "Wall Cable",
+      "block.reloaded.hard_light_bridge": "Hard Light Bridge",
+      "block.reloaded.yellow_plane_casing": "Yellow Plane Casing",
+      "item.reloaded.weighted_storage_cube_2_item": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.emancipation_grid_left_off": "Emancipation Grid (left)",
+      "block.reloaded.open_panel_with_black": "Open Panel With Black",
+      "block.reloaded.dirty_black_panel_tiles": "Dirty Black Panel Tiles",
+      "block.reloaded.button": "Button",
+      "block.reloaded.panel_placeholder": "Panel Placeholder",
+      "entity.reloaded.old_storage_cube": "Old Storage Cube",
+      "block.reloaded.panel": "Panel",
+      "item.reloaded.default_portal_gun_lb": "Portal Gun",
+      "block.reloaded.repulsion_gel_block": "Repulsion Gel Block",
+      "itemGroup.tabreloaded_blocks": "RELOADED - Blocks",
+      "block.reloaded.slidingdoor_2right_open": "Sliding Door",
+      "block.reloaded.indicator_line_on_up_ceilling": "Indicator Line",
+      "block.reloaded.redstone_indicator_on": "Redston Indicator",
+      "block.reloaded.laser_receiver_off": "Laser Receiver",
+      "block.reloaded.gray_casing": "Gray Casing",
+      "block.reloaded.dirty_slidingdoor_2left": "Dirty Sliding Door",
+      "block.reloaded.broken_dirty_black_panel_2": "Broken Dirty Black Panel",
+      "block.reloaded.broken_dirty_black_panel_1": "Broken Dirty Black Panel",
+      "block.reloaded.cube_dispenser": "Cube Dispenser",
+      "block.reloaded.dirty_long_white_panel": "Dirty Long White Panel",
+      "item.reloaded.old_storage_cube_item": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.broken_dirty_black_panel_3": "Broken Dirty Black Panel",
+      "item.reloaded.raw_steel": "Raw Steel",
+      "block.reloaded.panel_with_black": "Panel With Black"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "panels",
+        "children": [
+          {
+            "name": "white",
+            "children": []
+          },
+          {
+            "name": "black",
+            "children": []
+          },
+          {
+            "name": "default",
+            "children": []
+          },
+          {
+            "name": "casing",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "doors",
+        "children": [
+          {
+            "name": "sliding_door_2",
+            "children": []
+          },
+          {
+            "name": "indicator",
+            "children": [
+              {
+                "name": "indicator_line",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "buttons",
+        "children": []
+      },
+      {
+        "name": "cubes",
+        "children": []
+      },
+      {
+        "name": "grids",
+        "children": [
+          {
+            "name": "emanciation",
+            "children": []
+          },
+          {
+            "name": "laser",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "portal_gun",
+        "children": []
+      },
+      {
+        "name": "glados",
+        "children": []
+      },
+      {
+        "name": "facility",
+        "children": [
+          {
+            "name": "asbestos",
+            "children": []
+          },
+          {
+            "name": "pipe",
+            "children": []
+          },
+          {
+            "name": "support_blocks",
+            "children": []
+          },
+          {
+            "name": "elevator",
+            "children": []
+          },
+          {
+            "name": "cables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "laser",
+        "children": []
+      },
+      {
+        "name": "light bridge",
+        "children": []
+      },
+      {
+        "name": "gels",
+        "children": []
+      },
+      {
+        "name": "lamp",
+        "children": []
+      },
+      {
+        "name": "plants",
+        "children": []
+      },
+      {
+        "name": "steel",
+        "children": []
+      },
+      {
+        "name": "miniature black hole",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "reloaded",
+    "modName": "RELOADED",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.reloaded",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

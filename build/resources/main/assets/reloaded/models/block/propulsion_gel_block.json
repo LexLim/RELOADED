@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/propulsion_gel",
+    "up": "reloaded:blocks/propulsion_gel",
+    "north": "reloaded:blocks/propulsion_gel",
+    "east": "reloaded:blocks/propulsion_gel",
+    "south": "reloaded:blocks/propulsion_gel",
+    "west": "reloaded:blocks/propulsion_gel",
+    "particle": "reloaded:blocks/propulsion_gel"
+  },
+  "render_type": "solid"
+}
