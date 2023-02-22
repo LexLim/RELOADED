@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
     "texture": "pedestal_button",
@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 5.0,
+        "mx": 6.0,
         "my": 0.0,
-        "mz": 5.0,
-        "Mx": 9.0,
+        "mz": 6.0,
+        "Mx": 10.0,
         "My": 20.0,
-        "Mz": 9.0,
+        "Mz": 10.0,
         "subtract": false
       }
     ],
@@ -99,13 +99,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

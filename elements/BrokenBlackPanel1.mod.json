@@ -1,8 +1,8 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
-    "texture": "broken_black_panel_1",
+    "texture": "casing",
     "textureTop": "black_panel",
     "textureLeft": "black_panel",
     "textureFront": "black_panel",
@@ -99,13 +99,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

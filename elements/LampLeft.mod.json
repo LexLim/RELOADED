@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
     "texture": "lamp",
@@ -12,9 +12,9 @@
     "customModelName": "lamp_left:default",
     "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "lamp",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -26,29 +26,38 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 15.0,
+        "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 16.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
     "name": "Lamp",
     "specialInfo": [],
-    "hardness": 0.0,
-    "resistance": 5.0,
+    "hardness": 0.5,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:RELOADEDBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -76,7 +85,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "METAL"
@@ -96,16 +105,10 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 13,
     "unbreakable": false,
-    "breakHarvestLevel": -1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "breakHarvestLevel": 1,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

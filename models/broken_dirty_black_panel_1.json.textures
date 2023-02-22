@@ -3,9 +3,7 @@
     "default": {
       "map": {
         "0": "casing",
-        "2": "broken_dirty_black_panel_1",
-        "4": "dirty_long_black_panel",
-        "5": "dirty_black_panel_tiles"
+        "1": "broken_dirty_black_panel_tiles_side"
       },
       "name": "default"
     }

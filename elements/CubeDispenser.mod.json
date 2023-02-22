@@ -1,6 +1,6 @@
 {
-  "_fv": 34,
-  "_type": "block",
+  "_fv": 38,
+  "_type": "animatedblock",
   "definition": {
     "texture": "cube_dispenser",
     "textureTop": "",
@@ -8,8 +8,7 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "cube_dispenser:default",
+    "renderType": 0,
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,52 +19,16 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -6.0,
-        "my": -16.0,
-        "mz": -6.0,
-        "Mx": 22.0,
+        "mx": 0.0,
+        "my": -3.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": -1.0,
-        "subtract": false
-      },
-      {
-        "mx": -6.0,
-        "my": -16.0,
-        "mz": -6.0,
-        "Mx": -1.0,
-        "My": 16.0,
-        "Mz": 22.0,
-        "subtract": false
-      },
-      {
-        "mx": -6.0,
-        "my": -16.0,
-        "mz": 17.0,
-        "Mx": 22.0,
-        "My": 16.0,
-        "Mz": 22.0,
-        "subtract": false
-      },
-      {
-        "mx": 17.0,
-        "my": -16.0,
-        "mz": -6.0,
-        "Mx": 22.0,
-        "My": 16.0,
-        "Mz": 22.0,
-        "subtract": false
-      },
-      {
-        "mx": -6.0,
-        "my": -16.0,
-        "mz": -6.0,
-        "Mx": 22.0,
-        "My": -15.0,
-        "Mz": 22.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -90,7 +53,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -137,7 +100,7 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:MiniatureBlackHole"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -159,8 +122,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CubeDispenserNeighbourBlockChanges"
+    "onRedstoneOn": {
+      "name": "CubeDispenserRedstoneOn"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -173,6 +136,8 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "cube_dispenser_anim.geo.json",
+    "displaySettings": "cube_dispenser_anim.item.json"
   }
 }

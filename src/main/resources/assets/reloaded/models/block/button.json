@@ -1,9 +1,7 @@
 {
-  "parent": "reloaded:custom/button",
+  "parent": "block/pressure_plate_up",
   "textures": {
-    "all": "reloaded:blocks/button",
-    "particle": "reloaded:blocks/button",
-    "0": "reloaded:blocks/button"
+    "texture": "reloaded:blocks/button"
   },
   "render_type": "solid"
 }

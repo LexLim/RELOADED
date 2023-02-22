@@ -4,6 +4,7 @@ package net.mcreator.reloaded.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -34,15 +35,11 @@ import net.mcreator.reloaded.procedures.HardLightBridgeUpdateTickProcedure;
 import net.mcreator.reloaded.procedures.HardLightBridgeEmitterOnBlockAddedProcedure;
 import net.mcreator.reloaded.block.entity.HardLightBridgeBlockEntity;
 
-public class HardLightBridgeBlock extends Block
-		implements
-
-			EntityBlock {
+public class HardLightBridgeBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public HardLightBridgeBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LODESTONE).strength(-1, 3600000).lightLevel(s -> 10)
-				.requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LODESTONE).strength(-1, 3600000).lightLevel(s -> 10).requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -58,8 +55,12 @@ public class HardLightBridgeBlock extends Block
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 14, -16, 16, 16, 16);
 			case NORTH -> box(0, 14, 0, 16, 16, 32);
@@ -110,7 +111,6 @@ public class HardLightBridgeBlock extends Block
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		HardLightBridgeUpdateTickProcedure.execute(world, x, y, z);
 	}
 

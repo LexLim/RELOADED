@@ -8,11 +8,9 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.mcreator.reloaded.entity.DiscouragementRedirectionCubeEntity;
 import net.mcreator.reloaded.client.model.Modeldiscouragement_redirection_cube;
 
-public class DiscouragementRedirectionCubeRenderer
-		extends
-			MobRenderer<DiscouragementRedirectionCubeEntity, Modeldiscouragement_redirection_cube<DiscouragementRedirectionCubeEntity>> {
+public class DiscouragementRedirectionCubeRenderer extends MobRenderer<DiscouragementRedirectionCubeEntity, Modeldiscouragement_redirection_cube<DiscouragementRedirectionCubeEntity>> {
 	public DiscouragementRedirectionCubeRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeldiscouragement_redirection_cube(context.bakeLayer(Modeldiscouragement_redirection_cube.LAYER_LOCATION)), 1f);
+		super(context, new Modeldiscouragement_redirection_cube(context.bakeLayer(Modeldiscouragement_redirection_cube.LAYER_LOCATION)), 0.6f);
 	}
 
 	@Override

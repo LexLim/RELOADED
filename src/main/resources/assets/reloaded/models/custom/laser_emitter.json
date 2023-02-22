@@ -85,6 +85,15 @@
         11.5,
         15
       ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          14
+        ]
+      },
       "faces": {
         "north": {
           "uv": [

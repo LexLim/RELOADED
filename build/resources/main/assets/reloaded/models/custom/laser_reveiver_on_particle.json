@@ -1,0 +1,6 @@
+{
+  "parent": "reloaded:displaysettings/laser_reciever_on.item",
+  "textures": {
+    "particle": "reloaded:blocks/laser_receiver"
+  }
+}

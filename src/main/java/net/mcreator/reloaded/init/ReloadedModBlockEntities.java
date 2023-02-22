@@ -16,27 +16,17 @@ import net.mcreator.reloaded.block.entity.RedstoneEmitterOnBlockEntity;
 import net.mcreator.reloaded.block.entity.RedstoneEmitterOffBlockEntity;
 import net.mcreator.reloaded.block.entity.RedstonIndicatorOffBlockEntity;
 import net.mcreator.reloaded.block.entity.HardLightBridgeBlockEntity;
-import net.mcreator.reloaded.block.entity.EnergyPressBlockEntity;
 import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES,
-			ReloadedMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> REDSTON_INDICATOR_OFF = register("redston_indicator_off",
-			ReloadedModBlocks.REDSTON_INDICATOR_OFF, RedstonIndicatorOffBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REDSTONE_EMITTER_OFF = register("redstone_emitter_off",
-			ReloadedModBlocks.REDSTONE_EMITTER_OFF, RedstoneEmitterOffBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REDSTONE_INDICATOR_ON = register("redstone_indicator_on",
-			ReloadedModBlocks.REDSTONE_INDICATOR_ON, RedstoneIndicatorOnBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REDSTONE_EMITTER_ON = register("redstone_emitter_on",
-			ReloadedModBlocks.REDSTONE_EMITTER_ON, RedstoneEmitterOnBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> HARD_LIGHT_BRIDGE = register("hard_light_bridge", ReloadedModBlocks.HARD_LIGHT_BRIDGE,
-			HardLightBridgeBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> ENERGY_PRESS = register("energy_press", ReloadedModBlocks.ENERGY_PRESS,
-			EnergyPressBlockEntity::new);
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ReloadedMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> REDSTON_INDICATOR_OFF = register("redston_indicator_off", ReloadedModBlocks.REDSTON_INDICATOR_OFF, RedstonIndicatorOffBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REDSTONE_EMITTER_OFF = register("redstone_emitter_off", ReloadedModBlocks.REDSTONE_EMITTER_OFF, RedstoneEmitterOffBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REDSTONE_INDICATOR_ON = register("redstone_indicator_on", ReloadedModBlocks.REDSTONE_INDICATOR_ON, RedstoneIndicatorOnBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REDSTONE_EMITTER_ON = register("redstone_emitter_on", ReloadedModBlocks.REDSTONE_EMITTER_ON, RedstoneEmitterOnBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> HARD_LIGHT_BRIDGE = register("hard_light_bridge", ReloadedModBlocks.HARD_LIGHT_BRIDGE, HardLightBridgeBlockEntity::new);
 
-	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
-			BlockEntityType.BlockEntitySupplier<?> supplier) {
+	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
 }

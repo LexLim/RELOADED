@@ -1,5 +1,5 @@
-// Made with Blockbench 4.5.2
-// Exported for Minecraft version 1.17 - 1.18 with Mojang mappings
+// Made with Blockbench 4.6.4
+// Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
 public class Modelold_storage_cube<T extends Entity> extends EntityModel<T> {
@@ -19,11 +19,12 @@ public class Modelold_storage_cube<T extends Entity> extends EntityModel<T> {
 
 		PartDefinition bone = partdefinition.addOrReplaceChild("bone",
 				CubeListBuilder.create().texOffs(0, 0)
-						.addBox(-8.0F, -16.0F, -8.0F, 16.0F, 16.0F, 16.0F, new CubeDeformation(-0.5F)).texOffs(0, 32)
-						.addBox(-8.0F, -16.0F, -8.0F, 16.0F, 16.0F, 16.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
+						.addBox(-5.5F, -13.5F, -5.5F, 11.0F, 11.0F, 11.0F, new CubeDeformation(0.0F)).texOffs(0, 22)
+						.addBox(-6.0F, -14.0F, -6.0F, 12.0F, 12.0F, 12.0F, new CubeDeformation(0.0F)).texOffs(0, 46)
+						.addBox(-6.0F, -14.0F, -6.0F, 12.0F, 12.0F, 12.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 26.0F, 0.0F));
 
-		return LayerDefinition.create(meshdefinition, 64, 64);
+		return LayerDefinition.create(meshdefinition, 64, 80);
 	}
 
 	@Override

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fizzler_emitter",
+        "1": "fizzler"
+      },
+      "name": "default"
+    }
+  }
+}

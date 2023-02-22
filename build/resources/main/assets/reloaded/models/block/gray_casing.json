@@ -3,7 +3,7 @@
   "textures": {
     "all": "reloaded:blocks/casing",
     "particle": "reloaded:blocks/casing",
-    "0": "reloaded:blocks/casing"
+    "1": "reloaded:blocks/casing"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

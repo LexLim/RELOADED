@@ -35,19 +35,14 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class PanelWithBlackBlock extends Block implements SimpleWaterloggedBlock
-
-{
+public class PanelWithBlackBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public PanelWithBlackBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.metal.break")),
-						() -> new SoundEvent(new ResourceLocation("block.lodestone.step")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.place")),
-						() -> new SoundEvent(new ResourceLocation("block.stone.hit")),
-						() -> new SoundEvent(new ResourceLocation("block.stone.fall"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.metal.break")), () -> new SoundEvent(new ResourceLocation("block.lodestone.step")),
+						() -> new SoundEvent(new ResourceLocation("block.metal.place")), () -> new SoundEvent(new ResourceLocation("block.stone.hit")), () -> new SoundEvent(new ResourceLocation("block.stone.fall"))))
 				.strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
@@ -63,8 +58,12 @@ public class PanelWithBlackBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> Shapes.or(box(0, 14, 0, 16, 16, 16), box(3, 0, 3, 13, 14, 13));
 			case NORTH -> Shapes.or(box(0, 14, 0, 16, 16, 16), box(3, 0, 3, 13, 14, 13));
@@ -100,8 +99,7 @@ public class PanelWithBlackBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}

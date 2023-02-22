@@ -15,6 +15,5 @@ import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, ReloadedMod.MODID);
-	public static final RegistryObject<SimpleParticleType> MINIATURE_BLACK_HOLE = REGISTRY.register("miniature_black_hole",
-			() -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> MINIATURE_BLACK_HOLE = REGISTRY.register("miniature_black_hole", () -> new SimpleParticleType(true));
 }

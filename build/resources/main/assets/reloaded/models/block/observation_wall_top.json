@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/observation_wall_middle",
+    "up": "reloaded:blocks/observation_wall_top",
+    "north": "reloaded:blocks/observation_wall_side_top",
+    "east": "reloaded:blocks/observation_wall_side_top",
+    "south": "reloaded:blocks/observation_wall_side_top",
+    "west": "reloaded:blocks/observation_wall_side_top",
+    "particle": "reloaded:blocks/observation_wall_middle"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
-    "texture": "white_panel_tiles",
-    "textureTop": "white_panel_tiles",
+    "texture": "white_panel_top",
+    "textureTop": "white_panel_top",
     "textureLeft": "white_panel",
     "textureFront": "white_panel",
     "textureRight": "white_panel",
@@ -99,13 +99,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

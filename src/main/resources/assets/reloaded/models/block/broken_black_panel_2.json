@@ -1,12 +1,10 @@
 {
   "parent": "reloaded:custom/broken_black_panel_2",
   "textures": {
-    "all": "reloaded:blocks/broken_black_panel_2",
-    "particle": "reloaded:blocks/broken_black_panel_2",
+    "all": "reloaded:blocks/casing",
+    "particle": "reloaded:blocks/casing",
     "0": "reloaded:blocks/casing",
-    "3": "reloaded:blocks/broken_black_panel_2",
-    "4": "reloaded:blocks/black_panel",
-    "5": "reloaded:blocks/black_panel_tiles"
+    "6": "reloaded:blocks/black_panel_tiles_side"
   },
   "render_type": "cutout_mipped"
 }

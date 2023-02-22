@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "reloaded:items/emancipation_grid__right"
-  },
-  "render_type": "translucent"
-}

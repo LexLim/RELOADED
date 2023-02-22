@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class VoidBlockBlock extends Block {
 	public VoidBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.AIR).sound(SoundType.SCULK).strength(-1, 3600000).lightLevel(s -> 12).noCollission()
-				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of(Material.AIR).sound(SoundType.SCULK).strength(-1, 3600000).lightLevel(s -> 12).noCollission().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

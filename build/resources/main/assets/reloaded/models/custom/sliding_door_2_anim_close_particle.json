@@ -1,0 +1,6 @@
+{
+  "parent": "reloaded:displaysettings/sliding_door_2_anim_close.item",
+  "textures": {
+    "particle": "reloaded:blocks/sliding_door_2"
+  }
+}

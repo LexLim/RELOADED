@@ -14,6 +14,9 @@ import java.util.Map;
 
 public class PedestalButtonActivatedUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		double posX = 0;
+		double posY = 0;
+		double posZ = 0;
 		if ((world.getBlockState(new BlockPos(x, y - 2, z))).getBlock() == ReloadedModBlocks.INDICATOR_LINE_OFF_STRAIGHT.get()) {
 			{
 				BlockPos _bp = new BlockPos(x, y - 2, z);
@@ -45,7 +48,7 @@ public class PedestalButtonActivatedUpdateTickProcedure {
 				}
 			}
 		}
-		ReloadedMod.queueServerWork(15, () -> {
+		ReloadedMod.queueServerWork(25, () -> {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = ReloadedModBlocks.PEDESTAL_BUTTON.get().defaultBlockState();

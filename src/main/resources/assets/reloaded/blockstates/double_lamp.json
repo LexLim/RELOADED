@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/double_lamp"
+    },
+    "facing=east": {
+      "model": "reloaded:block/double_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/double_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/double_lamp",
+      "y": 270
+    }
+  }
+}

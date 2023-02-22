@@ -1,5 +1,5 @@
 {
-  "parent": "reloaded:custom/laser_emitter",
+  "parent": "reloaded:custom/laser_emitter_on",
   "textures": {
     "all": "reloaded:blocks/laser_emitter",
     "particle": "reloaded:blocks/laser_emitter",

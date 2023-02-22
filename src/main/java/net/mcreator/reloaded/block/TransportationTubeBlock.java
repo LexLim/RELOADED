@@ -31,11 +31,8 @@ import java.util.Collections;
 public class TransportationTubeBlock extends Block {
 	public TransportationTubeBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.glass.break")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.step")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.place")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.hit")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.fall"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.glass.break")), () -> new SoundEvent(new ResourceLocation("block.metal.step")), () -> new SoundEvent(new ResourceLocation("block.metal.place")),
+						() -> new SoundEvent(new ResourceLocation("block.metal.hit")), () -> new SoundEvent(new ResourceLocation("block.metal.fall"))))
 				.strength(0.4f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -50,8 +47,12 @@ public class TransportationTubeBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.or(box(0, 0, 0, 1, 32, 16), box(15, 0, 0, 16, 32, 16), box(0, 0, 0, 16, 32, 1), box(0, 0, 15, 16, 32, 16));
 	}
 

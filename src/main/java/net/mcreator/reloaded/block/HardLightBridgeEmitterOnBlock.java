@@ -38,8 +38,7 @@ public class HardLightBridgeEmitterOnBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public HardLightBridgeEmitterOnBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LODESTONE).strength(1f, 10f).lightLevel(s -> 10)
-				.requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LODESTONE).strength(1f, 10f).lightLevel(s -> 10).requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -55,8 +54,12 @@ public class HardLightBridgeEmitterOnBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> Shapes.or(box(-6, 12.5, 0, 22, 17.5, 5), box(0, 14, 0, 16, 16, 16));
 			case NORTH -> Shapes.or(box(-6, 12.5, 11, 22, 17.5, 16), box(0, 14, 0, 16, 16, 16));

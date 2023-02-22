@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:custom/sliding_door_2_anim_close_particle"
+    },
+    "facing=east": {
+      "model": "reloaded:custom/sliding_door_2_anim_close_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:custom/sliding_door_2_anim_close_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:custom/sliding_door_2_anim_close_particle",
+      "y": 270
+    }
+  }
+}

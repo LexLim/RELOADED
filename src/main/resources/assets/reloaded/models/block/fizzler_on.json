@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/emancipation_grid_on",
+  "textures": {
+    "all": "reloaded:blocks/fizzler_emitter",
+    "particle": "reloaded:blocks/fizzler_emitter",
+    "0": "reloaded:blocks/fizzler_emitter",
+    "1": "reloaded:blocks/fizzler"
+  },
+  "render_type": "translucent"
+}

@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class TransportationTubePlaceholderBlock extends Block {
 	public TransportationTubePlaceholderBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(-1, 3600000).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(-1, 3600000).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -29,8 +28,12 @@ public class TransportationTubePlaceholderBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.or(box(0, 0, 0, 1, 16, 16), box(15, 0, 0, 16, 16, 16), box(0, 0, 0, 16, 16, 1), box(0, 0, 15, 16, 16, 16));
 	}
 

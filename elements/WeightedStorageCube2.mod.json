@@ -1,15 +1,15 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "livingentity",
   "definition": {
     "mobName": "Weighted Storage Cube (Portal 2)",
     "mobLabel": "",
     "mobModelName": "Modelweighted_storage_cube_2",
     "mobModelTexture": "weighted_storage_cube_2.png",
-    "mobModelGlowTexture": "",
-    "modelWidth": 1.0,
-    "modelHeight": 1.0,
-    "modelShadowSize": 1.0,
+    "mobModelGlowTexture": "weighted_storage_cube_2_e.png",
+    "modelWidth": 0.6,
+    "modelHeight": 0.6,
+    "modelShadowSize": 0.6,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
@@ -84,21 +84,14 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": ""
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": ""
     },
     "stepSound": {
       "value": ""
     },
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></next></block></xml>",
@@ -110,6 +103,8 @@
       "value": ""
     },
     "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,

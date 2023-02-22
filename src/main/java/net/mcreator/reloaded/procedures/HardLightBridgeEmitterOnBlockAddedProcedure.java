@@ -25,9 +25,7 @@ public class HardLightBridgeEmitterOnBlockAddedProcedure {
 					if (_prop instanceof DirectionProperty _dp)
 						return _bs.getValue(_dp);
 					_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
-					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis
-							? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
-							: Direction.NORTH;
+					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 				}
 			}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.NORTH) {
 				if (world.isEmptyBlock(new BlockPos(x, y, z - 2)) == true || world.isEmptyBlock(new BlockPos(x, y, z - 1)) == true) {
@@ -100,9 +98,7 @@ public class HardLightBridgeEmitterOnBlockAddedProcedure {
 					if (_prop instanceof DirectionProperty _dp)
 						return _bs.getValue(_dp);
 					_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
-					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis
-							? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
-							: Direction.NORTH;
+					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 				}
 			}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.SOUTH) {
 				if (world.isEmptyBlock(new BlockPos(x, y, z + 2)) == true || world.isEmptyBlock(new BlockPos(x, y, z + 1)) == true) {
@@ -175,9 +171,7 @@ public class HardLightBridgeEmitterOnBlockAddedProcedure {
 					if (_prop instanceof DirectionProperty _dp)
 						return _bs.getValue(_dp);
 					_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
-					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis
-							? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
-							: Direction.NORTH;
+					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 				}
 			}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.EAST) {
 				if (world.isEmptyBlock(new BlockPos(x + 2, y, z)) == true || world.isEmptyBlock(new BlockPos(x + 1, y, z)) == true) {
@@ -250,9 +244,7 @@ public class HardLightBridgeEmitterOnBlockAddedProcedure {
 					if (_prop instanceof DirectionProperty _dp)
 						return _bs.getValue(_dp);
 					_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
-					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis
-							? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
-							: Direction.NORTH;
+					return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 				}
 			}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.WEST) {
 				if (world.isEmptyBlock(new BlockPos(x - 2, y, z)) == true || world.isEmptyBlock(new BlockPos(x - 1, y, z)) == true) {

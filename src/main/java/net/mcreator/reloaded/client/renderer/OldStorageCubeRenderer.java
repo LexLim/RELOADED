@@ -10,7 +10,7 @@ import net.mcreator.reloaded.client.model.Modelold_storage_cube;
 
 public class OldStorageCubeRenderer extends MobRenderer<OldStorageCubeEntity, Modelold_storage_cube<OldStorageCubeEntity>> {
 	public OldStorageCubeRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelold_storage_cube(context.bakeLayer(Modelold_storage_cube.LAYER_LOCATION)), 1f);
+		super(context, new Modelold_storage_cube(context.bakeLayer(Modelold_storage_cube.LAYER_LOCATION)), 0.6f);
 	}
 
 	@Override

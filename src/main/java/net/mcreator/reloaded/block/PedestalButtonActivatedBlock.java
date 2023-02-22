@@ -2,6 +2,7 @@
 package net.mcreator.reloaded.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -38,8 +39,7 @@ public class PedestalButtonActivatedBlock extends Block {
 	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 
 	public PedestalButtonActivatedBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL));
 	}
 
@@ -54,28 +54,32 @@ public class PedestalButtonActivatedBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(7, 0, 7, 11, 20, 11);
-				case WALL -> box(7, 5, 0, 11, 9, 20);
-				case CEILING -> box(5, -4, 7, 9, 16, 11);
+				case FLOOR -> box(6, 0, 6, 10, 20, 10);
+				case WALL -> box(6, 6, 0, 10, 10, 20);
+				case CEILING -> box(6, -4, 6, 10, 16, 10);
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(5, 0, 5, 9, 20, 9);
-				case WALL -> box(5, 5, -4, 9, 9, 16);
-				case CEILING -> box(7, -4, 5, 11, 16, 9);
+				case FLOOR -> box(6, 0, 6, 10, 20, 10);
+				case WALL -> box(6, 6, -4, 10, 10, 16);
+				case CEILING -> box(6, -4, 6, 10, 16, 10);
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(7, 0, 5, 11, 20, 9);
-				case WALL -> box(0, 5, 5, 20, 9, 9);
-				case CEILING -> box(7, -4, 7, 11, 16, 11);
+				case FLOOR -> box(6, 0, 6, 10, 20, 10);
+				case WALL -> box(0, 6, 6, 20, 10, 10);
+				case CEILING -> box(6, -4, 6, 10, 16, 10);
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(5, 0, 7, 9, 20, 11);
-				case WALL -> box(-4, 5, 7, 16, 9, 11);
-				case CEILING -> box(5, -4, 5, 9, 16, 9);
+				case FLOOR -> box(6, 0, 6, 10, 20, 10);
+				case WALL -> box(-4, 6, 6, 16, 10, 10);
+				case CEILING -> box(6, -4, 6, 10, 16, 10);
 			};
 		};
 	}
@@ -87,8 +91,7 @@ public class PedestalButtonActivatedBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACE, faceForDirection(context.getNearestLookingDirection())).setValue(FACING,
-				context.getHorizontalDirection().getOpposite());
+		return this.defaultBlockState().setValue(FACE, faceForDirection(context.getNearestLookingDirection())).setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {

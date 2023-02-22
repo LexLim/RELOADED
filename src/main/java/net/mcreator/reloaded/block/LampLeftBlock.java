@@ -4,6 +4,7 @@ package net.mcreator.reloaded.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -20,6 +21,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
@@ -36,8 +38,7 @@ public class LampLeftBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public LampLeftBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(0f, 5f).lightLevel(s -> 15).noCollission().noOcclusion()
-				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(0.5f, 6f).lightLevel(s -> 13).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -52,13 +53,17 @@ public class LampLeftBlock extends Block {
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
 
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 16, 1);
-			case NORTH -> box(0, 0, 15, 16, 16, 16);
-			case EAST -> box(0, 0, 0, 1, 16, 16);
-			case WEST -> box(15, 0, 0, 16, 16, 16);
+			default -> Shapes.or(box(0, 0, 0, 16, 16, 16), box(0, 16, 0, 16, 32, 16));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 16, 16), box(0, 16, 0, 16, 32, 16));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 16, 16), box(0, 16, 0, 16, 32, 16));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 16, 16), box(0, 16, 0, 16, 32, 16));
 		};
 	}
 
@@ -81,6 +86,13 @@ public class LampLeftBlock extends Block {
 	}
 
 	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 1;
+		return false;
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
@@ -98,8 +110,7 @@ public class LampLeftBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
-		LampLeftOnBlockRightClickedProcedure.execute(world, x, y, z);
+		LampLeftOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

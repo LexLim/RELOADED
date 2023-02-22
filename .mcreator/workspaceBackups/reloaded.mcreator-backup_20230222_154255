@@ -1,0 +1,4844 @@
+{
+  "mod_elements": [
+    {
+      "name": "Panel",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/panel.json",
+          "src/main/java/net/mcreator/reloaded/block/PanelBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/panel.json",
+          "src/main/resources/assets/reloaded/models/block/panel.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "PanelWithBlack",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_with_black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/PanelWithBlackBlock.java",
+          "src/main/resources/assets/reloaded/models/block/panel_with_black.json",
+          "src/main/resources/assets/reloaded/models/item/panel_with_black.json",
+          "src/main/resources/assets/reloaded/blockstates/panel_with_black.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "PanelWithWhite",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_with_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/panel_with_white.json",
+          "src/main/resources/assets/reloaded/models/block/panel_with_white.json",
+          "src/main/java/net/mcreator/reloaded/block/PanelWithWhiteBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/panel_with_white.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "BlackPanel",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/black_panel.json",
+          "src/main/resources/assets/reloaded/blockstates/black_panel.json",
+          "src/main/resources/assets/reloaded/models/block/black_panel.json",
+          "src/main/java/net/mcreator/reloaded/block/BlackPanelBlock.java"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "RELOADEDBlocks",
+      "type": "tab",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloaded_blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RELOADEDRedstone",
+      "type": "tab",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloaded_redstone",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WhitePanel",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/white_panel.json",
+          "src/main/resources/assets/reloaded/blockstates/white_panel.json",
+          "src/main/java/net/mcreator/reloaded/block/WhitePanelBlock.java",
+          "src/main/resources/assets/reloaded/models/block/white_panel.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "LongWhitePanel",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LongWhitePanelBlock.java",
+          "src/main/resources/assets/reloaded/models/item/long_white_panel.json",
+          "src/main/resources/assets/reloaded/blockstates/long_white_panel.json",
+          "src/main/resources/assets/reloaded/models/block/long_white_panel.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "OpenPanel",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/OpenPanelBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/open_panel.json",
+          "src/main/resources/assets/reloaded/models/block/open_panel.json",
+          "src/main/resources/assets/reloaded/models/item/open_panel.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "OpenPanelWithBlack",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel_with_black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/OpenPanelWithBlackBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/open_panel_with_black.json",
+          "src/main/resources/assets/reloaded/models/item/open_panel_with_black.json",
+          "src/main/resources/assets/reloaded/models/block/open_panel_with_black.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "OpenPanelWithWhite",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_panel_with_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/open_panel_with_white.json",
+          "src/main/resources/assets/reloaded/models/item/open_panel_with_white.json",
+          "src/main/java/net/mcreator/reloaded/block/OpenPanelWithWhiteBlock.java",
+          "src/main/resources/assets/reloaded/models/block/open_panel_with_white.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanel",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/long_panel.json",
+          "src/main/resources/assets/reloaded/models/block/long_panel.json",
+          "src/main/java/net/mcreator/reloaded/block/LongPanelBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/long_panel.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanelWithBlack",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel_with_black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LongPanelWithBlackBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/long_panel_with_black.json",
+          "src/main/resources/assets/reloaded/models/block/long_panel_with_black.json",
+          "src/main/resources/assets/reloaded/models/item/long_panel_with_black.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "LongPanelWithWhite",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_panel_with_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LongPanelWithWhiteBlock.java",
+          "src/main/resources/assets/reloaded/models/block/long_panel_with_white.json",
+          "src/main/resources/assets/reloaded/models/item/long_panel_with_white.json",
+          "src/main/resources/assets/reloaded/blockstates/long_panel_with_white.json"
+        ]
+      },
+      "path": "~/panels/default"
+    },
+    {
+      "name": "WhitePanelTiles",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/white_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/block/white_panel_tiles.json",
+          "src/main/resources/assets/reloaded/blockstates/white_panel_tiles.json",
+          "src/main/java/net/mcreator/reloaded/block/WhitePanelTilesBlock.java"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "BlackPanelTiles",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_panel_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/black_panel_tiles.json",
+          "src/main/java/net/mcreator/reloaded/block/BlackPanelTilesBlock.java",
+          "src/main/resources/assets/reloaded/models/block/black_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/item/black_panel_tiles.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "RedstonIndicatorOff",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redston_indicator_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/redston_indicator_off.json",
+          "src/main/java/net/mcreator/reloaded/block/RedstonIndicatorOffBlock.java",
+          "src/main/resources/assets/reloaded/models/item/redston_indicator_off.json",
+          "src/main/resources/assets/reloaded/models/block/redston_indicator_off.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/RedstonIndicatorOffBlockEntity.java"
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneIndicatorOn",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_indicator_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/redstone_indicator_on.json",
+          "src/main/resources/assets/reloaded/models/item/redstone_indicator_on.json",
+          "src/main/java/net/mcreator/reloaded/block/RedstoneIndicatorOnBlock.java",
+          "src/main/java/net/mcreator/reloaded/block/entity/RedstoneIndicatorOnBlockEntity.java",
+          "src/main/resources/assets/reloaded/models/block/redstone_indicator_on.json"
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLinkControllerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_link_controller_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLinkControllerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLinkController",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_link_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/indicator_link_controller.json",
+          "src/main/java/net/mcreator/reloaded/item/IndicatorLinkControllerItem.java"
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOff",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/redstone_emitter_off.json",
+          "src/main/java/net/mcreator/reloaded/block/RedstoneEmitterOffBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/redstone_emitter_off.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/RedstoneEmitterOffBlockEntity.java",
+          "src/main/resources/assets/reloaded/models/item/redstone_emitter_off.json"
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RedstoneEmitterOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOffRedstoneOff",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_off_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RedstoneEmitterOffRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneEmitterOn",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_emitter_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/redstone_emitter_on.json",
+          "src/main/resources/assets/reloaded/blockstates/redstone_emitter_on.json",
+          "src/main/java/net/mcreator/reloaded/block/RedstoneEmitterOnBlock.java",
+          "src/main/resources/assets/reloaded/models/item/redstone_emitter_on.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/RedstoneEmitterOnBlockEntity.java"
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "IndicatorLineOffStraight",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffStraightBlock.java",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_straight.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_straight.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_straight.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurn",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_turn.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_turn.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_turn.json",
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffTurnBlock.java"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffStraightOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffStraightOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffTurnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUp",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffUpBlock.java",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_up.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_up.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_up.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffUpOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWall",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffWallBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_wall.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_wall.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_wall.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWallOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffWallOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnStraight",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_straight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_straight.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_straight.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_straight.json",
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnStraightBlock.java"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnTurn",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_turn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnTurnBlock.java",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_turn.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_turn.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_turn.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUp",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_up.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_up.json",
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnUpBlock.java",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_up.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnWall",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnWallBlock.java",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_wall.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_wall.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_wall.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffStraightRedstoneOn",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_straight_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffStraightRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffTurnRedstoneOn",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_turn_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffTurnRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpRedstoneOn",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffUpRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffWallRedstoneOn",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_wall_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffWallRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "Button",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/button.json",
+          "src/main/resources/assets/reloaded/models/block/button_down.json",
+          "src/main/java/net/mcreator/reloaded/block/ButtonBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/button.json",
+          "src/main/resources/assets/reloaded/models/block/button.json"
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/pedestal_button.json",
+          "src/main/resources/assets/reloaded/models/block/pedestal_button.json",
+          "src/main/java/net/mcreator/reloaded/block/PedestalButtonBlock.java",
+          "src/main/resources/assets/reloaded/models/item/pedestal_button.json"
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonActivated",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_activated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/pedestal_button_activated.json",
+          "src/main/resources/assets/reloaded/blockstates/pedestal_button_activated.json",
+          "src/main/resources/assets/reloaded/models/item/pedestal_button_activated.json",
+          "src/main/java/net/mcreator/reloaded/block/PedestalButtonActivatedBlock.java"
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonActivatedUpdateTick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_activated_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/PedestalButtonActivatedUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "PedestalButtonOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/PedestalButtonOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "IndicatorLineOnStraightNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_straight_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnStraightNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnTurnNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_turn_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnTurnNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnUpNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnWallNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_wall_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnWallNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "PanelPlaceholder",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_placeholder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/panel_placeholder.json",
+          "src/main/resources/assets/reloaded/models/item/panel_placeholder.json",
+          "src/main/java/net/mcreator/reloaded/block/PanelPlaceholderBlock.java",
+          "src/main/resources/assets/reloaded/models/block/panel_placeholder.json"
+        ]
+      },
+      "path": "~/panels"
+    },
+    {
+      "name": "LongWhitePanelBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LongWhitePanelBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "LongWhitePanelBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_white_panel_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LongWhitePanelBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "PedestalButtonBlockAdded",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedestal_button_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/PedestalButtonBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "IndicatorLineOffUpCeilling",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_up_ceilling.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_up_ceilling.json",
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffUpCeillingBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_up_ceilling.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpCeillingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffUpCeillingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeilling",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/indicator_line_off_ceilling.json",
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOffCeillingBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_off_ceilling.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_off_ceilling.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeillingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffCeillingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpCeilling",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_ceilling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnUpCeillingBlock.java",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_up_ceilling.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_up_ceilling.json",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_up_ceilling.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnCeilling",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_ceilling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/IndicatorLineOnCeillingBlock.java",
+          "src/main/resources/assets/reloaded/models/block/indicator_line_on_ceilling.json",
+          "src/main/resources/assets/reloaded/models/item/indicator_line_on_ceilling.json",
+          "src/main/resources/assets/reloaded/blockstates/indicator_line_on_ceilling.json"
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnUpCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_up_ceilling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnUpCeillingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOnCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_on_ceilling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOnCeillingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffUpCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_up_ceilling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffUpCeillingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "IndicatorLineOffCeillingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicator_line_off_ceilling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/IndicatorLineOffCeillingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator/indicator_line"
+    },
+    {
+      "name": "WeightedStorageCube2",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/entity/WeightedStorageCube2Entity.java",
+          "src/main/java/net/mcreator/reloaded/client/renderer/WeightedStorageCube2Renderer.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/entity/WeightedCompagnonCube2Entity.java",
+          "src/main/java/net/mcreator/reloaded/client/renderer/WeightedCompagnonCube2Renderer.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube2Item",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/item/WeightedStorageCube2ItemItem.java",
+          "src/main/resources/assets/reloaded/models/item/weighted_storage_cube_2_item.json"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedStorageCube2ItemRightclicked",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_storage_cube_2_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/WeightedStorageCube2ItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2Item",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/weighted_compagnon_cube_2_item.json",
+          "src/main/java/net/mcreator/reloaded/item/WeightedCompagnonCube2ItemItem.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "WeightedCompagnonCube2ItemRightclicked",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weighted_compagnon_cube_2_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/WeightedCompagnonCube2ItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCube",
+      "type": "livingentity",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/entity/OldStorageCubeEntity.java",
+          "src/main/java/net/mcreator/reloaded/client/renderer/OldStorageCubeRenderer.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCubeItem",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/old_storage_cube_item.json",
+          "src/main/java/net/mcreator/reloaded/item/OldStorageCubeItemItem.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "OldStorageCubeItemRightclicked",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_storage_cube_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/OldStorageCubeItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCubeItem",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/discouragement_redirection_cube_item.json",
+          "src/main/java/net/mcreator/reloaded/item/DiscouragementRedirectionCubeItemItem.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCube",
+      "type": "livingentity",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/entity/DiscouragementRedirectionCubeEntity.java",
+          "src/main/java/net/mcreator/reloaded/client/renderer/DiscouragementRedirectionCubeRenderer.java"
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "DiscouragementRedirectionCubeItemRightclicked",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discouragement_redirection_cube_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/DiscouragementRedirectionCubeItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cubes"
+    },
+    {
+      "name": "DirtyBlackPanel",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_black_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/DirtyBlackPanelBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/dirty_black_panel.json",
+          "src/main/resources/assets/reloaded/models/block/dirty_black_panel.json",
+          "src/main/resources/assets/reloaded/models/item/dirty_black_panel.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBlackPanelTiles",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_black_panel_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/DirtyBlackPanelTilesBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/dirty_black_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/item/dirty_black_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/block/dirty_black_panel_tiles.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyWhitePanel",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_white_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/dirty_white_panel.json",
+          "src/main/resources/assets/reloaded/blockstates/dirty_white_panel.json",
+          "src/main/java/net/mcreator/reloaded/block/DirtyWhitePanelBlock.java",
+          "src/main/resources/assets/reloaded/models/block/dirty_white_panel.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DirtyLongWhitePanel",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_long_white_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/DirtyLongWhitePanelBlock.java",
+          "src/main/resources/assets/reloaded/models/block/dirty_long_white_panel.json",
+          "src/main/resources/assets/reloaded/blockstates/dirty_long_white_panel.json",
+          "src/main/resources/assets/reloaded/models/item/dirty_long_white_panel.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DirtyWhitePanelTiles",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_white_panel_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/DirtyWhitePanelTilesBlock.java",
+          "src/main/resources/assets/reloaded/models/item/dirty_white_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/block/dirty_white_panel_tiles.json",
+          "src/main/resources/assets/reloaded/blockstates/dirty_white_panel_tiles.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "DefaultPortalGunLB",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_portal_gun_lb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/item/DefaultPortalGunLBItem.java",
+          "src/main/resources/assets/reloaded/models/item/default_portal_gun_lb.json"
+        ]
+      },
+      "path": "~/portal_gun"
+    },
+    {
+      "name": "DefaultPortalGunO",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_portal_gun_o",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/item/DefaultPortalGunOItem.java",
+          "src/main/resources/assets/reloaded/models/item/default_portal_gun_o.json"
+        ]
+      },
+      "path": "~/portal_gun"
+    },
+    {
+      "name": "BrokenBlackPanel1",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/BrokenBlackPanel1Block.java",
+          "src/main/resources/assets/reloaded/models/block/broken_black_panel_1.json",
+          "src/main/resources/assets/reloaded/models/item/broken_black_panel_1.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_black_panel_1.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel2",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/BrokenBlackPanel2Block.java",
+          "src/main/resources/assets/reloaded/models/block/broken_black_panel_2.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_black_panel_2.json",
+          "src/main/resources/assets/reloaded/models/item/broken_black_panel_2.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel3",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/broken_black_panel_3.json",
+          "src/main/resources/assets/reloaded/models/item/broken_black_panel_3.json",
+          "src/main/resources/assets/reloaded/models/block/broken_black_panel_3.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenBlackPanel3Block.java"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanelTiles",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/BrokenBlackPanelTilesBlock.java",
+          "src/main/resources/assets/reloaded/models/block/broken_black_panel_tiles.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_black_panel_tiles.json",
+          "src/main/resources/assets/reloaded/models/item/broken_black_panel_tiles.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "AsbestosBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/asbestos_block.json",
+          "src/main/resources/assets/reloaded/models/block/asbestos_block.json",
+          "src/main/java/net/mcreator/reloaded/block/AsbestosBlockBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/asbestos_block.json"
+        ]
+      },
+      "path": "~/facility/asbestos"
+    },
+    {
+      "name": "AsbestosTiles",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/asbestos_tiles.json",
+          "src/main/resources/assets/reloaded/blockstates/asbestos_tiles.json",
+          "src/main/java/net/mcreator/reloaded/block/AsbestosTilesBlock.java",
+          "src/main/resources/assets/reloaded/models/item/asbestos_tiles.json"
+        ]
+      },
+      "path": "~/facility/asbestos"
+    },
+    {
+      "name": "BigPipe",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/big_pipe.json",
+          "src/main/resources/assets/reloaded/models/item/big_pipe.json",
+          "src/main/java/net/mcreator/reloaded/block/BigPipeBlock.java",
+          "src/main/resources/assets/reloaded/models/block/big_pipe.json"
+        ]
+      },
+      "path": "~/facility/pipe"
+    },
+    {
+      "name": "SmallPipe",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/small_pipe.json",
+          "src/main/resources/assets/reloaded/models/block/small_pipe.json",
+          "src/main/resources/assets/reloaded/blockstates/small_pipe.json",
+          "src/main/java/net/mcreator/reloaded/block/SmallPipeBlock.java"
+        ]
+      },
+      "path": "~/facility/pipe"
+    },
+    {
+      "name": "SupportBeam",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "support_beam",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/support_beam.json",
+          "src/main/resources/assets/reloaded/models/block/support_beam.json",
+          "src/main/java/net/mcreator/reloaded/block/SupportBeamBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/support_beam.json"
+        ]
+      },
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "SupportBlock",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "support_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/support_block.json",
+          "src/main/resources/assets/reloaded/models/block/support_block.json",
+          "src/main/java/net/mcreator/reloaded/block/SupportBlockBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/support_block.json"
+        ]
+      },
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "BlueSupportPipe",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_support_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/blue_support_pipe.json",
+          "src/main/resources/assets/reloaded/blockstates/blue_support_pipe.json",
+          "src/main/resources/assets/reloaded/models/block/blue_support_pipe.json",
+          "src/main/java/net/mcreator/reloaded/block/BlueSupportPipeBlock.java"
+        ]
+      },
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "YellowSupportPipe",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_support_pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/YellowSupportPipeBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/yellow_support_pipe.json",
+          "src/main/resources/assets/reloaded/models/block/yellow_support_pipe.json",
+          "src/main/resources/assets/reloaded/models/item/yellow_support_pipe.json"
+        ]
+      },
+      "path": "~/facility/support_blocks"
+    },
+    {
+      "name": "TransportationTube",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/TransportationTubeBlock.java",
+          "src/main/resources/assets/reloaded/models/block/transportation_tube.json",
+          "src/main/resources/assets/reloaded/models/item/transportation_tube.json",
+          "src/main/resources/assets/reloaded/blockstates/transportation_tube.json"
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportaltionTubeEntrance",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportaltion_tube_entrance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/transportaltion_tube_entrance.json",
+          "src/main/java/net/mcreator/reloaded/block/TransportaltionTubeEntranceBlock.java",
+          "src/main/resources/assets/reloaded/models/block/transportaltion_tube_entrance.json",
+          "src/main/resources/assets/reloaded/blockstates/transportaltion_tube_entrance.json"
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpen",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/transportation_tube_entrance_open.json",
+          "src/main/resources/assets/reloaded/models/item/transportation_tube_entrance_open.json",
+          "src/main/resources/assets/reloaded/models/block/transportation_tube_entrance_open.json",
+          "src/main/java/net/mcreator/reloaded/block/TransportationTubeEntranceOpenBlock.java"
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpenRedstoneOff",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/TransportationTubeEntranceOpenRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportaltionTubeEntranceRedstoneOn",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportaltion_tube_entrance_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/TransportaltionTubeEntranceRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubePlaceholder",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_placeholder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/TransportationTubePlaceholderBlock.java",
+          "src/main/resources/assets/reloaded/models/item/transportation_tube_placeholder.json",
+          "src/main/resources/assets/reloaded/models/block/transportation_tube_placeholder.json",
+          "src/main/resources/assets/reloaded/blockstates/transportation_tube_placeholder.json"
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/TransportationTubeBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeEntranceOpenBlockAdded",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_entrance_open_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/TransportationTubeEntranceOpenBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "TransportationTubeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transportation_tube_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/TransportationTubeBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/elevator"
+    },
+    {
+      "name": "LaserEmitterOff",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_emitter_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/laser_emitter_off.json",
+          "src/main/resources/assets/reloaded/models/item/laser_emitter_off.json",
+          "src/main/java/net/mcreator/reloaded/block/LaserEmitterOffBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/laser_emitter_off.json"
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserEmitterOn",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_emitter_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LaserEmitterOnBlock.java",
+          "src/main/resources/assets/reloaded/models/block/laser_emitter_on.json",
+          "src/main/resources/assets/reloaded/models/item/laser_emitter_on.json",
+          "src/main/resources/assets/reloaded/blockstates/laser_emitter_on.json"
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOff",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LaserReceiverOffBlock.java",
+          "src/main/resources/assets/reloaded/models/item/laser_receiver_off.json",
+          "src/main/resources/assets/reloaded/models/block/laser_receiver_off.json",
+          "src/main/resources/assets/reloaded/blockstates/laser_receiver_off.json"
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "ButtonEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "button_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ButtonEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "HardLightBridgeEmitterOff",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/HardLightBridgeEmitterOffBlock.java",
+          "src/main/resources/assets/reloaded/models/item/hard_light_bridge_emitter_off.json",
+          "src/main/resources/assets/reloaded/blockstates/hard_light_bridge_emitter_off.json",
+          "src/main/resources/assets/reloaded/models/block/hard_light_bridge_emitter_off.json"
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOn",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/hard_light_bridge_emitter_on.json",
+          "src/main/resources/assets/reloaded/models/block/hard_light_bridge_emitter_on.json",
+          "src/main/resources/assets/reloaded/models/item/hard_light_bridge_emitter_on.json",
+          "src/main/java/net/mcreator/reloaded/block/HardLightBridgeEmitterOnBlock.java"
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridge",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/entity/HardLightBridgeBlockEntity.java",
+          "src/main/java/net/mcreator/reloaded/block/HardLightBridgeBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/hard_light_bridge.json",
+          "src/main/resources/assets/reloaded/models/item/hard_light_bridge.json",
+          "src/main/resources/assets/reloaded/models/block/hard_light_bridge.json"
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/HardLightBridgeEmitterOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/HardLightBridgeEmitterOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeEmitterOnBlockAdded",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_emitter_on_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/HardLightBridgeEmitterOnBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "HardLightBridgeUpdateTick",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_light_bridge_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/HardLightBridgeUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/light bridge"
+    },
+    {
+      "name": "BigBlackPanelLeftBlockAdded",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/BigBlackPanelLeftBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelLeftBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/BigBlackPanelLeftBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelLeft",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/big_black_panel_left.json",
+          "src/main/java/net/mcreator/reloaded/block/BigBlackPanelLeftBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/big_black_panel_left.json",
+          "src/main/resources/assets/reloaded/models/item/big_black_panel_left.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BigBlackPanelRight",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_panel_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/big_black_panel_right.json",
+          "src/main/resources/assets/reloaded/blockstates/big_black_panel_right.json",
+          "src/main/java/net/mcreator/reloaded/block/BigBlackPanelRightBlock.java",
+          "src/main/resources/assets/reloaded/models/item/big_black_panel_right.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBigBlackPanelLeft",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_big_black_panel_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/dirty_big_black_panel_left.json",
+          "src/main/java/net/mcreator/reloaded/block/DirtyBigBlackPanelLeftBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/dirty_big_black_panel_left.json",
+          "src/main/resources/assets/reloaded/models/item/dirty_big_black_panel_left.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "DirtyBigBlackPanelRight",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_big_black_panel_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/dirty_big_black_panel_right.json",
+          "src/main/resources/assets/reloaded/models/block/dirty_big_black_panel_right.json",
+          "src/main/resources/assets/reloaded/models/item/dirty_big_black_panel_right.json",
+          "src/main/java/net/mcreator/reloaded/block/DirtyBigBlackPanelRightBlock.java"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBigBlackPanelLeft",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_big_black_panel_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_big_black_panel_left.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBigBlackPanelLeftBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_big_black_panel_left.json",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_big_black_panel_left.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBigBlackPanelRight",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_big_black_panel_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_big_black_panel_right.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_big_black_panel_right.json",
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_big_black_panel_right.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBigBlackPanelRightBlock.java"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel1",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_black_panel_1.json",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_black_panel_1.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBlackPanel1Block.java",
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_black_panel_1.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel2",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_black_panel_2.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBlackPanel2Block.java",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_black_panel_2.json",
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_black_panel_2.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel3",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBlackPanel3Block.java",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_black_panel_3.json",
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_black_panel_3.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_black_panel_3.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanel1BlockAdded",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_1_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/BrokenDirtyBlackPanel1BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenBlackPanel1BlockAdded",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_black_panel_1_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/BrokenBlackPanel1BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "RepulsionGelBlock",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/repulsion_gel_block.json",
+          "src/main/resources/assets/reloaded/models/block/repulsion_gel_block.json",
+          "src/main/java/net/mcreator/reloaded/block/RepulsionGelBlockBlock.java",
+          "src/main/resources/assets/reloaded/models/item/repulsion_gel_block.json"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelSplat",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_splat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/RepulsionGelSplatBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/repulsion_gel_splat.json",
+          "src/main/resources/assets/reloaded/models/item/repulsion_gel_splat.json",
+          "src/main/resources/assets/reloaded/models/block/repulsion_gel_splat.json"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelBlock",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/propulsion_gel_block.json",
+          "src/main/java/net/mcreator/reloaded/block/PropulsionGelBlockBlock.java",
+          "src/main/resources/assets/reloaded/models/item/propulsion_gel_block.json",
+          "src/main/resources/assets/reloaded/blockstates/propulsion_gel_block.json"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelSplat",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_splat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/propulsion_gel_splat.json",
+          "src/main/resources/assets/reloaded/blockstates/propulsion_gel_splat.json",
+          "src/main/resources/assets/reloaded/models/item/propulsion_gel_splat.json",
+          "src/main/java/net/mcreator/reloaded/block/PropulsionGelSplatBlock.java"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelInABucketRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_in_a_bucket_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RepulsionGelInABucketRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "RepulsionGelInABucket",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_in_a_bucket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/item/RepulsionGelInABucketItem.java",
+          "src/main/resources/assets/reloaded/models/item/repulsion_gel_in_a_bucket.json"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelInABucket",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_in_a_bucket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/propulsion_gel_in_a_bucket.json",
+          "src/main/java/net/mcreator/reloaded/item/PropulsionGelInABucketItem.java"
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "PropulsionGelInABucketRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propulsion_gel_in_a_bucket_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/PropulsionGelInABucketRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "GelPickup",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_pickup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/GelPickupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles1",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBlackPanelTiles1Block.java",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_black_panel_tiles_1.json",
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_black_panel_tiles_1.json",
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_black_panel_tiles_1.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles2",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/broken_dirty_black_panel_tiles_2.json",
+          "src/main/java/net/mcreator/reloaded/block/BrokenDirtyBlackPanelTiles2Block.java",
+          "src/main/resources/assets/reloaded/models/item/broken_dirty_black_panel_tiles_2.json",
+          "src/main/resources/assets/reloaded/models/block/broken_dirty_black_panel_tiles_2.json"
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "BrokenDirtyBlackPanelTiles1BlockAdded",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dirty_black_panel_tiles_1_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/BrokenDirtyBlackPanelTiles1BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "MiniatureBlackHole",
+      "type": "particle",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/particles/miniature_black_hole.json",
+          "src/main/java/net/mcreator/reloaded/client/particle/MiniatureBlackHoleParticle.java"
+        ]
+      },
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "VoidBlock",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/void_block.json",
+          "src/main/java/net/mcreator/reloaded/block/VoidBlockBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/void_block.json",
+          "src/main/resources/assets/reloaded/models/item/void_block.json"
+        ]
+      },
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "RawSteel",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_steel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/item/RawSteelItem.java",
+          "src/main/resources/assets/reloaded/models/item/raw_steel.json"
+        ]
+      },
+      "path": "~/steel"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/reloaded/item/SteelIngotItem.java"
+        ]
+      },
+      "path": "~/steel"
+    },
+    {
+      "name": "ReinforeinforcedSteelIngot",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforeinforced_steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/reinforeinforced_steel_ingot.json",
+          "src/main/java/net/mcreator/reloaded/item/ReinforeinforcedSteelIngotItem.java"
+        ]
+      },
+      "path": "~/steel"
+    },
+    {
+      "name": "MiniatureBlackHoleBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/MiniatureBlackHoleBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "MiniatureBlackHoleBlock",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniature_black_hole_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/MiniatureBlackHoleBlockBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/miniature_black_hole_block.json",
+          "src/main/resources/assets/reloaded/models/item/miniature_black_hole_block.json",
+          "src/main/resources/assets/reloaded/models/block/miniature_black_hole_block.json"
+        ]
+      },
+      "path": "~/miniature black hole"
+    },
+    {
+      "name": "HangingCable",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/hanging_cable.json",
+          "src/main/resources/assets/reloaded/blockstates/hanging_cable.json",
+          "src/main/java/net/mcreator/reloaded/block/HangingCableBlock.java",
+          "src/main/resources/assets/reloaded/models/block/hanging_cable.json"
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "WallCable",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/wall_cable.json",
+          "src/main/resources/assets/reloaded/models/item/wall_cable.json",
+          "src/main/resources/assets/reloaded/models/block/wall_cable.json",
+          "src/main/java/net/mcreator/reloaded/block/WallCableBlock.java"
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCable",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/floor_cable.json",
+          "src/main/resources/assets/reloaded/models/block/floor_cable.json",
+          "src/main/resources/assets/reloaded/models/item/floor_cable.json",
+          "src/main/java/net/mcreator/reloaded/block/FloorCableBlock.java"
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableWires",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_wires",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/floor_cable_wires.json",
+          "src/main/resources/assets/reloaded/blockstates/floor_cable_wires.json",
+          "src/main/java/net/mcreator/reloaded/block/FloorCableWiresBlock.java",
+          "src/main/resources/assets/reloaded/models/item/floor_cable_wires.json"
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableWiresOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_wires_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/FloorCableWiresOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "FloorCableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_cable_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/FloorCableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/cables"
+    },
+    {
+      "name": "Glados",
+      "type": "animatedentity",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glados",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/entity/layer/GladosLayer.java",
+          "src/main/java/net/mcreator/reloaded/client/renderer/GladosRenderer.java",
+          "src/main/resources/assets/reloaded/models/item/glados_spawn_egg.json",
+          "src/main/java/net/mcreator/reloaded/entity/GladosEntity.java",
+          "src/main/java/net/mcreator/reloaded/entity/model/GladosModel.java"
+        ]
+      },
+      "path": "~/glados"
+    },
+    {
+      "name": "LaserReveiverOnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_reveiver_on_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LaserReveiverOnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReveiverOn",
+      "type": "animatedblock",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_reveiver_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/renderer/LaserReveiverOnTileRenderer.java",
+          "src/main/java/net/mcreator/reloaded/block/model/LaserReveiverOnDisplayModel.java",
+          "src/main/java/net/mcreator/reloaded/block/display/LaserReveiverOnDisplayItem.java",
+          "src/main/java/net/mcreator/reloaded/block/renderer/LaserReveiverOnDisplayItemRenderer.java",
+          "src/main/resources/assets/reloaded/models/item/laser_reveiver_on_item.json",
+          "src/main/java/net/mcreator/reloaded/block/model/LaserReveiverOnBlockModel.java",
+          "src/main/java/net/mcreator/reloaded/block/LaserReveiverOnBlock.java",
+          "src/main/resources/assets/reloaded/blockstates/laser_reveiver_on.json",
+          "src/main/resources/assets/reloaded/models/custom/laser_reveiver_on_particle.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/LaserReveiverOnTileEntity.java"
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "LaserReceiverOffOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_receiver_off_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LaserReceiverOffOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laser"
+    },
+    {
+      "name": "SlidingDoor2Anim",
+      "type": "animatedblock",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_anim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/entity/SlidingDoor2AnimTileEntity.java",
+          "src/main/java/net/mcreator/reloaded/block/renderer/SlidingDoor2AnimTileRenderer.java",
+          "src/main/resources/assets/reloaded/blockstates/sliding_door_2_anim.json",
+          "src/main/java/net/mcreator/reloaded/block/renderer/SlidingDoor2AnimDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/reloaded/block/SlidingDoor2AnimBlock.java",
+          "src/main/java/net/mcreator/reloaded/block/model/SlidingDoor2AnimBlockModel.java",
+          "src/main/resources/assets/reloaded/models/item/sliding_door_2_anim_item.json",
+          "src/main/java/net/mcreator/reloaded/block/model/SlidingDoor2AnimDisplayModel.java",
+          "src/main/java/net/mcreator/reloaded/block/display/SlidingDoor2AnimDisplayItem.java",
+          "src/main/resources/assets/reloaded/models/custom/sliding_door_2_anim_particle.json"
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/sliding_door_2.json",
+          "src/main/resources/assets/reloaded/blockstates/sliding_door_2.json",
+          "src/main/resources/assets/reloaded/models/block/sliding_door_2.json",
+          "src/main/java/net/mcreator/reloaded/block/SlidingDoor2Block.java"
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2Open",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_open",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/sliding_door_2_open.json",
+          "src/main/java/net/mcreator/reloaded/block/SlidingDoor2OpenBlock.java",
+          "src/main/resources/assets/reloaded/models/block/sliding_door_2_open.json",
+          "src/main/resources/assets/reloaded/models/item/sliding_door_2_open.json"
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2RedstoneOn",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/SlidingDoor2RedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2AnimBlockAdded",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_anim_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/SlidingDoor2AnimBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2OpenRedstoneOff",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_open_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/SlidingDoor2OpenRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2AnimClose",
+      "type": "animatedblock",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_anim_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/renderer/SlidingDoor2AnimCloseTileRenderer.java",
+          "src/main/resources/assets/reloaded/blockstates/sliding_door_2_anim_close.json",
+          "src/main/java/net/mcreator/reloaded/block/model/SlidingDoor2AnimCloseDisplayModel.java",
+          "src/main/resources/assets/reloaded/models/item/sliding_door_2_anim_close_item.json",
+          "src/main/java/net/mcreator/reloaded/block/display/SlidingDoor2AnimCloseDisplayItem.java",
+          "src/main/java/net/mcreator/reloaded/block/model/SlidingDoor2AnimCloseBlockModel.java",
+          "src/main/java/net/mcreator/reloaded/block/renderer/SlidingDoor2AnimCloseDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/reloaded/block/SlidingDoor2AnimCloseBlock.java",
+          "src/main/resources/assets/reloaded/models/custom/sliding_door_2_anim_close_particle.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/SlidingDoor2AnimCloseTileEntity.java"
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2AnimCloseBlockAdded",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_anim_close_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/SlidingDoor2AnimCloseBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "SlidingDoor2UpdateTick",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliding_door_2_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/SlidingDoor2UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/sliding_door_2"
+    },
+    {
+      "name": "ObservationWall",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/ObservationWallBlock.java",
+          "src/main/resources/assets/reloaded/models/block/observation_wall.json",
+          "src/main/resources/assets/reloaded/blockstates/observation_wall.json",
+          "src/main/resources/assets/reloaded/models/item/observation_wall.json"
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallTop",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/ObservationWallTopBlock.java",
+          "src/main/resources/assets/reloaded/models/item/observation_wall_top.json",
+          "src/main/resources/assets/reloaded/blockstates/observation_wall_top.json",
+          "src/main/resources/assets/reloaded/models/block/observation_wall_top.json"
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallBottom",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_bottom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/ObservationWallBottomBlock.java",
+          "src/main/resources/assets/reloaded/models/item/observation_wall_bottom.json",
+          "src/main/resources/assets/reloaded/models/block/observation_wall_bottom.json",
+          "src/main/resources/assets/reloaded/blockstates/observation_wall_bottom.json"
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ObservationWallNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallTopNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_top_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ObservationWallTopNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallBottomNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_bottom_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ObservationWallBottomNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallMiddle",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/observation_wall_middle.json",
+          "src/main/java/net/mcreator/reloaded/block/ObservationWallMiddleBlock.java",
+          "src/main/resources/assets/reloaded/models/block/observation_wall_middle.json",
+          "src/main/resources/assets/reloaded/blockstates/observation_wall_middle.json"
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "ObservationWallMiddleNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observation_wall_middle_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ObservationWallMiddleNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/facility/observation_wall"
+    },
+    {
+      "name": "LampLeft",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LampLeftBlock.java",
+          "src/main/resources/assets/reloaded/models/block/lamp_left.json",
+          "src/main/resources/assets/reloaded/blockstates/lamp_left.json",
+          "src/main/resources/assets/reloaded/models/item/lamp_left.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampRight",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/LampRightBlock.java",
+          "src/main/resources/assets/reloaded/models/item/lamp_right.json",
+          "src/main/resources/assets/reloaded/models/block/lamp_right.json",
+          "src/main/resources/assets/reloaded/blockstates/lamp_right.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampRightOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_right_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LampRightOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "LampLeftOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_left_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/LampLeftOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "BlackLampLeft",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_lamp_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/black_lamp_left.json",
+          "src/main/resources/assets/reloaded/models/block/black_lamp_left.json",
+          "src/main/resources/assets/reloaded/models/item/black_lamp_left.json",
+          "src/main/java/net/mcreator/reloaded/block/BlackLampLeftBlock.java"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "BlackLampRight",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_lamp_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/blockstates/black_lamp_right.json",
+          "src/main/resources/assets/reloaded/models/item/black_lamp_right.json",
+          "src/main/java/net/mcreator/reloaded/block/BlackLampRightBlock.java",
+          "src/main/resources/assets/reloaded/models/block/black_lamp_right.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "CubeDispenserRedstoneOn",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/CubeDispenserRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/cube_dispenser"
+    },
+    {
+      "name": "CubeDispenser",
+      "type": "animatedblock",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_dispenser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/cube_dispenser_item.json",
+          "src/main/java/net/mcreator/reloaded/block/model/CubeDispenserBlockModel.java",
+          "src/main/java/net/mcreator/reloaded/block/renderer/CubeDispenserTileRenderer.java",
+          "src/main/resources/assets/reloaded/blockstates/cube_dispenser.json",
+          "src/main/resources/assets/reloaded/models/custom/cube_dispenser_particle.json",
+          "src/main/java/net/mcreator/reloaded/block/entity/CubeDispenserTileEntity.java",
+          "src/main/java/net/mcreator/reloaded/block/renderer/CubeDispenserDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/reloaded/block/model/CubeDispenserDisplayModel.java",
+          "src/main/java/net/mcreator/reloaded/block/CubeDispenserBlock.java",
+          "src/main/java/net/mcreator/reloaded/block/display/CubeDispenserDisplayItem.java"
+        ]
+      },
+      "path": "~/cube_dispenser"
+    },
+    {
+      "name": "RepulsionGelSplatEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_gel_splat_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RepulsionGelSplatEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gels"
+    },
+    {
+      "name": "DoubleLamp",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/double_lamp.json",
+          "src/main/resources/assets/reloaded/blockstates/double_lamp.json",
+          "src/main/java/net/mcreator/reloaded/block/DoubleLampBlock.java",
+          "src/main/resources/assets/reloaded/models/block/double_lamp.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "DoubleLampBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lamp_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/DoubleLampBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "WhiteLampLeft",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_lamp_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/block/WhiteLampLeftBlock.java",
+          "src/main/resources/assets/reloaded/models/item/white_lamp_left.json",
+          "src/main/resources/assets/reloaded/blockstates/white_lamp_left.json",
+          "src/main/resources/assets/reloaded/models/block/white_lamp_left.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "WhiteLampRight",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_lamp_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/white_lamp_right.json",
+          "src/main/java/net/mcreator/reloaded/block/WhiteLampRightBlock.java",
+          "src/main/resources/assets/reloaded/models/item/white_lamp_right.json",
+          "src/main/resources/assets/reloaded/blockstates/white_lamp_right.json"
+        ]
+      },
+      "path": "~/lamp"
+    },
+    {
+      "name": "RedstonIndicatorOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redston_indicator_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RedstonIndicatorOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "RedstoneIndicatorOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_indicator_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/RedstoneIndicatorOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/indicator"
+    },
+    {
+      "name": "ButtonActivatedBlockAdded",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_activated_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ButtonActivatedBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "ButtonBlockAdded",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/ButtonBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/buttons"
+    },
+    {
+      "name": "FizzlerOff",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fizzler_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/fizzler_off.json",
+          "src/main/resources/assets/reloaded/blockstates/fizzler_off.json",
+          "src/main/resources/assets/reloaded/models/block/fizzler_off.json",
+          "src/main/java/net/mcreator/reloaded/block/FizzlerOffBlock.java"
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "FizzlerOn",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fizzler_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/fizzler_on.json",
+          "src/main/resources/assets/reloaded/models/block/fizzler_on.json",
+          "src/main/resources/assets/reloaded/blockstates/fizzler_on.json",
+          "src/main/java/net/mcreator/reloaded/block/FizzlerOnBlock.java"
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "FizzlerOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fizzler_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/FizzlerOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "FizzlerOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fizzler_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/FizzlerOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "FizzlerOnEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fizzler_on_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/FizzlerOnEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/grids/emanciation"
+    },
+    {
+      "name": "WhitePanelTiles1",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel_tiles_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/white_panel_tiles_1.json",
+          "src/main/java/net/mcreator/reloaded/block/WhitePanelTiles1Block.java",
+          "src/main/resources/assets/reloaded/blockstates/white_panel_tiles_1.json",
+          "src/main/resources/assets/reloaded/models/block/white_panel_tiles_1.json"
+        ]
+      },
+      "path": "~/panels/white"
+    },
+    {
+      "name": "WhitePanelTilesBlockAdded",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_panel_tiles_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reloaded/procedures/WhitePanelTilesBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/panels/black"
+    },
+    {
+      "name": "YellowCasing",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/yellow_casing.json",
+          "src/main/resources/assets/reloaded/blockstates/yellow_casing.json",
+          "src/main/java/net/mcreator/reloaded/block/YellowCasingBlock.java",
+          "src/main/resources/assets/reloaded/models/block/yellow_casing.json"
+        ]
+      },
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "GrayCasing",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/gray_casing.json",
+          "src/main/resources/assets/reloaded/models/block/gray_casing.json",
+          "src/main/resources/assets/reloaded/blockstates/gray_casing.json",
+          "src/main/java/net/mcreator/reloaded/block/GrayCasingBlock.java"
+        ]
+      },
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "YellowPlaneCasing",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_plane_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/block/yellow_plane_casing.json",
+          "src/main/resources/assets/reloaded/blockstates/yellow_plane_casing.json",
+          "src/main/resources/assets/reloaded/models/item/yellow_plane_casing.json",
+          "src/main/java/net/mcreator/reloaded/block/YellowPlaneCasingBlock.java"
+        ]
+      },
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "GrayPlaneCasing",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_plane_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/gray_plane_casing.json",
+          "src/main/resources/assets/reloaded/models/block/gray_plane_casing.json",
+          "src/main/resources/assets/reloaded/blockstates/gray_plane_casing.json",
+          "src/main/java/net/mcreator/reloaded/block/GrayPlaneCasingBlock.java"
+        ]
+      },
+      "path": "~/panels/casing"
+    },
+    {
+      "name": "PanelCasing",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reloaded/models/item/panel_casing.json",
+          "src/main/resources/assets/reloaded/blockstates/panel_casing.json",
+          "src/main/resources/assets/reloaded/models/block/panel_casing.json",
+          "src/main/java/net/mcreator/reloaded/block/PanelCasingBlock.java"
+        ]
+      },
+      "path": "~/panels/casing"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.reloaded.indicator_line_on_up": "Indicator Line",
+      "block.reloaded.big_black_panel_right": "Big Black Panel (right)",
+      "entity.reloaded.weighted_compagnon_cube_2": "Weighted Compagnon Cube (Portal 2)",
+      "itemGroup.tabreloaded_redstone": "RELOADED - Redstone",
+      "block.reloaded.asbestos_tiles": "Asbestos Tiles",
+      "entity.reloaded.glados": "Glados",
+      "block.reloaded.open_panel": "Open Panel",
+      "block.reloaded.asbestos_block": "Asbestos Block",
+      "block.reloaded.lamp_right": "Lamp",
+      "block.reloaded.panel_with_white": "Panel With White",
+      "block.reloaded.panel_casing": "Panel Casing",
+      "block.reloaded.dirty_big_black_panel_left": "Dirty Big Black Panel (left)",
+      "block.reloaded.miniature_black_hole_block": "Miniature Black Hole",
+      "block.reloaded.yellow_casing": "Yellow Casing",
+      "block.reloaded.indicator_line_off_straight": "Indicator Line",
+      "item.reloaded.discouragement_redirection_cube_item": "Discouragement Redirection Cube",
+      "block.reloaded.big_pipe": "Big Pipe",
+      "item.reloaded.discouragement_redirection_cube_spawn_egg": "Discouragement Redirection Cube Spawn Egg",
+      "block.reloaded.white_panel_tiles_1": "White Panel Tiles",
+      "block.reloaded.long_panel_with_white": "Long Panel With White",
+      "block.reloaded.double_lamp": "Double Lamp",
+      "block.reloaded.white_lamp_left": "Lamp",
+      "block.reloaded.yellow_support_pipe": "Yellow Support Pipe",
+      "block.reloaded.dirty_white_panel": "Dirty White Panel",
+      "block.reloaded.indicator_line_on_wall": "Indicator Line",
+      "block.reloaded.transportation_tube": "Transportation Tube",
+      "block.reloaded.indicator_line_on_turn": "Indicator Line",
+      "block.reloaded.big_black_panel_left": "Big Black Panel (left)",
+      "block.reloaded.propulsion_gel_splat": "Propulsion Gel Block",
+      "block.reloaded.indicator_line_off_ceilling": "Indicator Line",
+      "item.reloaded.weighted_compagnon_cube_2_spawn_egg": "Weighted Compagnon Cube (Portal 2) Spawn Egg",
+      "block.reloaded.hard_light_bridge_emitter_on": "Hard Light Bridge Emitter",
+      "entity.reloaded.weighted_storage_cube_2": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.broken_dirty_black_panel_tiles_1": "Broken Dirty Black Panel Tiles",
+      "block.reloaded.broken_dirty_black_panel_tiles_2": "Broken Dirty Black Panel Tiles",
+      "block.reloaded.sliding_door_2_anim": "Sliding Door 2 Anim",
+      "block.reloaded.long_white_panel": "Long White Panel",
+      "block.reloaded.laser_reveiver_on": "Laser Reveiver On",
+      "block.reloaded.broken_black_panel_tiles": "Broken Black Panel Tiles",
+      "block.reloaded.indicator_line_off_up": "Indicator Line",
+      "block.reloaded.blue_support_pipe": "Blue Support Pipe",
+      "block.reloaded.small_pipe": "Small Pipe",
+      "block.reloaded.white_lamp_right": "Lamp",
+      "block.reloaded.dirty_big_black_panel_right": "Dirty Big Black Panel (right)",
+      "block.reloaded.broken_dirty_big_black_panel_left": "Broken Dirty Big Black Panel (left)",
+      "item.reloaded.weighted_compagnon_cube_2_item": "Weighted Compagnon Cube (Portal 2)",
+      "block.reloaded.repulsion_gel_splat": "Repulsion Gel Block",
+      "block.reloaded.redstone_emitter_on": "Redston Emitter",
+      "entity.reloaded.discouragement_redirection_cube": "Discouragement Redirection Cube",
+      "block.reloaded.white_panel": "White Panel",
+      "block.reloaded.hard_light_bridge_emitter_off": "Hard Light Bridge Emitter",
+      "block.reloaded.white_panel_tiles": "White Panel Tiles",
+      "block.reloaded.laser_emitter_off": "Laser Emitter",
+      "block.reloaded.black_panel_tiles": "Black Panel Tiles",
+      "item.reloaded.reinforeinforced_steel_ingot": "Reinforced Steel Ingot ",
+      "block.reloaded.transportaltion_tube_entrance": "Transportation Tube Door",
+      "item.reloaded.weighted_storage_cube_2_spawn_egg": "Weighted Storage Cube (Portal 2) Spawn Egg",
+      "block.reloaded.gray_plane_casing": "Gray Plane Casing",
+      "block.reloaded.indicator_line_off_turn": "Indicator Line",
+      "block.reloaded.sliding_door_2_anim_close": "Sliding Door 2 Anim",
+      "block.reloaded.redstone_emitter_off": "Redston Emitter",
+      "block.reloaded.dirty_white_panel_tiles": "Dirty White Panel Tiles",
+      "block.reloaded.broken_dirty_big_black_panel_right": "Broken Dirty Big Black Panel (right)",
+      "block.reloaded.hanging_cable": "Hanging Cable",
+      "block.reloaded.long_panel_with_black": "Long Panel With Black",
+      "block.reloaded.long_panel": "Long Panel",
+      "item.reloaded.old_storage_cube_spawn_egg": "Old Storage Cube Spawn Egg",
+      "item.reloaded.steel_ingot": "Steel Ingot ",
+      "block.reloaded.dirty_black_panel": "Dirty Black Panel",
+      "item.reloaded.default_portal_gun_o": "Portal Gun",
+      "block.reloaded.observation_wall": "Observation Wall",
+      "block.reloaded.observation_wall_bottom": "Observation Wall",
+      "block.reloaded.fizzler_on": "Fizzler",
+      "block.reloaded.observation_wall_middle": "Observation Wall",
+      "block.reloaded.fizzler_off": "Fizzler",
+      "block.reloaded.pedestal_button": "Pedestal Button",
+      "block.reloaded.indicator_line_off_up_ceilling": "Indicator Line",
+      "block.reloaded.transportation_tube_placeholder": "Transportation Tube Placeholder",
+      "block.reloaded.propulsion_gel_block": "Propulsion Gel Block",
+      "block.reloaded.laser_emitter_on": "Laser Emitter",
+      "item.reloaded.propulsion_gel_in_a_bucket": "Propulsion Gel In A Bucket",
+      "block.reloaded.indicator_line_on_straight": "Indicator Line",
+      "block.reloaded.black_panel": "Black Panel",
+      "block.reloaded.support_block": "Support Block",
+      "block.reloaded.floor_cable": "Floor Cable",
+      "block.reloaded.indicator_line_off_wall": "Indicator Line",
+      "block.reloaded.indicator_line_on_ceilling": "Indicator Line",
+      "block.reloaded.support_beam": "Support Beam",
+      "item.reloaded.repulsion_gel_in_a_bucket": "Repulsion Gel In A Bucket",
+      "block.reloaded.open_panel_with_white": "Open Panel With White",
+      "block.reloaded.pedestal_button_activated": "Pedestal Button",
+      "block.reloaded.redston_indicator_off": "Redston Indicator",
+      "block.reloaded.transportation_tube_entrance_open": "Transportation Tube Door",
+      "block.reloaded.lamp_left": "Lamp",
+      "item.reloaded.indicator_link_controller": "Indicator Link Controller",
+      "block.reloaded.broken_black_panel_2": "Broken Black Panel",
+      "block.reloaded.broken_black_panel_3": "Broken Black Panel",
+      "block.reloaded.broken_black_panel_1": "Broken Black Panel",
+      "block.reloaded.floor_cable_wires": "Floor Cable",
+      "block.reloaded.sliding_door_2_open": "Sliding Door (portal 2)",
+      "block.reloaded.void_block": "Void Block",
+      "block.reloaded.wall_cable": "Wall Cable",
+      "block.reloaded.black_lamp_left": "Lamp",
+      "item.reloaded.glados_spawn_egg": "Glados Spawn Egg",
+      "block.reloaded.hard_light_bridge": "Hard Light Bridge",
+      "item.reloaded.weighted_storage_cube_2_item": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.yellow_plane_casing": "Yellow Plane Casing",
+      "block.reloaded.open_panel_with_black": "Open Panel With Black",
+      "block.reloaded.dirty_black_panel_tiles": "Dirty Black Panel Tiles",
+      "block.reloaded.button": "Button",
+      "block.reloaded.panel_placeholder": "Panel Placeholder",
+      "entity.reloaded.old_storage_cube": "Old Storage Cube",
+      "block.reloaded.panel": "Panel",
+      "item.reloaded.default_portal_gun_lb": "Portal Gun",
+      "block.reloaded.black_lamp_right": "Lamp",
+      "block.reloaded.repulsion_gel_block": "Repulsion Gel Block",
+      "itemGroup.tabreloaded_blocks": "RELOADED - Blocks",
+      "block.reloaded.indicator_line_on_up_ceilling": "Indicator Line",
+      "block.reloaded.redstone_indicator_on": "Redston Indicator",
+      "block.reloaded.laser_receiver_off": "Laser Receiver",
+      "block.reloaded.sliding_door_2": "Sliding Door (portal 2)",
+      "block.reloaded.gray_casing": "Gray Casing",
+      "block.reloaded.broken_dirty_black_panel_2": "Broken Dirty Black Panel",
+      "block.reloaded.broken_dirty_black_panel_1": "Broken Dirty Black Panel",
+      "block.reloaded.dirty_long_white_panel": "Dirty Long White Panel",
+      "block.reloaded.observation_wall_top": "Observation Wall",
+      "block.reloaded.cube_dispenser": "Cube Dispenser",
+      "item.reloaded.old_storage_cube_item": "Weighted Storage Cube (Portal 2)",
+      "block.reloaded.broken_dirty_black_panel_3": "Broken Dirty Black Panel",
+      "item.reloaded.raw_steel": "Raw Steel",
+      "block.reloaded.panel_with_black": "Panel With Black"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "panels",
+        "children": [
+          {
+            "name": "white",
+            "children": []
+          },
+          {
+            "name": "black",
+            "children": []
+          },
+          {
+            "name": "default",
+            "children": []
+          },
+          {
+            "name": "casing",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "doors",
+        "children": [
+          {
+            "name": "sliding_door_2",
+            "children": []
+          },
+          {
+            "name": "indicator",
+            "children": [
+              {
+                "name": "indicator_line",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "buttons",
+        "children": []
+      },
+      {
+        "name": "cubes",
+        "children": []
+      },
+      {
+        "name": "grids",
+        "children": [
+          {
+            "name": "emanciation",
+            "children": []
+          },
+          {
+            "name": "laser",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "portal_gun",
+        "children": []
+      },
+      {
+        "name": "glados",
+        "children": []
+      },
+      {
+        "name": "facility",
+        "children": [
+          {
+            "name": "asbestos",
+            "children": []
+          },
+          {
+            "name": "pipe",
+            "children": []
+          },
+          {
+            "name": "support_blocks",
+            "children": []
+          },
+          {
+            "name": "elevator",
+            "children": []
+          },
+          {
+            "name": "cables",
+            "children": []
+          },
+          {
+            "name": "observation_wall",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "laser",
+        "children": []
+      },
+      {
+        "name": "light bridge",
+        "children": []
+      },
+      {
+        "name": "gels",
+        "children": []
+      },
+      {
+        "name": "lamp",
+        "children": []
+      },
+      {
+        "name": "steel",
+        "children": []
+      },
+      {
+        "name": "miniature black hole",
+        "children": []
+      },
+      {
+        "name": "cube_dispenser",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "reloaded",
+    "modName": "RELOADED",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.reloaded",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300104717
+}

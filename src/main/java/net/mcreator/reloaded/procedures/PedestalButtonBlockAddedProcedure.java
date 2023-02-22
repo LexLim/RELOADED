@@ -11,6 +11,9 @@ import java.util.Map;
 
 public class PedestalButtonBlockAddedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		double posX = 0;
+		double posY = 0;
+		double posZ = 0;
 		if ((world.getBlockState(new BlockPos(x, y - 2, z))).getBlock() == ReloadedModBlocks.INDICATOR_LINE_ON_STRAIGHT.get()) {
 			{
 				BlockPos _bp = new BlockPos(x, y - 2, z);

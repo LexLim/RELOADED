@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:custom/laser_reveiver_on_particle"
+    },
+    "facing=east": {
+      "model": "reloaded:custom/laser_reveiver_on_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:custom/laser_reveiver_on_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:custom/laser_reveiver_on_particle",
+      "y": 270
+    }
+  }
+}

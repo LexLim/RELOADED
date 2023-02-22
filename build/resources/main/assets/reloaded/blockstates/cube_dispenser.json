@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "reloaded:block/cube_dispenser"
+      "model": "reloaded:custom/cube_dispenser_particle"
     }
   }
 }
