@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/sliding_office_door_top",
+  "textures": {
+    "all": "reloaded:blocks/sliding_office_door",
+    "particle": "reloaded:blocks/sliding_office_door",
+    "0": "reloaded:blocks/sliding_office_door"
+  },
+  "render_type": "cutout_mipped"
+}

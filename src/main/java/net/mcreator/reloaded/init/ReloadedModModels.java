@@ -18,9 +18,9 @@ import net.mcreator.reloaded.client.model.Modeldiscouragement_redirection_cube;
 public class ReloadedModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelweighted_storage_cube_2.LAYER_LOCATION, Modelweighted_storage_cube_2::createBodyLayer);
 		event.registerLayerDefinition(Modelweighted_compagnon_cube_2.LAYER_LOCATION, Modelweighted_compagnon_cube_2::createBodyLayer);
 		event.registerLayerDefinition(Modeldiscouragement_redirection_cube.LAYER_LOCATION, Modeldiscouragement_redirection_cube::createBodyLayer);
-		event.registerLayerDefinition(Modelweighted_storage_cube_2.LAYER_LOCATION, Modelweighted_storage_cube_2::createBodyLayer);
 		event.registerLayerDefinition(Modelold_storage_cube.LAYER_LOCATION, Modelold_storage_cube::createBodyLayer);
 	}
 }

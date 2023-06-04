@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/big_black_panel_right_top"
+    },
+    "facing=east": {
+      "model": "reloaded:block/big_black_panel_right_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/big_black_panel_right_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/big_black_panel_right_top",
+      "y": 270
+    }
+  }
+}

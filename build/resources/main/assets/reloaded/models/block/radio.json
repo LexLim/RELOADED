@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/radio",
+  "textures": {
+    "all": "reloaded:blocks/radio",
+    "particle": "reloaded:blocks/radio",
+    "0": "reloaded:blocks/radio"
+  },
+  "render_type": "cutout_mipped"
+}

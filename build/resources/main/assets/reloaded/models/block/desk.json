@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/desk",
+  "textures": {
+    "all": "reloaded:blocks/desk",
+    "particle": "reloaded:blocks/desk",
+    "0": "reloaded:blocks/desk"
+  },
+  "render_type": "solid"
+}

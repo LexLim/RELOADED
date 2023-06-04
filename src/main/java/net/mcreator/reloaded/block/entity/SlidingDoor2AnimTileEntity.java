@@ -33,7 +33,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.reloaded.block.registry.TileRegistry;
+import net.mcreator.reloaded.init.ReloadedModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -45,7 +45,7 @@ public class SlidingDoor2AnimTileEntity extends RandomizableContainerBlockEntity
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public SlidingDoor2AnimTileEntity(BlockPos pos, BlockState state) {
-		super(TileRegistry.SLIDING_DOOR_2_ANIM.get(), pos, state);
+		super(ReloadedModBlockEntities.SLIDING_DOOR_2_ANIM.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {

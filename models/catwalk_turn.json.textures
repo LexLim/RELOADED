@@ -2,10 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "2": "catwalk_bars",
-        "3": "catwalk_turn",
-        "4": "catwalk_side",
-        "5": "catwalk"
+        "0": "catwalk"
       },
       "name": "default"
     }

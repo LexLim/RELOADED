@@ -1,0 +1,92 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 2023-03-11 14:36:07
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot read field "level" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.reloaded.procedures.CubeDispenserRedstoneOnProcedure.lambda$execute$2(CubeDispenserRedstoneOnProcedure.java:34) ~[%23190!/:?] {re:classloading}
+	at net.mcreator.reloaded.ReloadedMod.lambda$tick$2(ReloadedMod.java:94) ~[%23190!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
+	at net.mcreator.reloaded.ReloadedMod.tick(ReloadedMod.java:94) ~[%23190!/:?] {re:classloading}
+	at net.mcreator.reloaded.__ReloadedMod_tick_ServerTickEvent.invoke(.dynamic) ~[%23190!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23184%23191!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23185!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23185!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23185!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23185!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 525170072 bytes (500 MiB) / 2099249152 bytes (2002 MiB) up to 2099249152 bytes (2002 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	Microarchitecture: Ivy Bridge (Client)
+	Frequency (GHz): 3.39
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2176.00
+	Graphics card #0 deviceId: 0x0152
+	Graphics card #0 versionInfo: DriverVersion=10.18.10.4358
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.33
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 1.33
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 11281.02
+	Virtual memory used (MB): 9897.75
+	Swap memory total (MB): 3275.99
+	Swap memory used (MB): 2117.92
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/1, l='ServerLevel[New World]', x=11.46, y=56.00, z=2.41]]
+	Data Packs: vanilla, mod:forge, mod:reloaded, mod:geckolib3 (incompatible)
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.|Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |43.2.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |RELOADED                      |reloaded                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.40_mapped_official_1.19.2.|GeckoLib                      |geckolib3                     |3.1.40              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 993d31a3-b440-436b-b64b-5fedc7cdf591
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

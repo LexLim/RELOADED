@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "animatedblock",
   "definition": {
     "texture": "sliding_door_2",
@@ -74,6 +74,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 0.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,
     "isCustomSoundType": false,

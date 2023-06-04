@@ -1,6 +1,0 @@
-{
-  "parent": "reloaded:displaysettings/cube_dispenser_anim.item",
-  "textures": {
-    "particle": "reloaded:blocks/cube_dispenser"
-  }
-}

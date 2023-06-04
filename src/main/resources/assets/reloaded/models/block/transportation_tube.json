@@ -1,9 +1,13 @@
 {
-  "parent": "reloaded:custom/elevator_tube",
+  "parent": "block/cube",
   "textures": {
-    "all": "reloaded:blocks/evevator_shaft",
-    "particle": "reloaded:blocks/evevator_shaft",
-    "0": "reloaded:blocks/evevator_shaft"
+    "down": "reloaded:blocks/tube_top",
+    "up": "reloaded:blocks/tube_top",
+    "north": "reloaded:blocks/tube",
+    "east": "reloaded:blocks/tube",
+    "south": "reloaded:blocks/tube",
+    "west": "reloaded:blocks/tube",
+    "particle": "reloaded:blocks/tube_top"
   },
   "render_type": "cutout"
 }

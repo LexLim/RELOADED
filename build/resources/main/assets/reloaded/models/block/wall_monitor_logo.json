@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/wall_monitor_logo",
+  "textures": {
+    "all": "reloaded:blocks/wall_monitor",
+    "particle": "reloaded:blocks/wall_monitor",
+    "0": "reloaded:blocks/wall_monitor"
+  },
+  "render_type": "cutout_mipped"
+}

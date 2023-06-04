@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "reloaded:blocks/dirty_black_panel_tiles",
+    "top": "reloaded:blocks/dirty_black_panel_tiles",
+    "side": "reloaded:blocks/dirty_black_panel_slab"
+  },
+  "render_type": "solid"
+}

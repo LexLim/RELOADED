@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/sliding_office_door_top"
+    },
+    "facing=east": {
+      "model": "reloaded:block/sliding_office_door_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/sliding_office_door_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/sliding_office_door_top",
+      "y": 270
+    }
+  }
+}

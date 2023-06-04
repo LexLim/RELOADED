@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Catwalk"
+      },
+      {
+        "value": "CUSTOM:CatwalkTurn"
+      },
+      {
+        "value": "CUSTOM:CatwalkStairs"
+      },
+      {
+        "value": "CUSTOM:CatwalkIntersection"
+      },
+      {
+        "value": "CUSTOM:CatwalkCrossroads"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "catwalk_blocks",
+    "namespace": "mod"
+  }
+}

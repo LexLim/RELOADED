@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "reloaded:items/miniature_black_hole_item"
-  },
-  "render_type": "translucent"
-}

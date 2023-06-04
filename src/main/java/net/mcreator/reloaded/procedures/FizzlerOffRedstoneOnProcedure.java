@@ -93,8 +93,7 @@ public class FizzlerOffRedstoneOnProcedure {
 					}
 				}
 			}
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)
@@ -171,8 +170,7 @@ public class FizzlerOffRedstoneOnProcedure {
 					}
 				}
 			}
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)
@@ -249,8 +247,7 @@ public class FizzlerOffRedstoneOnProcedure {
 					}
 				}
 			}
-		}
-		if ((new Object() {
+		} else if ((new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_prop instanceof DirectionProperty _dp)

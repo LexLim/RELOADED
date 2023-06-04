@@ -13,7 +13,7 @@ public class LongWhitePanelBlockIsPlacedByProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = new BlockPos(x, y + 1, z);
-			BlockState _bs = ReloadedModBlocks.PANEL_PLACEHOLDER.get().defaultBlockState();
+			BlockState _bs = ReloadedModBlocks.LONG_WHITE_PANEL_TOP.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

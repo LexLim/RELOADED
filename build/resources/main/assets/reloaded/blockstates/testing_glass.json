@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/testing_glass"
+    },
+    "facing=east": {
+      "model": "reloaded:block/testing_glass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/testing_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/testing_glass",
+      "y": 270
+    }
+  }
+}

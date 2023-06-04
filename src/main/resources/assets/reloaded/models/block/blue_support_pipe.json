@@ -1,9 +1,13 @@
 {
-  "parent": "reloaded:custom/blue_support_pipe",
+  "parent": "block/cube",
   "textures": {
-    "all": "reloaded:blocks/support_block",
-    "particle": "reloaded:blocks/support_block",
-    "0": "reloaded:blocks/support_block"
+    "down": "reloaded:blocks/blue_support_block_top",
+    "up": "reloaded:blocks/blue_support_block_top",
+    "north": "reloaded:blocks/blue_support_block",
+    "east": "reloaded:blocks/blue_support_block",
+    "south": "reloaded:blocks/blue_support_block",
+    "west": "reloaded:blocks/blue_support_block",
+    "particle": "reloaded:blocks/blue_support_block_top"
   },
   "render_type": "solid"
 }

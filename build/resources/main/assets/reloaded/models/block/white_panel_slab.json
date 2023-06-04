@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "reloaded:blocks/white_panel_top",
+    "top": "reloaded:blocks/white_panel_top",
+    "side": "reloaded:blocks/white_panel_slab"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "reloaded:custom/white_lamp_right",
-  "textures": {
-    "all": "reloaded:blocks/lamp",
-    "particle": "reloaded:blocks/lamp",
-    "0": "reloaded:blocks/lamp"
-  },
-  "render_type": "translucent"
-}

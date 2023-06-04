@@ -1,15 +1,15 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "casing",
-    "textureTop": "casing",
-    "textureLeft": "casing",
-    "textureFront": "casing",
-    "textureRight": "casing",
-    "textureBack": "casing",
-    "renderType": 2,
-    "customModelName": "yellow_casing:default",
+    "texture": "yellow_casing",
+    "textureTop": "yellow_casing",
+    "textureLeft": "yellow_casing",
+    "textureFront": "yellow_casing",
+    "textureRight": "yellow_casing",
+    "textureBack": "yellow_casing",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -121,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

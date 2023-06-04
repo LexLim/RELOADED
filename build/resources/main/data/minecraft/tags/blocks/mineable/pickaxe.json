@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "reloaded:cube_dispenser",
-    "reloaded:laser_reveiver_on"
+    "reloaded:laser_reveiver_on",
+    "reloaded:elevator"
   ]
 }

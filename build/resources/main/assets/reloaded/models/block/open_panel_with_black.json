@@ -1,9 +1,0 @@
-{
-  "parent": "reloaded:custom/open_panel_with_black",
-  "textures": {
-    "all": "reloaded:blocks/panel",
-    "particle": "reloaded:blocks/panel",
-    "0": "reloaded:blocks/panel"
-  },
-  "render_type": "translucent"
-}

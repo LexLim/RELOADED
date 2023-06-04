@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/ceiling_panel",
+    "up": "reloaded:blocks/ceiling_panel",
+    "north": "reloaded:blocks/ceiling_panel",
+    "east": "reloaded:blocks/ceiling_panel",
+    "south": "reloaded:blocks/ceiling_panel",
+    "west": "reloaded:blocks/ceiling_panel",
+    "particle": "reloaded:blocks/ceiling_panel"
+  },
+  "render_type": "cutout"
+}

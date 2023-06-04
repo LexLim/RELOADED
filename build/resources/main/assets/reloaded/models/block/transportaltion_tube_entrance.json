@@ -1,9 +1,0 @@
-{
-  "parent": "reloaded:custom/elevator_tube_entrance",
-  "textures": {
-    "all": "reloaded:blocks/evevator_shaft",
-    "particle": "reloaded:blocks/evevator_shaft",
-    "0": "reloaded:blocks/evevator_shaft"
-  },
-  "render_type": "cutout"
-}

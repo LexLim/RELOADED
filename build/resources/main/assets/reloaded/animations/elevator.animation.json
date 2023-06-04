@@ -1,0 +1,82 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.7,
+			"bones": {
+				"group5": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7": {
+							"vector": [0, -90, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				},
+				"group6": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7": {
+							"vector": [0, 90, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				}
+			}
+		},
+		"2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.7,
+			"bones": {
+				"group5": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -90, 0],
+							"easing": "easeInOutQuad"
+						},
+						"0.7": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				},
+				"group6": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 90, 0],
+							"easing": "easeInOutQuad"
+						},
+						"0.7": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						}
+					}
+				}
+			}
+		},
+		"3": {
+			"loop": true,
+			"animation_length": 0.7,
+			"bones": {
+				"group5": {
+					"rotation": {
+						"vector": [0, -90, 0],
+						"easing": "easeInOutQuad"
+					}
+				},
+				"group6": {
+					"rotation": {
+						"vector": [0, 90, 0],
+						"easing": "easeInOutQuad"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

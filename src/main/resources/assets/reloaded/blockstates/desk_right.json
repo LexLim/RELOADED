@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/desk_right"
+    },
+    "facing=east": {
+      "model": "reloaded:block/desk_right",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/desk_right",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/desk_right",
+      "y": 270
+    }
+  }
+}

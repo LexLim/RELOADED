@@ -34,7 +34,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.reloaded.procedures.LaserReveiverOnOnBlockRightClickedProcedure;
 import net.mcreator.reloaded.init.ReloadedModBlocks;
-import net.mcreator.reloaded.block.registry.TileRegistry;
+import net.mcreator.reloaded.init.ReloadedModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class LaserReveiverOnBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1000);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 0);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public LaserReveiverOnBlock() {
@@ -58,7 +58,7 @@ public class LaserReveiverOnBlock extends BaseEntityBlock implements EntityBlock
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return TileRegistry.LASER_REVEIVER_ON.get().create(blockPos, blockState);
+		return ReloadedModBlockEntities.LASER_REVEIVER_ON.get().create(blockPos, blockState);
 	}
 
 	@Override

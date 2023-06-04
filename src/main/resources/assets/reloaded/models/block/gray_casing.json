@@ -1,9 +1,13 @@
 {
-  "parent": "reloaded:custom/gray_casing",
+  "parent": "block/cube",
   "textures": {
-    "all": "reloaded:blocks/casing",
-    "particle": "reloaded:blocks/casing",
-    "1": "reloaded:blocks/casing"
+    "down": "reloaded:blocks/gray_casing",
+    "up": "reloaded:blocks/gray_casing",
+    "north": "reloaded:blocks/gray_casing",
+    "east": "reloaded:blocks/gray_casing",
+    "south": "reloaded:blocks/gray_casing",
+    "west": "reloaded:blocks/gray_casing",
+    "particle": "reloaded:blocks/gray_casing"
   },
   "render_type": "cutout"
 }

@@ -1,15 +1,15 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "support_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "yellow_support_pipe:default",
+    "texture": "yellow_support_block_top",
+    "textureTop": "yellow_support_block_top",
+    "textureLeft": "yellow_support_block",
+    "textureFront": "yellow_support_block",
+    "textureRight": "yellow_support_block",
+    "textureBack": "yellow_support_block",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -121,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

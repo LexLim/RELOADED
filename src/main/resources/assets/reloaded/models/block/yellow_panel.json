@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/yellow_panel",
+    "up": "reloaded:blocks/yellow_panel",
+    "north": "reloaded:blocks/yellow_panel",
+    "east": "reloaded:blocks/yellow_panel",
+    "south": "reloaded:blocks/yellow_panel",
+    "west": "reloaded:blocks/yellow_panel",
+    "particle": "reloaded:blocks/yellow_panel"
+  },
+  "render_type": "cutout"
+}

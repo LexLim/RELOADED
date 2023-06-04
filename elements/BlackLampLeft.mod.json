@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "lamp",
@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "lamp",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -31,21 +31,12 @@
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 16.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 32.0,
-        "Mz": 16.0,
-        "subtract": false
       }
     ],
     "name": "Lamp",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 6.0,
+    "hardness": 0.2,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -53,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:LampLeft"
+      "value": "CUSTOM:Lamp"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -74,7 +65,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:LampLeft"
+      "value": "CUSTOM:Lamp"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -105,9 +96,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 13,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -126,6 +117,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "LampBlockAdded"
+    },
+    "onDestroyedByPlayer": {
+      "name": "LampBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

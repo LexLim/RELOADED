@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/long_old_green_panel",
+  "textures": {
+    "all": "reloaded:blocks/old_panel_top",
+    "particle": "reloaded:blocks/old_panel_top",
+    "0": "reloaded:blocks/long_green_panel",
+    "1": "reloaded:blocks/old_panel_top"
+  },
+  "render_type": "solid"
+}

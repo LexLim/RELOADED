@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "reloaded:blocks/black_panel_tiles",
+    "top": "reloaded:blocks/black_panel_tiles",
+    "side": "reloaded:blocks/black_panel_slab"
+  },
+  "render_type": "solid"
+}

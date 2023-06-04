@@ -1,15 +1,15 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "support_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "blue_support_pipe:default",
+    "texture": "blue_support_block_top",
+    "textureTop": "blue_support_block_top",
+    "textureLeft": "blue_support_block",
+    "textureFront": "blue_support_block",
+    "textureRight": "blue_support_block",
+    "textureBack": "blue_support_block",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Blue Support Pipe",
+    "name": "Blue Support Beam",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -121,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

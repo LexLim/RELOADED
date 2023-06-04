@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/white_panel_tiles",
+    "up": "reloaded:blocks/white_panel_tiles",
+    "north": "reloaded:blocks/long_white_panel_top",
+    "east": "reloaded:blocks/long_white_panel_top",
+    "south": "reloaded:blocks/long_white_panel_top",
+    "west": "reloaded:blocks/long_white_panel_top",
+    "particle": "reloaded:blocks/white_panel_tiles"
+  },
+  "render_type": "solid"
+}

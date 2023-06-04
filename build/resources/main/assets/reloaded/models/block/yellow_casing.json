@@ -1,9 +1,13 @@
 {
-  "parent": "reloaded:custom/yellow_casing",
+  "parent": "block/cube",
   "textures": {
-    "all": "reloaded:blocks/casing",
-    "particle": "reloaded:blocks/casing",
-    "1": "reloaded:blocks/casing"
+    "down": "reloaded:blocks/yellow_casing",
+    "up": "reloaded:blocks/yellow_casing",
+    "north": "reloaded:blocks/yellow_casing",
+    "east": "reloaded:blocks/yellow_casing",
+    "south": "reloaded:blocks/yellow_casing",
+    "west": "reloaded:blocks/yellow_casing",
+    "particle": "reloaded:blocks/yellow_casing"
   },
   "render_type": "cutout"
 }

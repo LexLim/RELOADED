@@ -1,0 +1,10 @@
+{
+  "parent": "reloaded:custom/catwalk_stairs",
+  "textures": {
+    "all": "reloaded:blocks/catwalk",
+    "particle": "reloaded:blocks/catwalk",
+    "0": "reloaded:blocks/catwalk",
+    "1": "reloaded:blocks/catwalk_2"
+  },
+  "render_type": "cutout"
+}

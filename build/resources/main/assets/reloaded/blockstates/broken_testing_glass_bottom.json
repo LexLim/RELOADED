@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reloaded:block/broken_testing_glass_bottom"
+    },
+    "facing=east": {
+      "model": "reloaded:block/broken_testing_glass_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reloaded:block/broken_testing_glass_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reloaded:block/broken_testing_glass_bottom",
+      "y": 270
+    }
+  }
+}

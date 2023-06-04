@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "reloaded:catwalk_stairs",
+    "reloaded:catwalk",
+    "reloaded:catwalk_intersection",
+    "reloaded:catwalk_crossroads",
+    "reloaded:catwalk_turn"
+  ]
+}

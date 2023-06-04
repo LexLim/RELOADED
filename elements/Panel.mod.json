@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "panel",
@@ -10,8 +10,8 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "panel:default",
-    "rotationMode": 2,
-    "enablePitch": false,
+    "rotationMode": 3,
+    "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -44,10 +44,10 @@
     ],
     "name": "Panel",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.2,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:RELOADEDRedstone"
     },
@@ -86,7 +86,7 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "METAL"
     },
@@ -126,11 +126,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRedstoneOn": {
+      "name": "PanelRedstoneOn"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

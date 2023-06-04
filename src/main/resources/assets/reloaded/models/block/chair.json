@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/chair",
+  "textures": {
+    "all": "reloaded:blocks/chair",
+    "particle": "reloaded:blocks/chair",
+    "0": "reloaded:blocks/chair"
+  },
+  "render_type": "cutout_mipped"
+}

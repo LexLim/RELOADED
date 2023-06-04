@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "long_green_panel",
+        "1": "old_panel_top"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/testing_glass_top",
+  "textures": {
+    "all": "reloaded:blocks/glass",
+    "particle": "reloaded:blocks/glass",
+    "0": "reloaded:blocks/glass"
+  },
+  "render_type": "translucent"
+}

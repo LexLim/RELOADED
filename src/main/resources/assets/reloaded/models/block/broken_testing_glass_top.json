@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/broken_testing_glass_top",
+  "textures": {
+    "all": "reloaded:blocks/broken_glass",
+    "particle": "reloaded:blocks/broken_glass",
+    "0": "reloaded:blocks/broken_glass"
+  },
+  "render_type": "translucent"
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "cable",
@@ -26,10 +26,10 @@
       {
         "mx": 7.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 14.0,
         "Mx": 9.0,
         "My": 16.0,
-        "Mz": 2.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -121,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

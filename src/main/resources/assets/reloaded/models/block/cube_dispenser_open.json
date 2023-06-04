@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/cube_dispenser",
+  "textures": {
+    "all": "reloaded:blocks/cube_dispenser",
+    "particle": "reloaded:blocks/cube_dispenser",
+    "0": "reloaded:blocks/cube_dispenser"
+  },
+  "render_type": "translucent"
+}

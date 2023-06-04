@@ -1,16 +1,16 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "evevator_shaft",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "elevator_tube:default",
-    "rotationMode": 0,
+    "texture": "tube_top",
+    "textureTop": "tube_top",
+    "textureLeft": "tube",
+    "textureFront": "tube",
+    "textureRight": "tube",
+    "textureBack": "tube",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 1.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       },
@@ -37,7 +37,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       },
@@ -46,7 +46,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 1.0,
         "subtract": false
       },
@@ -55,12 +55,12 @@
         "my": 0.0,
         "mz": 15.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Transportation Tube",
+    "name": "Tube",
     "specialInfo": [],
     "hardness": 0.4,
     "resistance": 10.0,
@@ -144,17 +144,20 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "TransportationTubeBlockDestroyedByPlayer"
-    },
-    "onBlockPlayedBy": {
-      "name": "TransportationTubeBlockIsPlacedBy"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

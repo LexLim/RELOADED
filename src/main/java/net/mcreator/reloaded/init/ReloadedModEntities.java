@@ -56,6 +56,7 @@ public class ReloadedModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			GladosEntity.init();
 			WeightedStorageCube2Entity.init();
 			WeightedCompagnonCube2Entity.init();
 			OldStorageCubeEntity.init();
@@ -65,6 +66,7 @@ public class ReloadedModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(GLADOS.get(), GladosEntity.createAttributes().build());
 		event.put(WEIGHTED_STORAGE_CUBE_2.get(), WeightedStorageCube2Entity.createAttributes().build());
 		event.put(WEIGHTED_COMPAGNON_CUBE_2.get(), WeightedCompagnonCube2Entity.createAttributes().build());
 		event.put(OLD_STORAGE_CUBE.get(), OldStorageCubeEntity.createAttributes().build());

@@ -1,6 +1,6 @@
 {
-  "_fv": 38,
-  "_type": "animatedblock",
+  "_fv": 39,
+  "_type": "block",
   "definition": {
     "texture": "cube_dispenser",
     "textureTop": "",
@@ -8,7 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 0,
+    "renderType": 2,
+    "customModelName": "cube_dispenser:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -19,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,7 +35,7 @@
     ],
     "name": "Cube Dispenser",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.8,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -97,14 +98,8 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:MiniatureBlackHole"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "breakHarvestLevel": 0,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -129,15 +124,22 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64,
-    "normal": "cube_dispenser_anim.geo.json",
-    "displaySettings": "cube_dispenser_anim.item.json"
+    "maxGenerateHeight": 64
   }
 }

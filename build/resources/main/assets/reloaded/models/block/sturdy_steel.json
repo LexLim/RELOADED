@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/floor_panel",
+    "up": "reloaded:blocks/floor_panel",
+    "north": "reloaded:blocks/floor_panel",
+    "east": "reloaded:blocks/floor_panel",
+    "south": "reloaded:blocks/floor_panel",
+    "west": "reloaded:blocks/floor_panel",
+    "particle": "reloaded:blocks/floor_panel"
+  },
+  "render_type": "solid"
+}

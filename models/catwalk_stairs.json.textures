@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "catwalk",
+        "1": "catwalk_2"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reloaded:blocks/server_top",
+    "up": "reloaded:blocks/server_top",
+    "north": "reloaded:blocks/server_top_front",
+    "east": "reloaded:blocks/server_top_side",
+    "south": "reloaded:blocks/server_top_back",
+    "west": "reloaded:blocks/server_top_side_1",
+    "particle": "reloaded:blocks/server_top"
+  },
+  "render_type": "solid"
+}

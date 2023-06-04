@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reloaded:block/black_panel_slab"
+    },
+    "type=top": {
+      "model": "reloaded:block/black_panel_slab_top"
+    },
+    "type=double": {
+      "model": "reloaded:block/black_panel_slab_full"
+    }
+  }
+}

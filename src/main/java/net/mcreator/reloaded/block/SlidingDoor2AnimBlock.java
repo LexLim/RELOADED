@@ -25,12 +25,12 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.reloaded.procedures.SlidingDoor2AnimBlockAddedProcedure;
-import net.mcreator.reloaded.block.registry.TileRegistry;
+import net.mcreator.reloaded.init.ReloadedModBlockEntities;
 
 import javax.annotation.Nullable;
 
 public class SlidingDoor2AnimBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1000);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 0);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public SlidingDoor2AnimBlock() {
@@ -46,7 +46,7 @@ public class SlidingDoor2AnimBlock extends BaseEntityBlock implements EntityBloc
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return TileRegistry.SLIDING_DOOR_2_ANIM.get().create(blockPos, blockState);
+		return ReloadedModBlockEntities.SLIDING_DOOR_2_ANIM.get().create(blockPos, blockState);
 	}
 
 	@Override

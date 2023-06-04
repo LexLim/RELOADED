@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
@@ -52,10 +52,10 @@ public class WallCableBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(7, 0, 14, 9, 16, 16);
-			case NORTH -> box(7, 0, 0, 9, 16, 2);
-			case EAST -> box(14, 0, 7, 16, 16, 9);
-			case WEST -> box(0, 0, 7, 2, 16, 9);
+			default -> box(7, 0, 0, 9, 16, 2);
+			case NORTH -> box(7, 0, 14, 9, 16, 16);
+			case EAST -> box(0, 0, 7, 2, 16, 9);
+			case WEST -> box(14, 0, 7, 16, 16, 9);
 		};
 	}
 
@@ -79,7 +79,7 @@ public class WallCableBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}

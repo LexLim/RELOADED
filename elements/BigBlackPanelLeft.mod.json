@@ -1,15 +1,15 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "long_black_panel",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "big_black_panel_left:default",
+    "texture": "black_panel_tiles",
+    "textureTop": "black_panel_tiles",
+    "textureLeft": "big_black_panel_bottom_right",
+    "textureFront": "big_black_panel_bottom_left",
+    "textureRight": "big_black_panel_bottom_left",
+    "textureBack": "big_black_panel_bottom_right",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -117,17 +117,29 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "BigBlackPanelLeftBlockAdded"
-    },
     "onDestroyedByPlayer": {
       "name": "BigBlackPanelLeftBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "BigBlackPanelLeftBlockDestroyedByPlayer"
+    },
+    "onBlockPlayedBy": {
+      "name": "BigBlackPanelLeftBlockAdded"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

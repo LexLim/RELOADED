@@ -1,10 +1,13 @@
 {
-  "parent": "reloaded:custom/long_white_panel",
+  "parent": "block/cube",
   "textures": {
-    "all": "reloaded:blocks/long_white_panel",
-    "particle": "reloaded:blocks/long_white_panel",
-    "0": "reloaded:blocks/long_white_panel",
-    "1": "reloaded:blocks/white_panel_tiles"
+    "down": "reloaded:blocks/white_panel_tiles",
+    "up": "reloaded:blocks/white_panel_tiles",
+    "north": "reloaded:blocks/long_white_panel",
+    "east": "reloaded:blocks/long_white_panel",
+    "south": "reloaded:blocks/long_white_panel",
+    "west": "reloaded:blocks/long_white_panel",
+    "particle": "reloaded:blocks/white_panel_tiles"
   },
   "render_type": "solid"
 }
