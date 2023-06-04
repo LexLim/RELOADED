@@ -102,8 +102,10 @@ import net.mcreator.reloaded.block.FloorCableBlock;
 import net.mcreator.reloaded.block.FlatCasingBlock;
 import net.mcreator.reloaded.block.FizzlerOnBlock;
 import net.mcreator.reloaded.block.FizzlerOffBlock;
-import net.mcreator.reloaded.block.ElevatorHitboxBlock;
-import net.mcreator.reloaded.block.ElevatorBlock;
+import net.mcreator.reloaded.block.ElevatorTopBlock;
+import net.mcreator.reloaded.block.ElevatorMiddleTopBlock;
+import net.mcreator.reloaded.block.ElevatorMiddleBottomBlock;
+import net.mcreator.reloaded.block.ElevatorBottomBlock;
 import net.mcreator.reloaded.block.DirtyWhitePanelTilesBlock;
 import net.mcreator.reloaded.block.DirtyWhitePanelSlabBlock;
 import net.mcreator.reloaded.block.DirtyWhitePanelBlock;
@@ -300,6 +302,8 @@ public class ReloadedModBlocks {
 	public static final RegistryObject<Block> LAMP_TOP = REGISTRY.register("lamp_top", () -> new LampTopBlock());
 	public static final RegistryObject<Block> BLACK_LAMP_LEFT = REGISTRY.register("black_lamp_left", () -> new BlackLampLeftBlock());
 	public static final RegistryObject<Block> BLACK_LAMP_RIGHT = REGISTRY.register("black_lamp_right", () -> new BlackLampRightBlock());
-	public static final RegistryObject<Block> ELEVATOR_HITBOX = REGISTRY.register("elevator_hitbox", () -> new ElevatorHitboxBlock());
-	public static final RegistryObject<Block> ELEVATOR = REGISTRY.register("elevator", () -> new ElevatorBlock());
+	public static final RegistryObject<Block> ELEVATOR_MIDDLE_BOTTOM = REGISTRY.register("elevator_middle_bottom", () -> new ElevatorMiddleBottomBlock());
+	public static final RegistryObject<Block> ELEVATOR_MIDDLE_TOP = REGISTRY.register("elevator_middle_top", () -> new ElevatorMiddleTopBlock());
+	public static final RegistryObject<Block> ELEVATOR_TOP = REGISTRY.register("elevator_top", () -> new ElevatorTopBlock());
+	public static final RegistryObject<Block> ELEVATOR_BOTTOM = REGISTRY.register("elevator_bottom", () -> new ElevatorBottomBlock());
 }

@@ -1,9 +1,0 @@
-{
-  "credit": "Made with Blockbench",
-  "parent": "builtin/entity",
-  "ambientocclusion": false,
-  "texture_size": [
-    64,
-    64
-  ]
-}

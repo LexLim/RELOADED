@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "reloaded:laser_reveiver_on",
-    "reloaded:elevator"
+    "reloaded:laser_reveiver_on"
   ]
 }

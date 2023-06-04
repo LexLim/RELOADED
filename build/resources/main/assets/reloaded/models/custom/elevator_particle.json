@@ -1,7 +1,0 @@
-
-{
-  "parent": "reloaded:displaysettings/elevator.item",
-  "textures": {
-    "particle": "reloaded:blocks/evevator"
-  }
-}

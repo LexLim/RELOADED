@@ -1,6 +1,9 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"0": {
+			"loop": true
+		},
 		"1": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.7,
@@ -55,24 +58,6 @@
 							"vector": [0, 0, 0],
 							"easing": "easeInOutQuad"
 						}
-					}
-				}
-			}
-		},
-		"3": {
-			"loop": true,
-			"animation_length": 0.7,
-			"bones": {
-				"group5": {
-					"rotation": {
-						"vector": [0, -90, 0],
-						"easing": "easeInOutQuad"
-					}
-				},
-				"group6": {
-					"rotation": {
-						"vector": [0, 90, 0],
-						"easing": "easeInOutQuad"
 					}
 				}
 			}

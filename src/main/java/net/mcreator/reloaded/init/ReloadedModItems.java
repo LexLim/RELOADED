@@ -29,7 +29,6 @@ import net.mcreator.reloaded.item.DefaultPortalGunLBItem;
 import net.mcreator.reloaded.block.display.SlidingDoor2AnimDisplayItem;
 import net.mcreator.reloaded.block.display.SlidingDoor2AnimCloseDisplayItem;
 import net.mcreator.reloaded.block.display.LaserReveiverOnDisplayItem;
-import net.mcreator.reloaded.block.display.ElevatorDisplayItem;
 import net.mcreator.reloaded.ReloadedMod;
 
 public class ReloadedModItems {
@@ -192,8 +191,10 @@ public class ReloadedModItems {
 	public static final RegistryObject<Item> LAMP_TOP = block(ReloadedModBlocks.LAMP_TOP, null);
 	public static final RegistryObject<Item> BLACK_LAMP_LEFT = block(ReloadedModBlocks.BLACK_LAMP_LEFT, null);
 	public static final RegistryObject<Item> BLACK_LAMP_RIGHT = block(ReloadedModBlocks.BLACK_LAMP_RIGHT, null);
-	public static final RegistryObject<Item> ELEVATOR_HITBOX = block(ReloadedModBlocks.ELEVATOR_HITBOX, ReloadedModTabs.TAB_RELOADED_BLOCKS);
-	public static final RegistryObject<Item> ELEVATOR = REGISTRY.register(ReloadedModBlocks.ELEVATOR.getId().getPath(), () -> new ElevatorDisplayItem(ReloadedModBlocks.ELEVATOR.get(), new Item.Properties().tab(ReloadedModTabs.TAB_RELOADED_BLOCKS)));
+	public static final RegistryObject<Item> ELEVATOR_MIDDLE_BOTTOM = block(ReloadedModBlocks.ELEVATOR_MIDDLE_BOTTOM, ReloadedModTabs.TAB_RELOADED_BLOCKS);
+	public static final RegistryObject<Item> ELEVATOR_MIDDLE_TOP = block(ReloadedModBlocks.ELEVATOR_MIDDLE_TOP, null);
+	public static final RegistryObject<Item> ELEVATOR_TOP = block(ReloadedModBlocks.ELEVATOR_TOP, null);
+	public static final RegistryObject<Item> ELEVATOR_BOTTOM = block(ReloadedModBlocks.ELEVATOR_BOTTOM, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

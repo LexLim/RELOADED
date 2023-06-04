@@ -1,0 +1,9 @@
+{
+  "parent": "reloaded:custom/elevator_top",
+  "textures": {
+    "all": "reloaded:blocks/evevator",
+    "particle": "reloaded:blocks/evevator",
+    "0": "reloaded:blocks/evevator"
+  },
+  "render_type": "cutout_mipped"
+}
